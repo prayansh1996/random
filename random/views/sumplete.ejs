@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Sumplete Solver</title>
+    <link rel="stylesheet" href="/random/css/sumplete.css">
+</head>
+<body>
+    <h1>Sumplete Solver</h1>
+    <div class="grid-container">
+        <% for (let row = 0; row < 7; row++) { %>
+            <% for (let col = 0; col < 7; col++) { %>
+                <input type="number" class="grid-item input-field grid-cell" min="0" max="9" step="1" value="<%= gridValues[row][col] %>">
+            <% } %>
+            <input type="number" class="grid-item input-field total-field row-total" min="0" max="99" step="1" value="<%= rowTotals[row] %>">
+        <% } %>
+        
+        <% for (let col = 0; col < 7; col++) { %>
+            <input type="number" class="grid-item input-field total-field col-total" min="0" max="99" step="1" value="<%= colTotals[col] %>">
+        <% } %>
+    </div>
+    
+    <button class="solve-button" onclick="solvePuzzle()">Solve</button>
+
+    <div class="solution-container" id="solutionContainer" style="display: none;">
+        <div class="solution-title">Solution:</div>
+        <div id="solutionContent"></div>
+    </div>
+
+    <script src="/random/js/sumplete.js"></script>
+</body>
+</html>
