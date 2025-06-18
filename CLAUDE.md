@@ -47,7 +47,10 @@ This is a Node.js/Express web application with multiple utility features:
 
 3. **Ranks Feature**
    - Accessible at `/ranks`
-   - Separate route handler and view
+   - Weekly leaderboard calculator for game rankings
+   - POST endpoint `/ranks/calculate` accepts multiline leaderboard data
+   - Parses daily rankings and calculates weekly totals
+   - Handles missing players by assigning them rank = (number of players + 1)
 
 ### External Dependencies
 The app calls a compiled C++ binary at `/home/ec2-user/projects/webdev/random/sumplete_solver.out` for solving Sumplete puzzles. Ensure this path is correct when deploying.

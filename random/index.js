@@ -20,6 +20,7 @@ console.log('Starting server...');
 
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/random', express.static(path.join(__dirname, 'public')));
 
 // Route handlers for both direct access and through reverse proxy
 app.use('/sumplete', sumpleteRouter);
@@ -28,6 +29,10 @@ app.use('/ranks', ranksRouter);
 // Root routes
 app.get('/', (req, res) => {
     res.redirect('/sumplete');
+});
+
+app.get('/random', (req, res) => {
+    res.redirect('/random/sumplete');
 });
 
 // Create a function to handle solve requests
@@ -90,6 +95,7 @@ const handleSolve = (req, res) => {
 
 // Endpoint to solve the puzzle - both routes
 app.post('/sumplete/solve', handleSolve);
+app.post('/random/sumplete/solve', handleSolve);
 
 // Start the server
 app.listen(PORT, () => {

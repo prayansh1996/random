@@ -3,15 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranks</title>
+    <title>Weekly Ranks Calculator</title>
     <link rel="stylesheet" href="/random/css/ranks.css">
 </head>
 <body>
-    <div class="content">
-        <h1>Ranks Page</h1>
-        <p>This is a template page for the ranks functionality.</p>
-        <p>Replace this content with your actual ranks implementation.</p>
-        <a href="<%= typeof baseUrl !== 'undefined' ? baseUrl : '' %>/sumplete">Back to Sumplete</a>
+    <div class="container">
+        <h1>Weekly Ranks Calculator</h1>
+        <p class="description">Paste your daily leaderboard data below to calculate weekly rankings</p>
+        
+        <div class="input-section">
+            <textarea id="leaderboardInput" placeholder="Paste your leaderboard data here...
+
+Example:
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+..."></textarea>
+            <button id="calculateBtn" onclick="calculateRanks()">Calculate Weekly Ranks</button>
+        </div>
+        
+        <div id="results" class="results-section" style="display: none;">
+            <h2>Weekly Rankings</h2>
+            <div id="summary" class="summary"></div>
+            <table id="rankingsTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Total Points</th>
+                    </tr>
+                </thead>
+                <tbody id="rankingsBody">
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="error" class="error" style="display: none;"></div>
+        
+        <div class="back-link">
+            <a href="/random/sumplete">Back to Sumplete</a>
+        </div>
     </div>
+    
+    <script src="/random/js/ranks.js"></script>
 </body>
 </html>
