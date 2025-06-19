@@ -1,0 +1,1314 @@
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-18T20:39:56.359Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:39:56.359Z] Response: 200 - /ranks (7ms)
+[2025-06-18T20:39:56.725Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:39:56.728Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:39:56.799Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:39:58.999Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:40:06.731Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:40:06.745Z] POST /ranks/calculate - Text length: 1500 chars
+[2025-06-18T20:40:06.731Z] Response: 200 - /ranks/calculate (19ms)
+[2025-06-18T20:40:06.731Z] Response: 200 - /ranks/calculate (19ms)
+[2025-06-18T20:40:40.090Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:40:40.091Z] POST /ranks/calculate - Text length: 1500 chars
+[2025-06-18T20:40:40.090Z] Response: 200 - /ranks/calculate (1ms)
+[2025-06-18T20:40:40.090Z] Response: 200 - /ranks/calculate (2ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-18T20:42:53.014Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:42:53.026Z] POST /ranks/calculate - REQUEST
+Text length: 1500 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Top 5 players:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+[2025-06-18T20:42:53.026Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:42:53.014Z] Response: 200 - /ranks/calculate (17ms)
+[2025-06-18T20:42:53.014Z] Response: 200 - /ranks/calculate (17ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-18T20:44:41.294Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:41.294Z] Response: 200 - /ranks (8ms)
+[2025-06-18T20:44:41.624Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:41.628Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:48.194Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:50.633Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:50.633Z] Response: 200 - /ranks (2ms)
+[2025-06-18T20:44:50.814Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:50.816Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:50.919Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:44:57.753Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:44:57.773Z] POST /ranks/calculate - REQUEST
+Text length: 1500 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:44:57.773Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:44:57.753Z] Response: 200 - /ranks/calculate (48ms)
+[2025-06-18T20:44:57.753Z] Response: 200 - /ranks/calculate (50ms)
+[2025-06-18T20:45:08.534Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:45:08.534Z] Response: 200 - /ranks (2ms)
+[2025-06-18T20:45:08.604Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:45:08.605Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:46:09.669Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:46:09.669Z] Response: 200 - /ranks (1ms)
+[2025-06-18T20:46:09.843Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:46:09.845Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:46:10.008Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:46:13.058Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:46:13.059Z] POST /ranks/calculate - REQUEST
+Text length: 1500 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:46:13.059Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:46:13.058Z] Response: 200 - /ranks/calculate (4ms)
+[2025-06-18T20:46:13.058Z] Response: 200 - /ranks/calculate (4ms)
+[2025-06-18T20:47:45.148Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:47:45.149Z] POST /ranks/calculate - REQUEST
+Text length: 1500 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:47:45.149Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:47:45.148Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-18T20:47:45.148Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-18T20:47:57.133Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-18T20:47:57.133Z] Response: 200 - /ranks (3ms)
+[2025-06-18T20:47:57.173Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-18T20:47:57.174Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-18T20:48:37.230Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:48:37.230Z] Response: 200 - /ranks (1ms)
+[2025-06-18T20:48:37.353Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:48:37.354Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:48:56.047Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:48:56.048Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:48:56.048Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:48:56.047Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T20:48:56.047Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T20:50:34.870Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:50:34.870Z] Response: 200 - /ranks (1ms)
+[2025-06-18T20:50:35.023Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:50:35.024Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-18T20:50:41.938Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-18T20:50:41.939Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:50:41.939Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:50:41.938Z] Response: 200 - /ranks/calculate (1ms)
+[2025-06-18T20:50:41.938Z] Response: 200 - /ranks/calculate (1ms)
+[2025-06-18T20:56:31.649Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:56:31.649Z] Response: 200 - /ranks (2ms)
+[2025-06-18T20:56:31.769Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:56:31.771Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:56:31.934Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:57:10.933Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+
+[2025-06-18T20:57:10.934Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T20:57:10.934Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T20:57:10.933Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T20:57:10.933Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T20:59:10.399Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:59:10.399Z] Response: 200 - /sumplete (3ms)
+[2025-06-18T20:59:10.470Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T20:59:10.489Z] GET /js/sumplete.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T21:13:19.805Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T21:13:19.805Z] Response: 200 - /sumplete (2ms)
+[2025-06-18T21:13:26.252Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T21:13:26.252Z] Response: 200 - /ranks (1ms)
+[2025-06-18T21:13:26.322Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T21:13:26.324Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-18T21:13:33.942Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+
+[2025-06-18T21:13:33.943Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-18T21:13:33.943Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-18T21:13:33.942Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T21:13:33.942Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-18T23:31:23.689Z] GET / - IP: ::ffff:31.171.154.71
+  User-Agent: WanScannerBot/1.0
+[2025-06-18T23:31:28.980Z] OPTIONS / - IP: ::ffff:31.171.154.71
+  User-Agent: WanScannerBot/1.0
+[2025-06-18T23:31:31.566Z] GET / - IP: ::ffff:31.171.154.71
+  User-Agent: WanScannerBot/1.1
+[2025-06-18T23:49:01.325Z] GET / - IP: ::ffff:84.239.47.82
+  User-Agent: WanScannerBot/1.0
+[2025-06-18T23:49:07.569Z] OPTIONS / - IP: ::ffff:84.239.47.82
+  User-Agent: WanScannerBot/1.0
+[2025-06-18T23:49:10.141Z] GET / - IP: ::ffff:84.239.47.82
+  User-Agent: WanScannerBot/1.1
+[2025-06-19T00:14:44.126Z] GET / - IP: ::ffff:18.220.154.78
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-06-19T00:14:44.338Z] GET /sumplete - IP: ::ffff:18.220.154.78
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-06-19T00:14:44.338Z] Response: 200 - /sumplete (1ms)
+[2025-06-19T00:15:58.329Z] GET / - IP: ::ffff:18.220.154.78
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-06-19T00:28:04.574Z] GET / - IP: ::ffff:185.94.190.197
+  User-Agent: WanScannerBot/1.0
+[2025-06-19T00:28:10.429Z] OPTIONS / - IP: ::ffff:185.94.190.197
+  User-Agent: WanScannerBot/1.0
+[2025-06-19T00:28:13.398Z] GET / - IP: ::ffff:185.94.190.197
+  User-Agent: WanScannerBot/1.1
+[2025-06-19T00:57:17.894Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T00:57:17.894Z] Response: 200 - /ranks (1ms)
+[2025-06-19T00:57:17.969Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T00:57:17.989Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T00:57:18.124Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T01:33:33.271Z] GET / - IP: ::ffff:45.33.109.8
+  User-Agent: Mozilla/5.0 zgrab/0.x
+[2025-06-19T01:33:50.317Z] GET / - IP: ::ffff:172.236.228.227
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+[2025-06-19T01:33:50.567Z] GET /sumplete - IP: ::ffff:172.236.228.227
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+[2025-06-19T01:33:50.567Z] Response: 200 - /sumplete (1ms)
+[2025-06-19T02:11:14.066Z] GET / - IP: ::ffff:199.45.155.109
+  User-Agent: Unknown
+[2025-06-19T02:11:23.216Z] GET / - IP: ::ffff:199.45.155.109
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-19T02:11:27.208Z] GET /sumplete - IP: ::ffff:199.45.155.109
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-19T02:11:27.208Z] Response: 200 - /sumplete (1ms)
+[2025-06-19T02:11:27.433Z] GET /random/static/conondrum.png - IP: ::ffff:199.45.155.109
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-19T02:11:28.357Z] GET /favicon.ico - IP: ::ffff:199.45.155.109
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-19T02:11:36.414Z] GET /login - IP: ::ffff:199.45.155.109
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-19T03:13:05.462Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.89 Mobile Safari/537.36
+[2025-06-19T03:13:05.462Z] Response: 200 - /ranks (1ms)
+[2025-06-19T03:13:06.294Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.89 Mobile Safari/537.36
+[2025-06-19T03:13:06.294Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.89 Mobile Safari/537.36
+[2025-06-19T03:13:06.818Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.89 Mobile Safari/537.36
+[2025-06-19T04:22:35.609Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T04:22:35.609Z] Response: 200 - /ranks (1ms)
+[2025-06-19T04:22:35.728Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T04:22:35.761Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:31:01.666Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-19T05:31:01.666Z] Response: 200 - /ranks (2ms)
+[2025-06-19T05:31:01.727Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-19T05:31:01.732Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-19T05:31:01.888Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-19T05:33:34.066Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-06-19T05:33:34.066Z] POST /ranks/calculate - REQUEST
+Text length: 3027 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 18/06/25* 🏆
+
+1. Anushka 0:51 
+2. ⁠Megha 0:52
+3. ⁠Shauryaa 1:08
+4. ⁠Sankar 1:14
+5. ⁠Sonakshi 1:16
+6. ⁠Monika 1:31
+7. ⁠Aastha 1:36
+8. ⁠Mayank 1:42
+9. ⁠Shubham 1:49
+10. ⁠Prakriti 1:55
+11. ⁠AkD 2:04
+12. ⁠Pruthvi 2:09
+13. ⁠Sage 2:19
+14. ⁠Shivangi 2:21
+15. ⁠Shruthi 2:25
+16. ⁠Prayansh 2:33
+17. ⁠Srishti 2:39
+
+*Logic games Leaderboard 17/06/25* 🏆
+
+1. Shivangi 0:07
+2. ⁠Akd 0:08
+3. ⁠Sankar and Prakriti 0:11
+4. ⁠Arnab, Anushka and Shauryaa 0:12
+5. ⁠Sage, Pruthvi and Mayank 0:13
+6. ...
+---END OF INPUT---
+Parsed 8 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Logic games (17/06/25) - 19 players
+  Day 3: Logic games (17/06/25) - 19 players
+  Day 4: Wordle (16/06/25) - 18 players
+  Day 5: Sunday (15/06/25) - 17 players
+  Day 6: Geo (14/06/25) - 14 players
+  Day 7: Queens (13/06/25) - 13 players
+  Day 8: The Pop Game (12/06/25) - 15 players
+Calculated weekly ranks for 36 players
+Output:
+  1. Mayank: 35 points
+  2. Sankar: 52 points
+  3. Aastha: 53 points
+  4. Prakriti: 55 points
+  5. Sage: 55 points
+  6. Anushka: 63 points
+  7. Shauryaa: 69 points
+  8. Srishti: 70 points
+  9. Arnab: 71 points
+  10. Shivangi: 73 points
+  11. Shubham: 78 points
+  12. Pruthvi: 78 points
+  13. Akd: 84 points
+  14. Megha: 92 points
+  15. Prayansh: 92 points
+  16. Keshav: 95 points
+  17. Manav: 97 points
+  18. Monika: 100 points
+  19. Shruthi: 114 points
+  20. Sanchit: 115 points
+  21. Arnab  Avg Rank: 123 points
+  22. Keshav  Avg Rank: 124 points
+  23. Paarth: 125 points
+  24. Megha  Avg Rank: 125 points
+  25. Sankar  Avg Rank: 126 points
+  26. Sonakshi: 127 points
+  27. Shivangi  Avg Rank: 127 points
+  28. Sage  Avg Rank: 128 points
+  29. Manav  Avg Rank: 129 points
+  30. Shubham  Avg Rank: 130 points
+  31. Anushka  Avg Rank: 131 points
+  32. Saras: 132 points
+  33. Sanchit  Pruthvi  Avg Rank: 132 points
+  34. AkD: 133 points
+  35. Prayansh  Avg Rank: 133 points
+  36. Revati: 133 points
+[2025-06-19T05:33:34.066Z] RESPONSE: 200 OK
+Response summary: 8 days processed, 36 players ranked
+[2025-06-19T05:33:34.066Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:33:34.066Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:34:56.187Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-06-19T05:34:56.188Z] POST /ranks/calculate - REQUEST
+Text length: 2723 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 18/06/25* 🏆
+
+1. Anushka 0:51 
+2. ⁠Megha 0:52
+3. ⁠Shauryaa 1:08
+4. ⁠Sankar 1:14
+5. ⁠Sonakshi 1:16
+6. ⁠Monika 1:31
+7. ⁠Aastha 1:36
+8. ⁠Mayank 1:42
+9. ⁠Shubham 1:49
+10. ⁠Prakriti 1:55
+11. ⁠AkD 2:04
+12. ⁠Pruthvi 2:09
+13. ⁠Sage 2:19
+14. ⁠Shivangi 2:21
+15. ⁠Shruthi 2:25
+16. ⁠Prayansh 2:33
+17. ⁠Srishti 2:39
+
+*Logic games Leaderboard 17/06/25* 🏆
+
+1. Shivangi 0:07
+2. ⁠Akd 0:08
+3. ⁠Sankar and Prakriti 0:11
+4. ⁠Arnab, Anushka and Shauryaa 0:12
+5. ⁠Sage, Pruthvi and Mayank 0:13
+6. ...
+---END OF INPUT---
+Parsed 7 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Logic games (17/06/25) - 19 players
+  Day 3: Wordle (16/06/25) - 18 players
+  Day 4: Sunday (15/06/25) - 17 players
+  Day 5: Geo (14/06/25) - 14 players
+  Day 6: Queens (13/06/25) - 13 players
+  Day 7: The Pop Game (12/06/25) - 15 players
+Calculated weekly ranks for 36 players
+Output:
+  1. Mayank: 30 points
+  2. Aastha: 44 points
+  3. Sankar: 49 points
+  4. Sage: 50 points
+  5. Prakriti: 52 points
+  6. Anushka: 59 points
+  7. Srishti: 63 points
+  8. Shauryaa: 65 points
+  9. Arnab: 67 points
+  10. Shubham: 70 points
+  11. Shivangi: 72 points
+  12. Pruthvi: 73 points
+  13. Prayansh: 82 points
+  14. Akd: 82 points
+  15. Megha: 83 points
+  16. Keshav: 87 points
+  17. Monika: 89 points
+  18. Manav: 91 points
+  19. Shruthi: 94 points
+  20. Arnab  Avg Rank: 103 points
+  21. Keshav  Avg Rank: 104 points
+  22. Sanchit: 105 points
+  23. Paarth: 105 points
+  24. Megha  Avg Rank: 105 points
+  25. Sankar  Avg Rank: 106 points
+  26. Sonakshi: 107 points
+  27. Shivangi  Avg Rank: 107 points
+  28. Sage  Avg Rank: 108 points
+  29. Manav  Avg Rank: 109 points
+  30. Shubham  Avg Rank: 110 points
+  31. Anushka  Avg Rank: 111 points
+  32. Saras: 112 points
+  33. Sanchit  Pruthvi  Avg Rank: 112 points
+  34. AkD: 113 points
+  35. Prayansh  Avg Rank: 113 points
+  36. Revati: 113 points
+[2025-06-19T05:34:56.188Z] RESPONSE: 200 OK
+Response summary: 7 days processed, 36 players ranked
+[2025-06-19T05:34:56.187Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:34:56.187Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:35:03.168Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T05:35:03.168Z] Response: 200 - /ranks (1ms)
+[2025-06-19T05:35:03.225Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T05:35:03.226Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T05:35:10.514Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-19T05:35:10.515Z] POST /ranks/calculate - REQUEST
+Text length: 1501 chars
+Input preview:
+---START OF INPUT---
+
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-19T05:35:10.515Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-19T05:35:10.514Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:35:10.514Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:36:41.528Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-06-19T05:36:41.529Z] POST /ranks/calculate - REQUEST
+Text length: 2603 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 18/06/25* 🏆
+
+1. Anushka 0:51 
+2. ⁠Megha 0:52
+3. ⁠Shauryaa 1:08
+4. ⁠Sankar 1:14
+5. ⁠Sonakshi 1:16
+6. ⁠Monika 1:31
+7. ⁠Aastha 1:36
+8. ⁠Mayank 1:42
+9. ⁠Shubham 1:49
+10. ⁠Prakriti 1:55
+11. ⁠AkD 2:04
+12. ⁠Pruthvi 2:09
+13. ⁠Sage 2:19
+14. ⁠Shivangi 2:21
+15. ⁠Shruthi 2:25
+16. ⁠Prayansh 2:33
+17. ⁠Srishti 2:39
+
+*Logic games Leaderboard 17/06/25* 🏆
+
+1. Shivangi 0:07
+2. ⁠Akd 0:08
+3. ⁠Sankar and Prakriti 0:11
+4. ⁠Arnab, Anushka and Shauryaa 0:12
+5. ⁠Sage, Pruthvi and Mayank 0:13
+6. ...
+---END OF INPUT---
+Parsed 7 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Logic games (17/06/25) - 19 players
+  Day 3: Wordle (16/06/25) - 18 players
+  Day 4: Sunday (15/06/25) - 17 players
+  Day 5: Geo (14/06/25) - 14 players
+  Day 6: Queens (13/06/25) - 13 players
+  Day 7: The Pop Game (12/06/25) - 15 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Mayank: 30 points
+  2. Sankar: 35 points
+  3. Sage: 38 points
+  4. Aastha: 44 points
+  5. Anushka: 50 points
+  6. Arnab: 50 points
+  7. Prakriti: 52 points
+  8. Shivangi: 59 points
+  9. Shubham: 60 points
+  10. Srishti: 63 points
+  11. Shauryaa: 65 points
+  12. Megha: 68 points
+  13. Keshav: 71 points
+  14. Pruthvi: 73 points
+  15. Prayansh: 75 points
+  16. Manav: 80 points
+  17. Akd: 82 points
+  18. Monika: 89 points
+  19. Shruthi: 94 points
+  20. Sanchit: 105 points
+  21. Paarth: 105 points
+  22. Sonakshi: 107 points
+  23. Saras: 112 points
+  24. Sanchit  Pruthvi: 112 points
+  25. AkD: 113 points
+  26. Revati: 113 points
+[2025-06-19T05:36:41.529Z] RESPONSE: 200 OK
+Response summary: 7 days processed, 26 players ranked
+[2025-06-19T05:36:41.528Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:36:41.528Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:37:33.968Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-06-19T05:37:33.969Z] POST /ranks/calculate - REQUEST
+Text length: 2602 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 18/06/25* 🏆
+
+1. Anushka 0:51 
+2. ⁠Megha 0:52
+3. ⁠Shauryaa 1:08
+4. ⁠Sankar 1:14
+5. ⁠Sonakshi 1:16
+6. ⁠Monika 1:31
+7. ⁠Aastha 1:36
+8. ⁠Mayank 1:42
+9. ⁠Shubham 1:49
+10. ⁠Prakriti 1:55
+11. ⁠AkD 2:04
+12. ⁠Pruthvi 2:09
+13. ⁠Sage 2:19
+14. ⁠Shivangi 2:21
+15. ⁠Shruthi 2:25
+16. ⁠Prayansh 2:33
+17. ⁠Srishti 2:39
+
+*Logic games Leaderboard 17/06/25* 🏆
+
+1. Shivangi 0:07
+2. ⁠Akd 0:08
+3. ⁠Sankar and Prakriti 0:11
+4. ⁠Arnab, Anushka and Shauryaa 0:12
+5. ⁠Sage, Pruthvi and Mayank 0:13
+6. ...
+---END OF INPUT---
+Parsed 7 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Logic games (17/06/25) - 19 players
+  Day 3: Wordle (16/06/25) - 18 players
+  Day 4: Sunday (15/06/25) - 18 players
+  Day 5: Geo (14/06/25) - 14 players
+  Day 6: Queens (13/06/25) - 13 players
+  Day 7: The Pop Game (12/06/25) - 15 players
+Calculated weekly ranks for 25 players
+Output:
+  1. Mayank: 30 points
+  2. Sankar: 35 points
+  3. Sage: 38 points
+  4. Aastha: 44 points
+  5. Anushka: 50 points
+  6. Arnab: 50 points
+  7. Prakriti: 52 points
+  8. Shivangi: 59 points
+  9. Shubham: 60 points
+  10. Srishti: 63 points
+  11. Shauryaa: 65 points
+  12. Pruthvi: 65 points
+  13. Megha: 68 points
+  14. Keshav: 71 points
+  15. Prayansh: 75 points
+  16. Manav: 80 points
+  17. Akd: 83 points
+  18. Monika: 90 points
+  19. Shruthi: 94 points
+  20. Sanchit: 97 points
+  21. Paarth: 106 points
+  22. Sonakshi: 108 points
+  23. Saras: 113 points
+  24. AkD: 114 points
+  25. Revati: 114 points
+[2025-06-19T05:37:33.969Z] RESPONSE: 200 OK
+Response summary: 7 days processed, 25 players ranked
+[2025-06-19T05:37:33.968Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:37:33.968Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-19T05:40:47.347Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:47.347Z] Response: 200 - /ranks (1ms)
+[2025-06-19T05:40:47.461Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:47.462Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:47.591Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:51.926Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 15; SM-S928B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:51.926Z] Response: 200 - /ranks (1ms)
+[2025-06-19T05:40:52.267Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 15; SM-S928B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T05:40:52.327Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 15; SM-S928B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:07:09.501Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:07:09.501Z] Response: 200 - /ranks (5ms)
+[2025-06-19T06:07:09.553Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:07:09.556Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:07:09.669Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:09:24.526Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:09:24.526Z] Response: 200 - /ranks (1ms)
+[2025-06-19T06:09:24.663Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:09:24.664Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:09:32.839Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-19T06:09:32.840Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-19T06:09:32.840Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-19T06:09:32.839Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-19T06:09:32.839Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-19T06:12:11.705Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:12:11.705Z] Response: 200 - /ranks (1ms)
+[2025-06-19T06:12:11.793Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:12:11.804Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:12:14.967Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:12:14.967Z] Response: 200 - /sumplete (4ms)
+[2025-06-19T06:12:15.025Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:12:15.027Z] GET /js/sumplete.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:17:21.470Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:17:21.470Z] Response: 200 - /ranks (1ms)
+[2025-06-19T06:17:21.583Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:17:21.584Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:17:21.872Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T06:22:20.919Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:22:20.919Z] Response: 200 - /ranks (2ms)
+[2025-06-19T06:22:21.005Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:22:21.006Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T06:22:21.153Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T07:06:44.583Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:06:44.583Z] Response: 200 - /ranks (1ms)
+[2025-06-19T07:06:44.644Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:06:44.646Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36

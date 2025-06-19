@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly Ranks Calculator</title>
+    <link rel="icon" type="image/png" href="/random/static/conondrum.png">
     <link rel="stylesheet" href="/random/css/ranks.css">
 </head>
 <body>
     <div class="container">
         <h1>Weekly Ranks Calculator</h1>
-        <p class="description">Paste your daily leaderboard data below to calculate weekly rankings</p>
+        
+        <%- include('partials/club_rules') %>
+        
+        <div class="calculator-section">
+            <h2 class="section-title">📈 Calculate This Week's Rankings</h2>
+            <p class="description">Paste your daily leaderboard data below to calculate weekly rankings</p>
+        </div>
         
         <div class="input-section">
             <textarea id="leaderboardInput" placeholder="Paste your leaderboard data here...
