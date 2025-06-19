@@ -1312,3 +1312,153 @@ Response summary: 4 days processed, 26 players ranked
   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 [2025-06-19T07:06:44.646Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-19T07:19:55.621Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:19:55.621Z] Response: 200 - /sumplete (9ms)
+[2025-06-19T07:19:55.680Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:19:55.682Z] GET /js/sumplete.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:19:58.106Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:19:58.106Z] Response: 200 - /ranks (3ms)
+[2025-06-19T07:19:58.159Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:19:58.160Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:20:11.764Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-19T07:20:11.775Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Calculated weekly ranks for 26 players
+Output:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-19T07:20:11.775Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-19T07:20:11.764Z] Response: 200 - /ranks/calculate (15ms)
+[2025-06-19T07:20:11.764Z] Response: 200 - /ranks/calculate (16ms)
+[2025-06-19T07:20:26.935Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:20:26.935Z] Response: 200 - /ranks (3ms)
+[2025-06-19T07:20:26.982Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:20:26.984Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:20:41.419Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:20:41.419Z] Response: 200 - /ranks (7ms)
+[2025-06-19T07:20:41.559Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:20:41.567Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:20:42.075Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:20:57.839Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:20:57.839Z] Response: 200 - /ranks (2ms)
+[2025-06-19T07:20:57.892Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:20:57.893Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-19T07:21:09.835Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:09.835Z] Response: 200 - /ranks (2ms)
+[2025-06-19T07:21:10.092Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:10.093Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:10.486Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:10.486Z] Response: 200 - /sumplete (3ms)
+[2025-06-19T07:21:10.616Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:10.619Z] GET /js/sumplete.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:37.594Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.2523.1 W
+[2025-06-19T07:21:37.594Z] Response: 200 - /ranks (3ms)
+[2025-06-19T07:21:37.663Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.2523.1 W
+[2025-06-19T07:21:39.966Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:39.966Z] Response: 200 - /ranks (2ms)
+[2025-06-19T07:21:40.054Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:21:40.056Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-19T07:25:42.603Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T07:25:42.603Z] Response: 200 - /ranks (2ms)
+[2025-06-19T07:25:42.684Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-19T07:25:42.691Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
