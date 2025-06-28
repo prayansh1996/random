@@ -3314,3 +3314,1523 @@ Server is running on http://localhost:3000
 [2025-06-28T06:08:53.622Z] Response: 200 - /sumplete (1ms)
 [2025-06-28T08:32:15.606Z] GET / - IP: ::ffff:34.212.117.249
   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T10:20:55.555Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:20:55.555Z] Response: 200 - /ranks (20ms)
+[2025-06-28T10:20:55.654Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:20:55.656Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:21:13.566Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:21:15.775Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T10:21:15.786Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Rankings stored successfully
+Calculated weekly ranks for 26 players
+Players:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 29 points
+  7. Megha: 33 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-28T10:21:15.786Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-28T10:21:15.775Z] Response: 200 - /ranks/calculate (22ms)
+[2025-06-28T10:21:15.775Z] Response: 200 - /ranks/calculate (22ms)
+[2025-06-28T10:21:54.124Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T10:21:54.125Z] POST /ranks/calculate - REQUEST
+Text length: 1502 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Megha 0:51 
+ 2.⁠ ⁠⁠Anushka 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+
+
+Wordle Leaderboard 16/06/25 🏆
+
+ 1.⁠ ⁠Mayank 2/6, 25
+ 2.⁠ ⁠⁠Sage 3/6, 24
+ 3.⁠ ⁠⁠Vangi 3/6, 22X
+ 4.⁠ ⁠⁠Shubham 3/6
+ 5.⁠ ⁠⁠Keshav 4/...
+---END OF INPUT---
+Parsed 4 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+  Day 2: Wordle (16/06/25) - 18 players
+  Day 3: Sunday Marathon (15/06/25) - 17 players
+  Day 4: Geo (14/06/25) - 14 players
+Rankings stored successfully
+Calculated weekly ranks for 26 players
+Players:
+  1. Sankar: 18 points
+  2. Sage: 21 points
+  3. Mayank: 23 points
+  4. Prakriti: 24 points
+  5. Aastha: 27 points
+  6. Anushka: 30 points
+  7. Megha: 32 points
+  8. Shubham: 34 points
+  9. Srishti: 35 points
+  10. Shauryaa: 43 points
+  11. Pruthvi: 44 points
+  12. Prayansh: 46 points
+  13. Keshav: 47 points
+  14. Monika: 48 points
+  15. Manav: 49 points
+  16. Vangi: 54 points
+  17. Akd: 54 points
+  18. Sonakshi: 57 points
+  19. Arnab: 58 points
+  20. Shivangi: 59 points
+  21. Shruthi: 62 points
+  22. Saras: 62 points
+  23. AkD: 63 points
+  24. Paarth: 63 points
+  25. Revati: 63 points
+  26. Sanchit: 67 points
+[2025-06-28T10:21:54.125Z] RESPONSE: 200 OK
+Response summary: 4 days processed, 26 players ranked
+[2025-06-28T10:21:54.124Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T10:21:54.124Z] Response: 200 - /ranks/calculate (3ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T10:30:55.986Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:55.986Z] Response: 200 - /ranks (9ms)
+[2025-06-28T10:30:56.077Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.080Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.081Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.173Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.173Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T10:30:56.173Z] Response: 200 - /ranks/date-ranges (23ms)
+[2025-06-28T10:30:56.253Z] GET /ranks/weekly?start=2025-06-23&end=2025-06-29 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.253Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.255Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:30:56.253Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (4ms)
+[2025-06-28T10:30:56.253Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (5ms)
+[2025-06-28T10:30:56.253Z] Response: 200 - /ranks/monthly?year=2025&month=5 (5ms)
+[2025-06-28T10:30:56.253Z] Response: 200 - /ranks/monthly?year=2025&month=5 (5ms)
+[2025-06-28T10:30:56.255Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:30:56.255Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:31:01.518Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:31:01.518Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (2ms)
+[2025-06-28T10:31:01.518Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (2ms)
+[2025-06-28T10:31:05.986Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:31:05.986Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (2ms)
+[2025-06-28T10:31:05.986Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (2ms)
+[2025-06-28T10:31:07.614Z] GET /ranks/weekly?start=2025-06-02&end=2025-06-08 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:31:07.614Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (1ms)
+[2025-06-28T10:31:07.614Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (1ms)
+[2025-06-28T10:31:09.178Z] GET /ranks/weekly?start=2025-06-02&end=2025-06-08&game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:31:09.178Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08&game=Geo (1ms)
+[2025-06-28T10:31:09.178Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08&game=Geo (1ms)
+[2025-06-28T10:31:10.518Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:31:10.518Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Geo (2ms)
+[2025-06-28T10:31:10.518Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Geo (2ms)
+[2025-06-28T10:34:59.317Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:34:59.317Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon (1ms)
+[2025-06-28T10:34:59.317Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon (1ms)
+[2025-06-28T10:35:01.080Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:35:01.080Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (3ms)
+[2025-06-28T10:35:01.080Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (3ms)
+[2025-06-28T10:35:03.413Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Wordle - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:35:03.413Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Wordle (2ms)
+[2025-06-28T10:35:03.413Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Wordle (2ms)
+[2025-06-28T10:35:05.585Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Word+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:35:05.585Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Word+Games (2ms)
+[2025-06-28T10:35:05.585Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Word+Games (2ms)
+[2025-06-28T10:35:06.961Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:35:06.961Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon (1ms)
+[2025-06-28T10:35:06.961Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15&game=Sunday+Marathon (2ms)
+[2025-06-28T10:35:14.458Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:35:14.458Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (2ms)
+[2025-06-28T10:35:14.458Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (3ms)
+[2025-06-28T10:36:24.721Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:24.721Z] Response: 200 - /ranks (3ms)
+[2025-06-28T10:36:24.969Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:24.970Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:24.971Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.024Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.024Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T10:36:25.024Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T10:36:25.100Z] GET /ranks/weekly?start=2025-06-23&end=2025-06-29 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.101Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.102Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.103Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:25.100Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (6ms)
+[2025-06-28T10:36:25.100Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (7ms)
+[2025-06-28T10:36:25.101Z] Response: 200 - /ranks/monthly?year=2025&month=5 (7ms)
+[2025-06-28T10:36:25.101Z] Response: 200 - /ranks/monthly?year=2025&month=5 (7ms)
+[2025-06-28T10:36:25.102Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T10:36:25.102Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T10:36:27.928Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:27.928Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:27.928Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:29.433Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:29.433Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:29.433Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:30.996Z] GET /ranks/weekly?start=2025-05-26&end=2025-06-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:30.996Z] Response: 200 - /ranks/weekly?start=2025-05-26&end=2025-06-01 (7ms)
+[2025-06-28T10:36:30.996Z] Response: 200 - /ranks/weekly?start=2025-05-26&end=2025-06-01 (7ms)
+[2025-06-28T10:36:33.001Z] GET /ranks/weekly?start=2025-06-02&end=2025-06-08 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:33.001Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (17ms)
+[2025-06-28T10:36:33.001Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (17ms)
+[2025-06-28T10:36:34.395Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:34.395Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:34.395Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:35.863Z] GET /ranks/weekly?start=2025-05-19&end=2025-05-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:35.863Z] Response: 200 - /ranks/weekly?start=2025-05-19&end=2025-05-25 (2ms)
+[2025-06-28T10:36:35.863Z] Response: 200 - /ranks/weekly?start=2025-05-19&end=2025-05-25 (2ms)
+[2025-06-28T10:36:37.499Z] GET /ranks/weekly?start=2025-05-05&end=2025-05-11 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:37.499Z] Response: 200 - /ranks/weekly?start=2025-05-05&end=2025-05-11 (20ms)
+[2025-06-28T10:36:37.499Z] Response: 200 - /ranks/weekly?start=2025-05-05&end=2025-05-11 (20ms)
+[2025-06-28T10:36:38.873Z] GET /ranks/weekly?start=2025-05-12&end=2025-05-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:38.873Z] Response: 200 - /ranks/weekly?start=2025-05-12&end=2025-05-18 (1ms)
+[2025-06-28T10:36:38.873Z] Response: 200 - /ranks/weekly?start=2025-05-12&end=2025-05-18 (1ms)
+[2025-06-28T10:36:39.957Z] GET /ranks/weekly?start=2025-05-19&end=2025-05-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:39.957Z] Response: 200 - /ranks/weekly?start=2025-05-19&end=2025-05-25 (9ms)
+[2025-06-28T10:36:39.957Z] Response: 200 - /ranks/weekly?start=2025-05-19&end=2025-05-25 (9ms)
+[2025-06-28T10:36:41.202Z] GET /ranks/weekly?start=2025-05-26&end=2025-06-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:41.202Z] Response: 200 - /ranks/weekly?start=2025-05-26&end=2025-06-01 (1ms)
+[2025-06-28T10:36:41.202Z] Response: 200 - /ranks/weekly?start=2025-05-26&end=2025-06-01 (1ms)
+[2025-06-28T10:36:42.318Z] GET /ranks/weekly?start=2025-06-02&end=2025-06-08 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:42.318Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (1ms)
+[2025-06-28T10:36:42.318Z] Response: 200 - /ranks/weekly?start=2025-06-02&end=2025-06-08 (1ms)
+[2025-06-28T10:36:43.562Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:43.562Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:43.562Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:36:44.902Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:44.902Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:44.902Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:46.041Z] GET /ranks/weekly?start=2025-06-23&end=2025-06-29 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:46.041Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (1ms)
+[2025-06-28T10:36:46.041Z] Response: 200 - /ranks/weekly?start=2025-06-23&end=2025-06-29 (1ms)
+[2025-06-28T10:36:47.821Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:47.821Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:47.821Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:36:51.317Z] GET /ranks/monthly?year=2025&month=4 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:51.317Z] Response: 200 - /ranks/monthly?year=2025&month=4 (1ms)
+[2025-06-28T10:36:51.317Z] Response: 200 - /ranks/monthly?year=2025&month=4 (1ms)
+[2025-06-28T10:36:52.672Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:52.672Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T10:36:52.672Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T10:36:57.318Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:36:57.318Z] Response: 200 - /ranks/game-kings?game=Logic+games (4ms)
+[2025-06-28T10:36:57.318Z] Response: 200 - /ranks/game-kings?game=Logic+games (4ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T10:41:17.016Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.016Z] Response: 200 - /ranks (8ms)
+[2025-06-28T10:41:17.255Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.258Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.261Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.311Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.311Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T10:41:17.311Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T10:41:17.375Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.376Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.378Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:17.375Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (5ms)
+[2025-06-28T10:41:17.375Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (6ms)
+[2025-06-28T10:41:17.376Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T10:41:17.376Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T10:41:17.378Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:41:17.378Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:41:17.391Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:20.668Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:20.668Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (7ms)
+[2025-06-28T10:41:20.668Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (7ms)
+[2025-06-28T10:41:26.137Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:26.137Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T10:41:26.137Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T10:41:27.508Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:27.508Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:41:27.508Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:41:28.924Z] GET /ranks/game-kings?game=Queens - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:28.924Z] Response: 200 - /ranks/game-kings?game=Queens (2ms)
+[2025-06-28T10:41:28.924Z] Response: 200 - /ranks/game-kings?game=Queens (2ms)
+[2025-06-28T10:41:31.124Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:31.124Z] Response: 200 - /ranks/game-kings?game=Logic+games (39ms)
+[2025-06-28T10:41:31.124Z] Response: 200 - /ranks/game-kings?game=Logic+games (39ms)
+[2025-06-28T10:41:32.680Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:32.680Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T10:41:32.680Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-06-28T10:41:34.352Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:34.352Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:41:34.352Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (2ms)
+[2025-06-28T10:41:36.092Z] GET /ranks/game-kings?game=Word+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:36.092Z] Response: 200 - /ranks/game-kings?game=Word+Games (2ms)
+[2025-06-28T10:41:36.092Z] Response: 200 - /ranks/game-kings?game=Word+Games (2ms)
+[2025-06-28T10:41:43.205Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:43.205Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:41:43.205Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (2ms)
+[2025-06-28T10:41:47.585Z] GET /ranks/game-kings?game=Wordle - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:47.585Z] Response: 200 - /ranks/game-kings?game=Wordle (1ms)
+[2025-06-28T10:41:47.585Z] Response: 200 - /ranks/game-kings?game=Wordle (1ms)
+[2025-06-28T10:41:48.957Z] GET /ranks/game-kings?game=Word+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:48.957Z] Response: 200 - /ranks/game-kings?game=Word+Games (2ms)
+[2025-06-28T10:41:48.957Z] Response: 200 - /ranks/game-kings?game=Word+Games (2ms)
+[2025-06-28T10:41:50.289Z] GET /ranks/game-kings?game=The+Pop+Game - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:50.289Z] Response: 200 - /ranks/game-kings?game=The+Pop+Game (1ms)
+[2025-06-28T10:41:50.289Z] Response: 200 - /ranks/game-kings?game=The+Pop+Game (1ms)
+[2025-06-28T10:41:52.845Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:52.845Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:41:52.845Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:41:54.377Z] GET /ranks/game-kings?game=Queens - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:54.377Z] Response: 200 - /ranks/game-kings?game=Queens (2ms)
+[2025-06-28T10:41:54.377Z] Response: 200 - /ranks/game-kings?game=Queens (2ms)
+[2025-06-28T10:41:55.953Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:55.953Z] Response: 200 - /ranks/game-kings?game=Logic+games (3ms)
+[2025-06-28T10:41:55.953Z] Response: 200 - /ranks/game-kings?game=Logic+games (4ms)
+[2025-06-28T10:41:57.569Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:41:57.569Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T10:41:57.569Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T10:42:37.252Z] GET /ranks/game-kings?game=Queens - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:42:37.252Z] Response: 200 - /ranks/game-kings?game=Queens (1ms)
+[2025-06-28T10:42:37.252Z] Response: 200 - /ranks/game-kings?game=Queens (1ms)
+[2025-06-28T10:42:42.404Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:42:42.404Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:42:42.404Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:42:44.611Z] GET /ranks/game-kings?game=The+Pop+Game - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:42:44.611Z] Response: 200 - /ranks/game-kings?game=The+Pop+Game (2ms)
+[2025-06-28T10:42:44.611Z] Response: 200 - /ranks/game-kings?game=The+Pop+Game (2ms)
+[2025-06-28T10:53:48.069Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:48.069Z] Response: 200 - /ranks (7ms)
+[2025-06-28T10:53:50.210Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.212Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.213Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.360Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.360Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T10:53:50.360Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T10:53:50.420Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.449Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.451Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.449Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (3ms)
+[2025-06-28T10:53:50.449Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (3ms)
+[2025-06-28T10:53:50.451Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T10:53:50.451Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T10:53:50.457Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T10:53:50.457Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T10:53:50.457Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T10:55:46.096Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.096Z] Response: 200 - /ranks (8ms)
+[2025-06-28T10:55:46.180Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.182Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.183Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.234Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.234Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T10:55:46.234Z] Response: 200 - /ranks/date-ranges (23ms)
+[2025-06-28T10:55:46.326Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.327Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.330Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.331Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:46.327Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (7ms)
+[2025-06-28T10:55:46.327Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (7ms)
+[2025-06-28T10:55:46.330Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:55:46.330Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T10:55:46.331Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T10:55:46.331Z] Response: 200 - /ranks/monthly?year=2025&month=5 (7ms)
+[2025-06-28T10:55:50.047Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:55:50.047Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:55:50.047Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:56:45.638Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:56:45.638Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (14ms)
+[2025-06-28T10:56:45.638Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (15ms)
+[2025-06-28T10:56:48.029Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:56:48.029Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (3ms)
+[2025-06-28T10:56:48.029Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (4ms)
+[2025-06-28T10:56:49.797Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:56:49.797Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (28ms)
+[2025-06-28T10:56:49.797Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (28ms)
+[2025-06-28T10:56:57.046Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:56:57.046Z] Response: 200 - /ranks/game-kings?game=Logic+games (19ms)
+[2025-06-28T10:56:57.046Z] Response: 200 - /ranks/game-kings?game=Logic+games (19ms)
+[2025-06-28T10:56:58.858Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:56:58.858Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T10:56:58.858Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (2ms)
+[2025-06-28T10:57:00.694Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:00.694Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T10:57:00.694Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T10:57:47.280Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.280Z] Response: 200 - /ranks (9ms)
+[2025-06-28T10:57:47.519Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.521Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.524Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.578Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.578Z] Response: 200 - /ranks/date-ranges (24ms)
+[2025-06-28T10:57:47.578Z] Response: 200 - /ranks/date-ranges (24ms)
+[2025-06-28T10:57:47.651Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.652Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.655Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.656Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:47.651Z] Response: 200 - /ranks/monthly?year=2025&month=5 (8ms)
+[2025-06-28T10:57:47.651Z] Response: 200 - /ranks/monthly?year=2025&month=5 (9ms)
+[2025-06-28T10:57:47.652Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (9ms)
+[2025-06-28T10:57:47.652Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (10ms)
+[2025-06-28T10:57:47.655Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T10:57:47.655Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T10:57:59.483Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:57:59.483Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T10:57:59.483Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (2ms)
+[2025-06-28T10:58:01.639Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T10:58:01.639Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T10:58:01.639Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T11:04:30.596Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.596Z] Response: 200 - /ranks (2ms)
+[2025-06-28T11:04:30.672Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.676Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.677Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.731Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.731Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T11:04:30.731Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T11:04:30.812Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.813Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.816Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.817Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:30.813Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (8ms)
+[2025-06-28T11:04:30.813Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (8ms)
+[2025-06-28T11:04:30.816Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T11:04:30.816Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T11:04:30.817Z] Response: 200 - /ranks/monthly?year=2025&month=5 (7ms)
+[2025-06-28T11:04:30.817Z] Response: 200 - /ranks/monthly?year=2025&month=5 (8ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T11:04:48.307Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.307Z] Response: 200 - /ranks (9ms)
+[2025-06-28T11:04:48.374Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.379Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.380Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.455Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.455Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T11:04:48.455Z] Response: 200 - /ranks/date-ranges (23ms)
+[2025-06-28T11:04:48.534Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.535Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.539Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.541Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:48.534Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (8ms)
+[2025-06-28T11:04:48.534Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (9ms)
+[2025-06-28T11:04:48.539Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T11:04:48.539Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T11:04:48.541Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T11:04:48.541Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T11:04:59.014Z] GET /ranks/weekly?start=2025-06-09&end=2025-06-15 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:04:59.014Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (1ms)
+[2025-06-28T11:04:59.014Z] Response: 200 - /ranks/weekly?start=2025-06-09&end=2025-06-15 (2ms)
+[2025-06-28T11:05:05.387Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:05:05.387Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T11:05:05.387Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (1ms)
+[2025-06-28T11:09:15.137Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.137Z] Response: 200 - /ranks (3ms)
+[2025-06-28T11:09:15.365Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.367Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.368Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.412Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.412Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T11:09:15.412Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T11:09:15.492Z] GET /ranks/weekly?start=2025-06-16&end=2025-06-22 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.492Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (2ms)
+[2025-06-28T11:09:15.492Z] Response: 200 - /ranks/weekly?start=2025-06-16&end=2025-06-22 (2ms)
+[2025-06-28T11:09:15.497Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.498Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.499Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:15.497Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T11:09:15.497Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T11:09:15.498Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+[2025-06-28T11:09:15.498Z] Response: 200 - /ranks/game-kings?game=Geo (7ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-06-28T11:09:25.501Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.501Z] Response: 200 - /ranks (8ms)
+[2025-06-28T11:09:25.569Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.571Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.572Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.644Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.644Z] Response: 200 - /ranks/date-ranges (22ms)
+[2025-06-28T11:09:25.644Z] Response: 200 - /ranks/date-ranges (23ms)
+[2025-06-28T11:09:25.676Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.741Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.741Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.744Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T11:09:25.741Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T11:09:25.741Z] Response: 200 - /ranks/game-kings?game=Geo (6ms)
+[2025-06-28T11:09:25.741Z] Response: 200 - /ranks/monthly?year=2025&month=5 (6ms)
+[2025-06-28T11:09:25.741Z] Response: 200 - /ranks/monthly?year=2025&month=5 (7ms)
+[2025-06-28T11:09:25.744Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (6ms)
+[2025-06-28T11:09:25.744Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (6ms)
+[2025-06-28T11:50:25.466Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.466Z] Response: 200 - /ranks (6ms)
+[2025-06-28T11:50:25.517Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.518Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.543Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.607Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.607Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T11:50:25.607Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T11:50:25.667Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.668Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.669Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:50:25.667Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T11:50:25.667Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T11:50:25.668Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-28T11:50:25.668Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-28T11:50:25.669Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (5ms)
+[2025-06-28T11:50:25.669Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (5ms)
+[2025-06-28T11:50:25.981Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:54:19.374Z] GET /ranks/game-kings?game=Word+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:54:19.374Z] Response: 200 - /ranks/game-kings?game=Word+Games (3ms)
+[2025-06-28T11:54:19.374Z] Response: 200 - /ranks/game-kings?game=Word+Games (3ms)
+[2025-06-28T11:55:05.966Z] GET /ranks/game-kings?game=Wordle - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:55:05.966Z] Response: 200 - /ranks/game-kings?game=Wordle (2ms)
+[2025-06-28T11:55:05.966Z] Response: 200 - /ranks/game-kings?game=Wordle (2ms)
+[2025-06-28T11:55:08.748Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:55:08.748Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T11:55:08.748Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T11:55:11.719Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:55:11.719Z] Response: 200 - /ranks/game-kings?game=Logic+games (2ms)
+[2025-06-28T11:55:11.719Z] Response: 200 - /ranks/game-kings?game=Logic+games (2ms)
+[2025-06-28T11:55:14.039Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T11:55:14.039Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T11:55:14.039Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T12:32:32.884Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:32.884Z] Response: 200 - /ranks (4ms)
+[2025-06-28T12:32:32.941Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:32.942Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:32.944Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:33.059Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:33.059Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:32:33.059Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:32:33.102Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:33.104Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:33.105Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:33.102Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (4ms)
+[2025-06-28T12:32:33.102Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (5ms)
+[2025-06-28T12:32:33.104Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-28T12:32:33.104Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:32:33.105Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T12:32:33.105Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-28T12:32:44.728Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T12:32:44.728Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T12:32:44.728Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T12:47:27.375Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.375Z] Response: 200 - /ranks (2ms)
+[2025-06-28T12:47:27.442Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.446Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.446Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.510Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.510Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:47:27.510Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:47:27.598Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.599Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.601Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:47:27.598Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (3ms)
+[2025-06-28T12:47:27.598Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (3ms)
+[2025-06-28T12:47:27.599Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:47:27.599Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:47:27.601Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T12:47:27.601Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T12:47:53.138Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:47:53.148Z] POST /ranks/calculate - REQUEST
+Text length: 301 chars
+Input preview:
+---START OF INPUT---
+Queens Leaderboard 27/06/25 🏆
+
+ 1.⁠ ⁠Mayank 0:08
+ 2.⁠ ⁠⁠Arnab 0:13
+ 3.⁠ ⁠⁠Shauryaa 0:18
+ 4.⁠ ⁠⁠Anushka 0:28
+ 5.⁠ ⁠⁠Sankar 0:29
+ 6.⁠ ⁠⁠Aastha 0:31
+ 7.⁠ ⁠⁠Shivangi 0:34
+ 8.⁠ ⁠⁠Prakriti 0:36
+ 9.⁠ ⁠⁠Srishti 0:37 
+10.⁠ ⁠⁠Megha 0:40
+11.⁠ ⁠⁠AkD 0:56
+12.⁠ ⁠⁠Sage 1:07
+13.⁠ ⁠⁠Sonakshi 1:23
+14.⁠ ⁠⁠Shubham 1:25
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Queens (27/06/25) - 14 players
+Rankings stored successfully
+Calculated weekly ranks for 14 players
+Players:
+  1. Mayank: 1 points
+  2. Arnab: 2 points
+  3. Shauryaa: 3 points
+  4. Anushka: 4 points
+  5. Sankar: 5 points
+  6. Aastha: 6 points
+  7. Shivangi: 7 points
+  8. Prakriti: 8 points
+  9. Srishti: 9 points
+  10. Megha: 10 points
+  11. AkD: 11 points
+  12. Sage: 12 points
+  13. Sonakshi: 13 points
+  14. Shubham: 14 points
+[2025-06-28T12:47:53.148Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 14 players ranked
+[2025-06-28T12:47:53.138Z] Response: 200 - /ranks/calculate (16ms)
+[2025-06-28T12:47:53.138Z] Response: 200 - /ranks/calculate (16ms)
+[2025-06-28T12:48:07.368Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:48:07.369Z] POST /ranks/calculate - REQUEST
+Text length: 342 chars
+Input preview:
+---START OF INPUT---
+Trivia Leaderboard 26/06/25 🏆
+
+ 1.⁠ ⁠Sankar 9810
+ 2.⁠ ⁠⁠Karthik 9290
+ 3.⁠ ⁠⁠Mayank 9220
+ 4.⁠ ⁠⁠Arnab 8710
+ 5.⁠ ⁠⁠Keshav 8630
+ 6.⁠ ⁠⁠Prayansh 8000
+ 7.⁠ ⁠⁠Sankar 7750
+ 8.⁠ ⁠⁠Sonakshi 7520
+ 9.⁠ ⁠⁠Sage 7480
+10.⁠ ⁠⁠Prakriti 7450
+11.⁠ ⁠⁠Megha 7290
+12.⁠ ⁠⁠Srishti 7090
+13.⁠ ⁠⁠Shauryaa 6950
+14.⁠ ⁠⁠Pruthvi 6470
+15.⁠ ⁠⁠Anushka 6210
+16.⁠ ⁠⁠Aastha 6070
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Trivia (26/06/25) - 16 players
+Rankings stored successfully
+Calculated weekly ranks for 15 players
+Players:
+  1. Karthik: 2 points
+  2. Mayank: 3 points
+  3. Arnab: 4 points
+  4. Keshav: 5 points
+  5. Prayansh: 6 points
+  6. Sankar: 8 points
+  7. Sonakshi: 8 points
+  8. Sage: 9 points
+  9. Prakriti: 10 points
+  10. Megha: 11 points
+  11. Srishti: 12 points
+  12. Shauryaa: 13 points
+  13. Pruthvi: 14 points
+  14. Anushka: 15 points
+  15. Aastha: 16 points
+[2025-06-28T12:48:07.369Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 15 players ranked
+[2025-06-28T12:48:07.368Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:48:07.368Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:48:32.541Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:48:32.542Z] POST /ranks/calculate - REQUEST
+Text length: 348 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 25/06/25 🏆
+
+ 1.⁠ ⁠Sankar 0:15
+ 2.⁠ ⁠⁠Shruthi and Anushka 0:27
+ 3.⁠ ⁠⁠Mayank 0:29
+ 4.⁠ ⁠⁠Srishti 0:33
+ 5.⁠ ⁠⁠Monika 0:35
+ 6.⁠ ⁠⁠Prakriti and Megha 0:46
+ 7.⁠ ⁠⁠AkD 0:50
+ 8.⁠ ⁠⁠Shivangi 1:31
+ 9.⁠ ⁠⁠Arnab 1:54
+10.⁠ ⁠⁠Sonakshi 2:48
+11.⁠ ⁠⁠Prayansh 3:12
+12.⁠ ⁠⁠Shauryaa 3:18
+13.⁠ ⁠⁠Sage 3:21
+14.⁠ ⁠⁠Aastha 3:42
+15.⁠ ⁠⁠Pruthvi 4:04
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Word Games (25/06/25) - 17 players
+Rankings stored successfully
+Calculated weekly ranks for 17 players
+Players:
+  1. Sankar: 1 points
+  2. Shruthi: 2 points
+  3. Anushka: 2 points
+  4. Mayank: 3 points
+  5. Srishti: 4 points
+  6. Monika: 5 points
+  7. Prakriti: 6 points
+  8. Megha: 6 points
+  9. AkD: 7 points
+  10. Shivangi: 8 points
+  11. Arnab: 9 points
+  12. Sonakshi: 10 points
+  13. Prayansh: 11 points
+  14. Shauryaa: 12 points
+  15. Sage: 13 points
+  16. Aastha: 14 points
+  17. Pruthvi: 15 points
+[2025-06-28T12:48:32.542Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 17 players ranked
+[2025-06-28T12:48:32.541Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:48:32.541Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:48:49.943Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:48:49.943Z] POST /ranks/calculate - REQUEST
+Text length: 316 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 25/06/25 🏆
+
+ 1.⁠ ⁠Sankar 0:15
+ 2.⁠ ⁠⁠Mayank 0:29
+ 3.⁠ ⁠⁠Srishti 0:33
+ 4.⁠ ⁠⁠Monika 0:35
+ 5.⁠ ⁠⁠Prakriti and Megha 0:46
+ 6.⁠ ⁠⁠AkD 0:50
+ 7.⁠ ⁠⁠Shivangi 1:31
+ 8.⁠ ⁠⁠Arnab 1:54
+ 9.⁠ ⁠⁠Sonakshi 2:48
+10.⁠ ⁠⁠Prayansh 3:12
+11.⁠ ⁠⁠Shauryaa 3:18
+12.⁠ ⁠⁠Sage 3:21
+13.⁠ ⁠⁠Aastha 3:42
+14.⁠ ⁠⁠Pruthvi 4:04
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Word Games (25/06/25) - 15 players
+Rankings stored successfully
+Calculated weekly ranks for 15 players
+Players:
+  1. Sankar: 1 points
+  2. Mayank: 2 points
+  3. Srishti: 3 points
+  4. Monika: 4 points
+  5. Prakriti: 5 points
+  6. Megha: 5 points
+  7. AkD: 6 points
+  8. Shivangi: 7 points
+  9. Arnab: 8 points
+  10. Sonakshi: 9 points
+  11. Prayansh: 10 points
+  12. Shauryaa: 11 points
+  13. Sage: 12 points
+  14. Aastha: 13 points
+  15. Pruthvi: 14 points
+[2025-06-28T12:48:49.943Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 15 players ranked
+[2025-06-28T12:48:49.943Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-28T12:48:49.943Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-28T12:48:51.252Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.252Z] Response: 200 - /ranks (3ms)
+[2025-06-28T12:48:51.316Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.333Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.334Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.386Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.386Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:48:51.386Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:48:51.424Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.427Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.427Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:48:51.427Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:48:51.437Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.438Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:51.437Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T12:48:51.437Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T12:48:51.438Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-06-28T12:48:51.438Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-06-28T12:48:55.861Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:55.861Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:48:55.861Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:48:57.666Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:48:57.666Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:48:57.666Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:49:11.511Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:49:11.512Z] POST /ranks/calculate - REQUEST
+Text length: 350 chars
+Input preview:
+---START OF INPUT---
+Logic Games Leaderboard 24/06/25 🏆
+
+ 1.⁠ ⁠Mayank 0:09
+ 2.⁠ ⁠⁠Shivangi 0:10
+ 3.⁠ ⁠⁠Srishti 0:12
+ 4.⁠ ⁠⁠Megha, Arnab and Shruthi 0:13
+ 5.⁠ ⁠⁠Sonakshi 0:15
+ 6.⁠ ⁠⁠Sankar and Shauryaa 0:16
+ 7.⁠ ⁠⁠Prakriti 0:17
+ 8.⁠ ⁠⁠Aastha 0:20
+ 9.⁠ ⁠⁠Anushka and Monika 0:22
+10.⁠ ⁠⁠Sage 0:24
+11.⁠ ⁠⁠Shubham 0:27
+12.⁠ ⁠⁠Pruthvi 0:28
+13.⁠ ⁠⁠Prayansh 0:33
+14.⁠ ⁠⁠AkD 0:47
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Logic Games (24/06/25) - 18 players
+Rankings stored successfully
+Calculated weekly ranks for 18 players
+Players:
+  1. Mayank: 1 points
+  2. Shivangi: 2 points
+  3. Srishti: 3 points
+  4. Megha: 4 points
+  5. Arnab: 4 points
+  6. Shruthi: 4 points
+  7. Sonakshi: 5 points
+  8. Sankar: 6 points
+  9. Shauryaa: 6 points
+  10. Prakriti: 7 points
+  11. Aastha: 8 points
+  12. Anushka: 9 points
+  13. Monika: 9 points
+  14. Sage: 10 points
+  15. Shubham: 11 points
+  16. Pruthvi: 12 points
+  17. Prayansh: 13 points
+  18. AkD: 14 points
+[2025-06-28T12:49:11.512Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 18 players ranked
+[2025-06-28T12:49:11.511Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:49:11.511Z] Response: 200 - /ranks/calculate (4ms)
+[2025-06-28T12:49:33.702Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:49:33.702Z] POST /ranks/calculate - REQUEST
+Text length: 345 chars
+Input preview:
+---START OF INPUT---
+Wordle Leaderboard 23/06/25 🏆
+
+ 1.⁠ ⁠Mayank 3/6, 5, 1/6
+ 2.⁠ ⁠⁠Megha 3/6, 5, 2/6
+ 3.⁠ ⁠⁠Srishti 3/6, 5, 5/6
+ 4.⁠ ⁠⁠Shruthi 3/6, 5
+ 5.⁠ ⁠⁠AkD 3/6, 5/6
+ 6.⁠ ⁠⁠Shivangi 4/6, 6, 1/6
+ 7.⁠ ⁠⁠Sankar 4/6, 6
+ 8.⁠ ⁠⁠Sage 4/6, 4
+ 9.⁠ ⁠⁠Saras 4/6
+10.⁠ ⁠⁠Aastha 5/6, 6
+11.⁠ ⁠⁠Shubham 5/6, 4
+12.⁠ ⁠⁠Prayansh 5/6, 3
+13.⁠ ⁠⁠Monika 6/6, 4
+14.⁠ ⁠⁠Sonakshi 6/6, 3
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Wordle (23/06/25) - 14 players
+Rankings stored successfully
+Calculated weekly ranks for 14 players
+Players:
+  1. Mayank: 1 points
+  2. Megha: 2 points
+  3. Srishti: 3 points
+  4. Shruthi: 4 points
+  5. AkD: 5 points
+  6. Shivangi: 6 points
+  7. Sankar: 7 points
+  8. Sage: 8 points
+  9. Saras: 9 points
+  10. Aastha: 10 points
+  11. Shubham: 11 points
+  12. Prayansh: 12 points
+  13. Monika: 13 points
+  14. Sonakshi: 14 points
+[2025-06-28T12:49:33.702Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 14 players ranked
+[2025-06-28T12:49:33.702Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:49:33.702Z] Response: 200 - /ranks/calculate (4ms)
+[2025-06-28T12:49:51.903Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:49:51.903Z] POST /ranks/calculate - REQUEST
+Text length: 244 chars
+Input preview:
+---START OF INPUT---
+Sunday Marathon Leaderboard 22/06/25 🏆
+
+ 1.⁠ ⁠Mayank 1.67
+ 2.⁠ ⁠Prakriti 3.33
+ 3.⁠ ⁠Sankar 3.67
+ 4.⁠ ⁠Anushka 5.33
+ 5.⁠ ⁠AkD 6.00
+ 6.⁠ ⁠Srishti and Sage 6.33
+ 7.⁠ ⁠Pruthvi and Aastha 6.67
+ 8.⁠ ⁠Shubham 7.67
+ 9.⁠ ⁠Megha 8.67
+10.⁠ ⁠Sonakshi 9.00
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Sunday Marathon (22/06/25) - 12 players
+Rankings stored successfully
+Calculated weekly ranks for 12 players
+Players:
+  1. Mayank: 1 points
+  2. Prakriti: 2 points
+  3. Sankar: 3 points
+  4. Anushka: 4 points
+  5. AkD: 5 points
+  6. Srishti: 6 points
+  7. Sage: 6 points
+  8. Pruthvi: 7 points
+  9. Aastha: 7 points
+  10. Shubham: 8 points
+  11. Megha: 9 points
+  12. Sonakshi: 10 points
+[2025-06-28T12:49:51.903Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 12 players ranked
+[2025-06-28T12:49:51.903Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-28T12:49:51.903Z] Response: 200 - /ranks/calculate (2ms)
+[2025-06-28T12:50:08.009Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:50:08.010Z] POST /ranks/calculate - REQUEST
+Text length: 290 chars
+Input preview:
+---START OF INPUT---
+Geography Leaderboard 21/06/25 🏆
+
+ 1.⁠ ⁠Arnab 87.4
+ 2.⁠ ⁠⁠Sankar 114.4
+ 3.⁠ ⁠⁠Karthik 130.8
+ 4.⁠ ⁠⁠Prayansh 147.6
+ 5.⁠ ⁠⁠Aastha 148.4
+ 6.⁠ ⁠⁠Megha 156.8
+ 7.⁠ ⁠⁠Mayank 182.8
+ 8.⁠ ⁠⁠Sage 196
+ 9.⁠ ⁠⁠AkD 240.9
+10.⁠ ⁠⁠Prakriti 250.2
+11.⁠ ⁠⁠Srishti 291.5
+12.⁠ ⁠⁠Shruthi 310
+13.⁠ ⁠⁠Sonakshi 402.4
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Geography (21/06/25) - 13 players
+Rankings stored successfully
+Calculated weekly ranks for 13 players
+Players:
+  1. Arnab: 1 points
+  2. Sankar: 2 points
+  3. Karthik: 3 points
+  4. Prayansh: 4 points
+  5. Aastha: 5 points
+  6. Megha: 6 points
+  7. Mayank: 7 points
+  8. Sage: 8 points
+  9. AkD: 9 points
+  10. Prakriti: 10 points
+  11. Srishti: 11 points
+  12. Shruthi: 12 points
+  13. Sonakshi: 13 points
+[2025-06-28T12:50:08.010Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 13 players ranked
+[2025-06-28T12:50:08.009Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:50:08.009Z] Response: 200 - /ranks/calculate (6ms)
+[2025-06-28T12:50:16.597Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:50:16.598Z] POST /ranks/calculate - REQUEST
+Text length: 221 chars
+Input preview:
+---START OF INPUT---
+Tango Leaderboard 20/06/25 🏆
+
+ 1.⁠ ⁠Prakriti 0:34
+ 2.⁠ ⁠⁠Sankar 0:38
+ 3.⁠ ⁠⁠Megha 0:42
+ 4.⁠ ⁠⁠Shauryaa 0:48
+ 5.⁠ ⁠⁠Mayank 0:55
+ 6.⁠ ⁠⁠Sage 1:21
+ 7.⁠ ⁠⁠Shivangi 1:25
+ 8.⁠ ⁠⁠Aastha 1:45
+ 9.⁠ ⁠⁠AkD 2:07
+10.⁠ ⁠⁠Sonakshi 2:21
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Tango (20/06/25) - 10 players
+Rankings stored successfully
+Calculated weekly ranks for 10 players
+Players:
+  1. Prakriti: 1 points
+  2. Sankar: 2 points
+  3. Megha: 3 points
+  4. Shauryaa: 4 points
+  5. Mayank: 5 points
+  6. Sage: 6 points
+  7. Shivangi: 7 points
+  8. Aastha: 8 points
+  9. AkD: 9 points
+  10. Sonakshi: 10 points
+[2025-06-28T12:50:16.598Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 10 players ranked
+[2025-06-28T12:50:16.597Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:50:16.597Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:50:28.330Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:50:28.331Z] POST /ranks/calculate - REQUEST
+Text length: 387 chars
+Input preview:
+---START OF INPUT---
+Trivia Leaderboard 19/06/25 🏆
+
+ 1.⁠ ⁠Shauryaa 13000
+ 2.⁠ ⁠⁠AkD 11990
+ 3.⁠ ⁠⁠Prakriti 10000
+ 4.⁠ ⁠⁠Sankar and Keshav 9500
+ 5.⁠ ⁠⁠Mayank 8980
+ 6.⁠ ⁠⁠Shubham 8950
+ 7.⁠ ⁠⁠Srishti 8410
+ 8.⁠ ⁠⁠Megha 8380
+ 9.⁠ ⁠⁠Sonakshi 8000
+10.⁠ ⁠⁠Shivangi and Paarth 7980
+11.⁠ ⁠⁠Anushka 7920
+12.⁠ ⁠⁠Prayansh 7890
+13.⁠ ⁠⁠Pruthvi 7500
+14.⁠ ⁠⁠Sage 7450
+15.⁠ ⁠⁠Shruthi 6930
+16.⁠ ⁠⁠Aastha 6500
+17.⁠ ⁠⁠Monika 5500
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Trivia (19/06/25) - 19 players
+Rankings stored successfully
+Calculated weekly ranks for 19 players
+Players:
+  1. Shauryaa: 1 points
+  2. AkD: 2 points
+  3. Prakriti: 3 points
+  4. Sankar: 4 points
+  5. Keshav: 4 points
+  6. Mayank: 5 points
+  7. Shubham: 6 points
+  8. Srishti: 7 points
+  9. Megha: 8 points
+  10. Sonakshi: 9 points
+  11. Shivangi: 10 points
+  12. Paarth: 10 points
+  13. Anushka: 11 points
+  14. Prayansh: 12 points
+  15. Pruthvi: 13 points
+  16. Sage: 14 points
+  17. Shruthi: 15 points
+  18. Aastha: 16 points
+  19. Monika: 17 points
+[2025-06-28T12:50:28.331Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 19 players ranked
+[2025-06-28T12:50:28.330Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:50:28.330Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:51:03.192Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:51:03.192Z] POST /ranks/calculate - REQUEST
+Text length: 367 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 18/06/25 🏆
+
+ 1.⁠ ⁠Anushka 0:51 
+ 2.⁠ ⁠⁠Megha 0:52
+ 3.⁠ ⁠⁠Shauryaa 1:08
+ 4.⁠ ⁠⁠Sankar 1:14
+ 5.⁠ ⁠⁠Sonakshi 1:16
+ 6.⁠ ⁠⁠Monika 1:31
+ 7.⁠ ⁠⁠Aastha 1:36
+ 8.⁠ ⁠⁠Mayank 1:42
+ 9.⁠ ⁠⁠Shubham 1:49
+10.⁠ ⁠⁠Prakriti 1:55
+11.⁠ ⁠⁠AkD 2:04
+12.⁠ ⁠⁠Pruthvi 2:09
+13.⁠ ⁠⁠Sage 2:19
+14.⁠ ⁠⁠Shivangi 2:21
+15.⁠ ⁠⁠Shruthi 2:25
+16.⁠ ⁠⁠Prayansh 2:33
+17.⁠ ⁠⁠Srishti 2:39
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Word Games (18/06/25) - 17 players
+Rankings stored successfully
+Calculated weekly ranks for 17 players
+Players:
+  1. Anushka: 1 points
+  2. Megha: 2 points
+  3. Shauryaa: 3 points
+  4. Sankar: 4 points
+  5. Sonakshi: 5 points
+  6. Monika: 6 points
+  7. Aastha: 7 points
+  8. Mayank: 8 points
+  9. Shubham: 9 points
+  10. Prakriti: 10 points
+  11. AkD: 11 points
+  12. Pruthvi: 12 points
+  13. Sage: 13 points
+  14. Shivangi: 14 points
+  15. Shruthi: 15 points
+  16. Prayansh: 16 points
+  17. Srishti: 17 points
+[2025-06-28T12:51:03.192Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 17 players ranked
+[2025-06-28T12:51:03.192Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:51:03.192Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:51:10.666Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:51:10.666Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:51:10.666Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:51:15.649Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:51:15.649Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (1ms)
+[2025-06-28T12:51:15.649Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (1ms)
+[2025-06-28T12:51:29.247Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:51:29.247Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (2ms)
+[2025-06-28T12:51:29.247Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (2ms)
+[2025-06-28T12:51:35.261Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:51:35.261Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:51:35.261Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T12:51:37.349Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:51:37.349Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:51:37.349Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T12:52:07.148Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:52:07.148Z] POST /ranks/calculate - REQUEST
+Text length: 350 chars
+Input preview:
+---START OF INPUT---
+Logic Games Leaderboard 24/06/25 🏆
+
+ 1.⁠ ⁠Mayank 0:09
+ 2.⁠ ⁠⁠Shivangi 0:10
+ 3.⁠ ⁠⁠Srishti 0:12
+ 4.⁠ ⁠⁠Megha, Arnab and Shruthi 0:13
+ 5.⁠ ⁠⁠Sonakshi 0:15
+ 6.⁠ ⁠⁠Sankar and Shauryaa 0:16
+ 7.⁠ ⁠⁠Prakriti 0:17
+ 8.⁠ ⁠⁠Aastha 0:20
+ 9.⁠ ⁠⁠Anushka and Monika 0:22
+10.⁠ ⁠⁠Sage 0:24
+11.⁠ ⁠⁠Shubham 0:27
+12.⁠ ⁠⁠Pruthvi 0:28
+13.⁠ ⁠⁠Prayansh 0:33
+14.⁠ ⁠⁠AkD 0:47
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Logic Games (24/06/25) - 18 players
+Rankings stored successfully
+Calculated weekly ranks for 18 players
+Players:
+  1. Mayank: 1 points
+  2. Shivangi: 2 points
+  3. Srishti: 3 points
+  4. Megha: 4 points
+  5. Arnab: 4 points
+  6. Shruthi: 4 points
+  7. Sonakshi: 5 points
+  8. Sankar: 6 points
+  9. Shauryaa: 6 points
+  10. Prakriti: 7 points
+  11. Aastha: 8 points
+  12. Anushka: 9 points
+  13. Monika: 9 points
+  14. Sage: 10 points
+  15. Shubham: 11 points
+  16. Pruthvi: 12 points
+  17. Prayansh: 13 points
+  18. AkD: 14 points
+[2025-06-28T12:52:07.148Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 18 players ranked
+[2025-06-28T12:52:07.148Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:52:07.148Z] Response: 200 - /ranks/calculate (3ms)
+[2025-06-28T12:52:21.666Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+
+[2025-06-28T12:52:21.667Z] POST /ranks/calculate - REQUEST
+Text length: 316 chars
+Input preview:
+---START OF INPUT---
+Word Games Leaderboard 25/06/25 🏆
+
+ 1.⁠ ⁠Sankar 0:15
+ 2.⁠ ⁠⁠Mayank 0:29
+ 3.⁠ ⁠⁠Srishti 0:33
+ 4.⁠ ⁠⁠Monika 0:35
+ 5.⁠ ⁠⁠Prakriti and Megha 0:46
+ 6.⁠ ⁠⁠AkD 0:50
+ 7.⁠ ⁠⁠Shivangi 1:31
+ 8.⁠ ⁠⁠Arnab 1:54
+ 9.⁠ ⁠⁠Sonakshi 2:48
+10.⁠ ⁠⁠Prayansh 3:12
+11.⁠ ⁠⁠Shauryaa 3:18
+12.⁠ ⁠⁠Sage 3:21
+13.⁠ ⁠⁠Aastha 3:42
+14.⁠ ⁠⁠Pruthvi 4:04
+---END OF INPUT---
+Parsed 1 days of data
+  Day 1: Word Games (25/06/25) - 15 players
+Rankings stored successfully
+Calculated weekly ranks for 15 players
+Players:
+  1. Sankar: 1 points
+  2. Mayank: 2 points
+  3. Srishti: 3 points
+  4. Monika: 4 points
+  5. Prakriti: 5 points
+  6. Megha: 5 points
+  7. AkD: 6 points
+  8. Shivangi: 7 points
+  9. Arnab: 8 points
+  10. Sonakshi: 9 points
+  11. Prayansh: 10 points
+  12. Shauryaa: 11 points
+  13. Sage: 12 points
+  14. Aastha: 13 points
+  15. Pruthvi: 14 points
+[2025-06-28T12:52:21.667Z] RESPONSE: 200 OK
+Response summary: 1 days processed, 15 players ranked
+[2025-06-28T12:52:21.666Z] Response: 200 - /ranks/calculate (4ms)
+[2025-06-28T12:52:21.666Z] Response: 200 - /ranks/calculate (5ms)
+[2025-06-28T12:52:39.363Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:52:39.363Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-06-28T12:52:39.363Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-06-28T12:53:02.412Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:02.412Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T12:53:02.412Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T12:53:04.313Z] GET /ranks/game-kings?game=Queens - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:04.313Z] Response: 200 - /ranks/game-kings?game=Queens (1ms)
+[2025-06-28T12:53:04.313Z] Response: 200 - /ranks/game-kings?game=Queens (1ms)
+[2025-06-28T12:53:05.823Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:05.823Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T12:53:05.823Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T12:53:08.913Z] GET /ranks/game-kings?game=Trivia - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:08.913Z] Response: 200 - /ranks/game-kings?game=Trivia (2ms)
+[2025-06-28T12:53:08.913Z] Response: 200 - /ranks/game-kings?game=Trivia (2ms)
+[2025-06-28T12:53:10.957Z] GET /ranks/game-kings?game=Wordle - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:10.957Z] Response: 200 - /ranks/game-kings?game=Wordle (4ms)
+[2025-06-28T12:53:10.957Z] Response: 200 - /ranks/game-kings?game=Wordle (4ms)
+[2025-06-28T12:53:13.992Z] GET /ranks/game-kings?game=Word+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-28T12:53:13.992Z] Response: 200 - /ranks/game-kings?game=Word+Games (1ms)
+[2025-06-28T12:53:13.992Z] Response: 200 - /ranks/game-kings?game=Word+Games (1ms)

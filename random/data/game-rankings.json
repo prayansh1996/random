@@ -1,0 +1,910 @@
+{
+  "games": {
+    "2025-06-18": {
+      "game": "Word Games",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Anushka"
+        },
+        {
+          "rank": 2,
+          "name": "Megha"
+        },
+        {
+          "rank": 3,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 4,
+          "name": "Sankar"
+        },
+        {
+          "rank": 5,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 6,
+          "name": "Monika"
+        },
+        {
+          "rank": 7,
+          "name": "Aastha"
+        },
+        {
+          "rank": 8,
+          "name": "Mayank"
+        },
+        {
+          "rank": 9,
+          "name": "Shubham"
+        },
+        {
+          "rank": 10,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 11,
+          "name": "AkD"
+        },
+        {
+          "rank": 12,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 13,
+          "name": "Sage"
+        },
+        {
+          "rank": 14,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 15,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 16,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 17,
+          "name": "Srishti"
+        }
+      ]
+    },
+    "2025-06-16": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Sage"
+        },
+        {
+          "rank": 3,
+          "name": "Vangi"
+        },
+        {
+          "rank": 4,
+          "name": "Shubham"
+        },
+        {
+          "rank": 5,
+          "name": "Keshav"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        },
+        {
+          "rank": 7,
+          "name": "Aastha"
+        },
+        {
+          "rank": 8,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 9,
+          "name": "Akd"
+        },
+        {
+          "rank": 9,
+          "name": "Monika"
+        },
+        {
+          "rank": 9,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 9,
+          "name": "Megha"
+        },
+        {
+          "rank": 10,
+          "name": "Sankar"
+        },
+        {
+          "rank": 11,
+          "name": "Saras"
+        },
+        {
+          "rank": 12,
+          "name": "Manav"
+        },
+        {
+          "rank": 12,
+          "name": "Paarth"
+        },
+        {
+          "rank": 13,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 14,
+          "name": "Anushka"
+        }
+      ]
+    },
+    "2025-06-15": {
+      "game": "Sunday Marathon",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sage"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Aastha"
+        },
+        {
+          "rank": 5,
+          "name": "Anushka"
+        },
+        {
+          "rank": 6,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 7,
+          "name": "Megha"
+        },
+        {
+          "rank": 8,
+          "name": "Mayank"
+        },
+        {
+          "rank": 9,
+          "name": "Keshav"
+        },
+        {
+          "rank": 10,
+          "name": "Srishti"
+        },
+        {
+          "rank": 11,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 12,
+          "name": "Manav"
+        },
+        {
+          "rank": 13,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 14,
+          "name": "Shubham"
+        },
+        {
+          "rank": 15,
+          "name": "Sanchit"
+        },
+        {
+          "rank": 15,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 16,
+          "name": "Prayansh"
+        }
+      ]
+    },
+    "2025-06-14": {
+      "game": "Geo",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 3,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Arnab"
+        },
+        {
+          "rank": 4,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 5,
+          "name": "Sage"
+        },
+        {
+          "rank": 6,
+          "name": "Mayank"
+        },
+        {
+          "rank": 6,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 7,
+          "name": "Manav"
+        },
+        {
+          "rank": 7,
+          "name": "Shubham"
+        },
+        {
+          "rank": 8,
+          "name": "Revati"
+        },
+        {
+          "rank": 9,
+          "name": "Aastha"
+        },
+        {
+          "rank": 9,
+          "name": "Anushka"
+        },
+        {
+          "rank": 9,
+          "name": "Akd"
+        }
+      ]
+    },
+    "2025-06-17": {
+      "game": "Logic games",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 2,
+          "name": "Akd"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 4,
+          "name": "Arnab"
+        },
+        {
+          "rank": 4,
+          "name": "Anushka"
+        },
+        {
+          "rank": 4,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 5,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 5,
+          "name": "Mayank"
+        }
+      ]
+    },
+    "2025-06-13": {
+      "game": "Queens",
+      "ranks": []
+    },
+    "2025-06-12": {
+      "game": "The Pop Game",
+      "ranks": []
+    },
+    "2025-06-27": {
+      "game": "Queens",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Arnab"
+        },
+        {
+          "rank": 3,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 4,
+          "name": "Anushka"
+        },
+        {
+          "rank": 5,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Aastha"
+        },
+        {
+          "rank": 7,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 8,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 9,
+          "name": "Srishti"
+        },
+        {
+          "rank": 10,
+          "name": "Megha"
+        },
+        {
+          "rank": 11,
+          "name": "AkD"
+        },
+        {
+          "rank": 12,
+          "name": "Sage"
+        },
+        {
+          "rank": 13,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 14,
+          "name": "Shubham"
+        }
+      ]
+    },
+    "2025-06-26": {
+      "game": "Trivia",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Karthik"
+        },
+        {
+          "rank": 3,
+          "name": "Mayank"
+        },
+        {
+          "rank": 4,
+          "name": "Arnab"
+        },
+        {
+          "rank": 5,
+          "name": "Keshav"
+        },
+        {
+          "rank": 6,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 7,
+          "name": "Sankar"
+        },
+        {
+          "rank": 8,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 9,
+          "name": "Sage"
+        },
+        {
+          "rank": 10,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 11,
+          "name": "Megha"
+        },
+        {
+          "rank": 12,
+          "name": "Srishti"
+        },
+        {
+          "rank": 13,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 14,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 15,
+          "name": "Anushka"
+        },
+        {
+          "rank": 16,
+          "name": "Aastha"
+        }
+      ]
+    },
+    "2025-06-25": {
+      "game": "Word Games",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Mayank"
+        },
+        {
+          "rank": 3,
+          "name": "Srishti"
+        },
+        {
+          "rank": 4,
+          "name": "Monika"
+        },
+        {
+          "rank": 5,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 5,
+          "name": "Megha"
+        },
+        {
+          "rank": 6,
+          "name": "AkD"
+        },
+        {
+          "rank": 7,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 8,
+          "name": "Arnab"
+        },
+        {
+          "rank": 9,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 10,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 11,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 12,
+          "name": "Sage"
+        },
+        {
+          "rank": 13,
+          "name": "Aastha"
+        },
+        {
+          "rank": 14,
+          "name": "Pruthvi"
+        }
+      ]
+    },
+    "2025-06-24": {
+      "game": "Logic Games",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 3,
+          "name": "Srishti"
+        },
+        {
+          "rank": 4,
+          "name": "Megha"
+        },
+        {
+          "rank": 4,
+          "name": "Arnab"
+        },
+        {
+          "rank": 4,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 5,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 6,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 7,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 8,
+          "name": "Aastha"
+        },
+        {
+          "rank": 9,
+          "name": "Anushka"
+        },
+        {
+          "rank": 9,
+          "name": "Monika"
+        },
+        {
+          "rank": 10,
+          "name": "Sage"
+        },
+        {
+          "rank": 11,
+          "name": "Shubham"
+        },
+        {
+          "rank": 12,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 13,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 14,
+          "name": "AkD"
+        }
+      ]
+    },
+    "2025-06-23": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Megha"
+        },
+        {
+          "rank": 3,
+          "name": "Srishti"
+        },
+        {
+          "rank": 4,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 6,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 7,
+          "name": "Sankar"
+        },
+        {
+          "rank": 8,
+          "name": "Sage"
+        },
+        {
+          "rank": 9,
+          "name": "Saras"
+        },
+        {
+          "rank": 10,
+          "name": "Aastha"
+        },
+        {
+          "rank": 11,
+          "name": "Shubham"
+        },
+        {
+          "rank": 12,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 13,
+          "name": "Monika"
+        },
+        {
+          "rank": 14,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-06-22": {
+      "game": "Sunday Marathon",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Anushka"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        },
+        {
+          "rank": 6,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 7,
+          "name": "Aastha"
+        },
+        {
+          "rank": 8,
+          "name": "Shubham"
+        },
+        {
+          "rank": 9,
+          "name": "Megha"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-06-21": {
+      "game": "Geography",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Arnab"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Karthik"
+        },
+        {
+          "rank": 4,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 5,
+          "name": "Aastha"
+        },
+        {
+          "rank": 6,
+          "name": "Megha"
+        },
+        {
+          "rank": 7,
+          "name": "Mayank"
+        },
+        {
+          "rank": 8,
+          "name": "Sage"
+        },
+        {
+          "rank": 9,
+          "name": "AkD"
+        },
+        {
+          "rank": 10,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 11,
+          "name": "Srishti"
+        },
+        {
+          "rank": 12,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 13,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-06-20": {
+      "game": "Tango",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Megha"
+        },
+        {
+          "rank": 4,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 5,
+          "name": "Mayank"
+        },
+        {
+          "rank": 6,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 8,
+          "name": "Aastha"
+        },
+        {
+          "rank": 9,
+          "name": "AkD"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-06-19": {
+      "game": "Trivia",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 2,
+          "name": "AkD"
+        },
+        {
+          "rank": 3,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 4,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Keshav"
+        },
+        {
+          "rank": 5,
+          "name": "Mayank"
+        },
+        {
+          "rank": 6,
+          "name": "Shubham"
+        },
+        {
+          "rank": 7,
+          "name": "Srishti"
+        },
+        {
+          "rank": 8,
+          "name": "Megha"
+        },
+        {
+          "rank": 9,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 10,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 10,
+          "name": "Paarth"
+        },
+        {
+          "rank": 11,
+          "name": "Anushka"
+        },
+        {
+          "rank": 12,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 13,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 14,
+          "name": "Sage"
+        },
+        {
+          "rank": 15,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 16,
+          "name": "Aastha"
+        },
+        {
+          "rank": 17,
+          "name": "Monika"
+        }
+      ]
+    }
+  }
+}

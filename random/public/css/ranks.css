@@ -339,6 +339,116 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Dashboard Styles */
+#dashboard {
+    margin-bottom: 40px;
+}
+
+.dashboard-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    border-top: 4px solid #4a90e2;
+}
+
+.dashboard-title {
+    color: #4a90e2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.controls label {
+    font-weight: 500;
+    color: #666;
+}
+
+.select-input {
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.select-input:hover {
+    border-color: #4a90e2;
+}
+
+.select-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.dashboard-results {
+    overflow-x: auto;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dashboard-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #4a90e2;
+    font-size: 1.1em;
+}
+
+.dashboard-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.highlight-row {
+    font-weight: bold;
+}
+
+.highlight-row:nth-child(1) {
+    background-color: #fff8dc;
+}
+
+.highlight-row:nth-child(1) td:first-child::before {
+    content: "🥇 ";
+}
+
+.highlight-row:nth-child(2) {
+    background-color: #f0f0f0;
+}
+
+.highlight-row:nth-child(2) td:first-child::before {
+    content: "🥈 ";
+}
+
+.highlight-row:nth-child(3) {
+    background-color: #ffe4b5;
+}
+
+.highlight-row:nth-child(3) td:first-child::before {
+    content: "🥉 ";
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     .container {
@@ -351,7 +461,8 @@ a:hover {
     
     .club-rules,
     .input-section,
-    .results-section {
+    .results-section,
+    .dashboard-section {
         padding: 20px;
     }
     
@@ -360,12 +471,24 @@ a:hover {
         text-align: center;
     }
     
-    #rankingsTable {
+    #rankingsTable,
+    .dashboard-table {
         font-size: 0.9em;
     }
     
     #rankingsTable th,
-    #rankingsTable td {
+    #rankingsTable td,
+    .dashboard-table th,
+    .dashboard-table td {
         padding: 8px;
+    }
+    
+    .controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .select-input {
+        width: 100%;
     }
 }

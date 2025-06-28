@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "test": "node tests/leaderboard-parser.test.js",
-    "test:parser": "node tests/leaderboard-parser.test.js"
+    "test": "node tests/leaderboard-parser.test.js && node tests/rankings-storage.test.js",
+    "test:parser": "node tests/leaderboard-parser.test.js",
+    "test:storage": "node tests/rankings-storage.test.js"
   },
   "keywords": ["random", "sumplete", "utilities"],
   "author": "",
