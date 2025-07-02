@@ -92,10 +92,10 @@ async function getAllPlayers() {
     return Array.from(players).sort();
 }
 
-// Calculate weekly rankings for a date range
+// Calculate weekly rankings for a date range (points-based system)
 async function calculateWeeklyRankingsForRange(startDate, endDate, gameFilter = null) {
     const rankings = await readRankings();
-    const playerScores = {};
+    const playerPoints = {};
     const playerGameCounts = {};
     const allPlayers = new Set();
     const gameDays = [];
@@ -118,111 +118,50 @@ async function calculateWeeklyRankingsForRange(startDate, endDate, gameFilter = 
         }
     });
     
-    // Initialize all players with zero scores
+    // Initialize all players with zero points
     allPlayers.forEach(playerName => {
-        playerScores[playerName] = 0;
+        playerPoints[playerName] = 0;
         playerGameCounts[playerName] = 0;
     });
     
-    // Second pass: process each game day and apply scores/penalties
+    // Second pass: process each game day and calculate points
     gameDays.forEach(({ date, data }) => {
+        const numberOfPlayers = data.ranks.length;
         const playersInDay = new Set();
         
-        // Record actual ranks for players who participated
+        // Calculate points for players who participated
+        // Points = Number of players - Rank + 1
         data.ranks.forEach(player => {
             playersInDay.add(player.name);
-            playerScores[player.name] += player.rank;
+            const points = numberOfPlayers - player.rank + 1;
+            playerPoints[player.name] += points;
             playerGameCounts[player.name]++;
         });
         
-        // Add penalty for missing players
-        const maxRank = data.ranks.length + 1;
-        allPlayers.forEach(playerName => {
-            if (!playersInDay.has(playerName)) {
-                playerScores[playerName] += maxRank;
-            }
-        });
+        // Players who didn't participate get 0 points (no penalty needed)
+        // This is already handled by initialization
     });
     
-    // Convert to sorted array
-    const weeklyRanks = Object.entries(playerScores)
-        .map(([name, totalScore]) => ({
+    // Convert to sorted array (higher points = better)
+    const weeklyRanks = Object.entries(playerPoints)
+        .map(([name, totalPoints]) => ({
             name,
-            totalScore,
+            totalScore: totalPoints,
             gamesPlayed: playerGameCounts[name] || 0,
             totalGames: gameDays.length
         }))
-        .sort((a, b) => a.totalScore - b.totalScore);
+        .sort((a, b) => b.totalScore - a.totalScore); // Sort descending (higher points first)
     
     return weeklyRanks;
 }
 
-// Calculate monthly rankings with penalty system
+// Calculate monthly rankings with points-based system
 async function calculateMonthlyRankings(year, month, gameFilter = null) {
     const startDate = `${year}-${String(month + 1).padStart(2, '0')}-01`;
     const endDate = `${year}-${String(month + 1).padStart(2, '0')}-${new Date(year, month + 1, 0).getDate()}`;
     
-    const rankings = await readRankings();
-    const playerScores = {};
-    const playerGameCounts = {};
-    const allPlayers = new Set();
-    const gameDays = [];
-    
-    // First pass: collect all players and game days
-    Object.entries(rankings.games).forEach(([date, data]) => {
-        if (date >= startDate && date <= endDate) {
-            // Apply game filter if specified
-            if (gameFilter && data.game !== gameFilter) {
-                return;
-            }
-            
-            // Store game day info
-            gameDays.push({ date, data });
-            
-            // Collect all unique players
-            data.ranks.forEach(player => {
-                allPlayers.add(player.name);
-            });
-        }
-    });
-    
-    // Initialize all players with zero scores
-    allPlayers.forEach(playerName => {
-        playerScores[playerName] = 0;
-        playerGameCounts[playerName] = 0;
-    });
-    
-    // Second pass: process each game day and apply scores/penalties
-    gameDays.forEach(({ date, data }) => {
-        const playersInDay = new Set();
-        
-        // Record actual ranks for players who participated
-        data.ranks.forEach(player => {
-            playersInDay.add(player.name);
-            playerScores[player.name] += player.rank;
-            playerGameCounts[player.name]++;
-        });
-        
-        // Add penalty for missing players
-        const maxRank = data.ranks.length + 1;
-        allPlayers.forEach(playerName => {
-            if (!playersInDay.has(playerName)) {
-                playerScores[playerName] += maxRank;
-            }
-        });
-    });
-    
-    // Convert to sorted array
-    const monthlyRanks = Object.entries(playerScores)
-        .map(([name, totalScore]) => ({
-            name,
-            totalScore,
-            gamesPlayed: playerGameCounts[name] || 0,
-            totalGames: gameDays.length
-        }))
-        .sort((a, b) => a.totalScore - b.totalScore);
-    
-    return monthlyRanks;
+    // Just reuse the weekly calculation function with monthly date range
+    return await calculateWeeklyRankingsForRange(startDate, endDate, gameFilter);
 }
 
 // Get top player for each week for a specific game

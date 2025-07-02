@@ -485,27 +485,27 @@ a:hover {
     font-weight: bold;
 }
 
-.highlight-row:nth-child(1) {
+.dashboard-table tbody tr:nth-child(1) {
     background-color: #fff8dc;
 }
 
-.highlight-row:nth-child(1) td:first-child::before {
+.dashboard-table tbody tr:nth-child(1) td:first-child::before {
     content: "🥇 ";
 }
 
-.highlight-row:nth-child(2) {
+.dashboard-table tbody tr:nth-child(2) {
     background-color: #f0f0f0;
 }
 
-.highlight-row:nth-child(2) td:first-child::before {
+.dashboard-table tbody tr:nth-child(2) td:first-child::before {
     content: "🥈 ";
 }
 
-.highlight-row:nth-child(3) {
+.dashboard-table tbody tr:nth-child(3) {
     background-color: #ffe4b5;
 }
 
-.highlight-row:nth-child(3) td:first-child::before {
+.dashboard-table tbody tr:nth-child(3) td:first-child::before {
     content: "🥉 ";
 }
 
