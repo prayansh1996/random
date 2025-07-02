@@ -5589,3 +5589,93 @@ Players:
 Response summary: 6 days processed, 22 players ranked
 [2025-07-02T17:37:11.880Z] Response: 200 - /ranks/calculate (3ms)
 [2025-07-02T17:37:11.880Z] Response: 200 - /ranks/calculate (3ms)
+[2025-07-02T18:42:51.366Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.366Z] Response: 200 - /ranks (1ms)
+[2025-07-02T18:42:51.437Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.475Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.484Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.544Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.544Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-07-02T18:42:51.544Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-07-02T18:42:51.633Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.633Z] GET /ranks/monthly?year=2025&month=6 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.635Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.633Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-07-02T18:42:51.633Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-07-02T18:42:51.633Z] Response: 200 - /ranks/monthly?year=2025&month=6 (5ms)
+[2025-07-02T18:42:51.633Z] Response: 200 - /ranks/monthly?year=2025&month=6 (5ms)
+[2025-07-02T18:42:51.639Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:42:51.635Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-07-02T18:42:51.635Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-07-02T18:46:05.089Z] GET / - IP: ::ffff:20.119.74.72
+  User-Agent: Mozilla/5.0 zgrab/0.x
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-07-02T18:52:06.564Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.564Z] Response: 200 - /ranks (11ms)
+[2025-07-02T18:52:06.641Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.649Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.650Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.732Z] GET /ranks/data - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.732Z] Response: 200 - /ranks/data (4ms)
+[2025-07-02T18:52:06.732Z] Response: 200 - /ranks/data (4ms)
+[2025-07-02T18:52:06.815Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.825Z] GET /ranks/custom-range?start=2020-07-02&end=2025-07-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:06.825Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (3ms)
+[2025-07-02T18:52:06.825Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (3ms)
+[2025-07-02T18:52:15.541Z] GET /ranks/custom-range?start=2020-07-02&end=2025-07-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:15.541Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:52:15.541Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:52:16.449Z] GET /ranks/custom-range?start=2020-07-02&end=2025-07-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:16.449Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:52:16.449Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:52:32.938Z] GET /ranks/custom-range?start=2025-06-01&end=2025-07-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:32.938Z] Response: 200 - /ranks/custom-range?start=2025-06-01&end=2025-07-01 (2ms)
+[2025-07-02T18:52:32.938Z] Response: 200 - /ranks/custom-range?start=2025-06-01&end=2025-07-01 (2ms)
+[2025-07-02T18:52:41.645Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.645Z] Response: 200 - /ranks (3ms)
+[2025-07-02T18:52:41.710Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.720Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.721Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.777Z] GET /ranks/data - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.777Z] Response: 200 - /ranks/data (2ms)
+[2025-07-02T18:52:41.777Z] Response: 200 - /ranks/data (2ms)
+[2025-07-02T18:52:41.825Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.826Z] GET /ranks/custom-range?start=2020-07-02&end=2025-07-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:52:41.826Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:52:41.826Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01 (2ms)
+[2025-07-02T18:53:39.070Z] GET /ranks/custom-range?start=2020-07-02&end=2025-07-01&game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-07-02T18:53:39.070Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01&game=Geo (1ms)
+[2025-07-02T18:53:39.070Z] Response: 200 - /ranks/custom-range?start=2020-07-02&end=2025-07-01&game=Geo (2ms)

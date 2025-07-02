@@ -191,6 +191,51 @@ router.get('/game-kings', async (req, res) => {
     }
 });
 
+// Get rankings for custom date range
+router.get('/custom-range', async (req, res) => {
+    try {
+        const { start, end, game } = req.query;
+        
+        // If no dates provided, use all available dates
+        let startDate = start;
+        let endDate = end;
+        
+        if (!startDate || !endDate) {
+            const rankings = await getAllRankings();
+            const dates = Object.keys(rankings.games).sort();
+            
+            if (dates.length === 0) {
+                return res.json({
+                    success: true,
+                    data: [],
+                    dateRange: 'No data available'
+                });
+            }
+            
+            startDate = startDate || dates[0];
+            endDate = endDate || dates[dates.length - 1];
+        }
+        
+        const customRanks = await calculateWeeklyRankingsForRange(startDate, endDate, game || null);
+        
+        res.json({
+            success: true,
+            data: customRanks,
+            dateRange: {
+                start: startDate,
+                end: endDate,
+                game: game || 'All Games'
+            }
+        });
+    } catch (error) {
+        console.error('Error fetching custom range rankings:', error);
+        res.status(500).json({
+            success: false,
+            error: 'Failed to fetch rankings: ' + error.message
+        });
+    }
+});
+
 // Get available date ranges
 router.get('/date-ranges', async (req, res) => {
     try {

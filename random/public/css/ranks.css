@@ -364,8 +364,14 @@ a:hover {
     margin-bottom: 20px;
     display: flex;
     gap: 15px;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .controls label {
@@ -391,6 +397,60 @@ a:hover {
 .select-input:focus {
     outline: none;
     border-color: #4a90e2;
+}
+
+.date-input {
+    padding: 10px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.date-input:hover {
+    border-color: #4a90e2;
+}
+
+.date-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+.apply-button {
+    padding: 12px 25px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.apply-button:hover {
+    background-color: #357abd;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.apply-button:active {
+    transform: translateY(0);
+}
+
+.date-range-display {
+    padding: 15px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #1976d2;
+    font-weight: 500;
 }
 
 .dashboard-results {
@@ -488,7 +548,18 @@ a:hover {
         align-items: stretch;
     }
     
-    .select-input {
+    .control-group {
         width: 100%;
+    }
+    
+    .select-input,
+    .date-input,
+    .apply-button {
+        width: 100%;
+    }
+    
+    .date-range-display {
+        font-size: 1em;
+        padding: 12px;
     }
 }

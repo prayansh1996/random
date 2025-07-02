@@ -9,79 +9,47 @@
 </head>
 <body>
     <div class="container">
-        <h1>Conundrum Club</h1>
+        <h1>🎮 Conundrum Club</h1>
         
-        <!-- Dashboard Sections -->
+        <!-- Unified Dashboard -->
         <div id="dashboard">
-            <!-- Weekly Warriors -->
             <div class="section dashboard-section">
-                <h2 class="dashboard-title">🏅 Weekly Warriors</h2>
+                <h2 class="dashboard-title">📊 Player Rankings</h2>
+                
                 <div class="controls">
-                    <label for="weekSelect">Select Week:</label>
-                    <select id="weekSelect" class="select-input">
-                        <!-- Will be populated dynamically -->
-                    </select>
+                    <div class="control-group">
+                        <label for="startDate">Start Date:</label>
+                        <input type="date" id="startDate" class="date-input">
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="endDate">End Date:</label>
+                        <input type="date" id="endDate" class="date-input">
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="gameSelect">Game:</label>
+                        <select id="gameSelect" class="select-input">
+                            <option value="">All Games</option>
+                            <!-- Will be populated dynamically -->
+                        </select>
+                    </div>
+                    
+                    <button id="applyFilters" class="apply-button">Apply</button>
                 </div>
-                <div id="weeklyResults" class="dashboard-results">
+                
+                <div id="rankingsResults" class="dashboard-results">
+                    <div id="dateRangeDisplay" class="date-range-display"></div>
                     <table class="dashboard-table">
                         <thead>
                             <tr>
                                 <th>Rank</th>
                                 <th>Player</th>
                                 <th>Total Score</th>
+                                <th>Games Played</th>
                             </tr>
                         </thead>
-                        <tbody id="weeklyTableBody">
-                            <!-- Will be populated dynamically -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- Monthly Masters -->
-            <div class="section dashboard-section">
-                <h2 class="dashboard-title">🌟 Monthly Masters</h2>
-                <div class="controls">
-                    <label for="monthSelect">Select Month:</label>
-                    <select id="monthSelect" class="select-input">
-                        <!-- Will be populated dynamically -->
-                    </select>
-                </div>
-                <div id="monthlyResults" class="dashboard-results">
-                    <table class="dashboard-table">
-                        <thead>
-                            <tr>
-                                <th>Rank</th>
-                                <th>Player</th>
-                                <th>Total Score</th>
-                            </tr>
-                        </thead>
-                        <tbody id="monthlyTableBody">
-                            <!-- Will be populated dynamically -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- Game Kings -->
-            <div class="section dashboard-section">
-                <h2 class="dashboard-title">👑 Game Kings</h2>
-                <div class="controls">
-                    <label for="gameKingSelect">Select Game:</label>
-                    <select id="gameKingSelect" class="select-input">
-                        <!-- Will be populated dynamically -->
-                    </select>
-                </div>
-                <div id="gameKingsResults" class="dashboard-results">
-                    <table class="dashboard-table">
-                        <thead>
-                            <tr>
-                                <th>Week</th>
-                                <th>Player</th>
-                                <th>Score</th>
-                            </tr>
-                        </thead>
-                        <tbody id="gameKingsTableBody">
+                        <tbody id="rankingsTableBody">
                             <!-- Will be populated dynamically -->
                         </tbody>
                     </table>

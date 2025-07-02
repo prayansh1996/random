@@ -1,115 +1,148 @@
 // Dashboard functionality for Conundrum Club
 
-let dateRanges = {
-    weeks: [],
-    months: [],
-    games: []
-};
+let availableGames = [];
+let minDate = null;
+let maxDate = null;
 
 // Initialize dashboard on page load
 document.addEventListener('DOMContentLoaded', async function() {
-    await loadDateRanges();
+    await loadAvailableData();
     setupEventListeners();
     
-    // Load initial data
-    if (dateRanges.weeks.length > 0) {
-        loadWeeklyRankings();
-    }
-    if (dateRanges.months.length > 0) {
-        loadMonthlyRankings();
-    }
-    if (dateRanges.games.length > 0) {
-        loadGameKings();
-    }
+    // Load initial rankings (all dates, all games)
+    loadRankings();
 });
 
-// Load available date ranges and games
-async function loadDateRanges() {
+// Load available games and date ranges
+async function loadAvailableData() {
     try {
         const baseUrl = window.location.pathname.includes('/random') ? '/random' : '';
-        const response = await fetch(`${baseUrl}/ranks/date-ranges`);
+        const response = await fetch(`${baseUrl}/ranks/data`);
         const data = await response.json();
         
         if (data.success) {
-            dateRanges = data.data;
-            populateSelects();
+            const rankings = data.data.games;
+            const dates = Object.keys(rankings).sort();
+            
+            // Get unique games
+            const gamesSet = new Set();
+            Object.values(rankings).forEach(day => {
+                if (day.ranks && day.ranks.length > 0) {
+                    gamesSet.add(day.game);
+                }
+            });
+            availableGames = Array.from(gamesSet).sort();
+            
+            // Set min and max dates
+            if (dates.length > 0) {
+                minDate = dates[0];
+                maxDate = dates[dates.length - 1];
+                
+                // Set date picker constraints
+                const startDateInput = document.getElementById('startDate');
+                const endDateInput = document.getElementById('endDate');
+                
+                // Get today's date in YYYY-MM-DD format
+                const today = new Date().toISOString().split('T')[0];
+                
+                startDateInput.min = minDate;
+                startDateInput.max = today;
+                endDateInput.min = minDate;
+                endDateInput.max = today;
+                
+                // Set default values: first game date to today
+                startDateInput.value = minDate;
+                endDateInput.value = today;
+            }
+            
+            // Populate game dropdown
+            populateGameSelect();
         }
     } catch (error) {
-        console.error('Error loading date ranges:', error);
+        console.error('Error loading available data:', error);
     }
 }
 
-// Populate select dropdowns
-function populateSelects() {
-    // Populate week select
-    const weekSelect = document.getElementById('weekSelect');
-    weekSelect.innerHTML = '';
-    dateRanges.weeks.forEach((week, index) => {
-        const option = document.createElement('option');
-        option.value = JSON.stringify({ start: week.start, end: week.end });
-        option.textContent = week.display;
-        if (index === 0) option.selected = true;
-        weekSelect.appendChild(option);
-    });
+// Populate game dropdown
+function populateGameSelect() {
+    const gameSelect = document.getElementById('gameSelect');
     
-    // Populate month select
-    const monthSelect = document.getElementById('monthSelect');
-    monthSelect.innerHTML = '';
-    dateRanges.months.forEach((month, index) => {
-        const option = document.createElement('option');
-        const date = new Date(month.start);
-        option.value = JSON.stringify({ year: date.getFullYear(), month: date.getMonth() });
-        option.textContent = month.display;
-        if (index === 0) option.selected = true;
-        monthSelect.appendChild(option);
-    });
+    // Keep "All Games" as first option
+    gameSelect.innerHTML = '<option value="">All Games</option>';
     
-    // Populate game king select only
-    const gameKingSelect = document.getElementById('gameKingSelect');
-    gameKingSelect.innerHTML = '';
-    dateRanges.games.forEach((game, index) => {
+    availableGames.forEach(game => {
         const option = document.createElement('option');
         option.value = game;
         option.textContent = game;
-        if (index === 0) option.selected = true;
-        gameKingSelect.appendChild(option);
+        gameSelect.appendChild(option);
     });
 }
 
 // Setup event listeners
 function setupEventListeners() {
-    document.getElementById('weekSelect').addEventListener('change', loadWeeklyRankings);
-    document.getElementById('monthSelect').addEventListener('change', loadMonthlyRankings);
-    document.getElementById('gameKingSelect').addEventListener('change', loadGameKings);
+    document.getElementById('applyFilters').addEventListener('click', loadRankings);
+    
+    // Allow Enter key to apply filters
+    document.getElementById('startDate').addEventListener('keypress', handleEnterKey);
+    document.getElementById('endDate').addEventListener('keypress', handleEnterKey);
+    document.getElementById('gameSelect').addEventListener('keypress', handleEnterKey);
 }
 
-// Load weekly rankings
-async function loadWeeklyRankings() {
-    try {
-        const weekData = JSON.parse(document.getElementById('weekSelect').value);
-        
-        const baseUrl = window.location.pathname.includes('/random') ? '/random' : '';
-        const params = new URLSearchParams({
-            start: weekData.start,
-            end: weekData.end
-        });
-        
-        const response = await fetch(`${baseUrl}/ranks/weekly?${params}`);
-        const data = await response.json();
-        
-        if (data.success) {
-            displayWeeklyRankings(data.data);
-        }
-    } catch (error) {
-        console.error('Error loading weekly rankings:', error);
+function handleEnterKey(event) {
+    if (event.key === 'Enter') {
+        loadRankings();
     }
 }
 
-// Display weekly rankings
-function displayWeeklyRankings(rankings) {
-    const tbody = document.getElementById('weeklyTableBody');
+// Load rankings based on selected filters
+async function loadRankings() {
+    try {
+        const startDate = document.getElementById('startDate').value;
+        const endDate = document.getElementById('endDate').value;
+        const game = document.getElementById('gameSelect').value;
+        
+        const baseUrl = window.location.pathname.includes('/random') ? '/random' : '';
+        const params = new URLSearchParams();
+        
+        if (startDate) params.append('start', startDate);
+        if (endDate) params.append('end', endDate);
+        if (game) params.append('game', game);
+        
+        const response = await fetch(`${baseUrl}/ranks/custom-range?${params}`);
+        const data = await response.json();
+        
+        if (data.success) {
+            displayRankings(data.data, data.dateRange);
+        }
+    } catch (error) {
+        console.error('Error loading rankings:', error);
+        displayError('Failed to load rankings. Please try again.');
+    }
+}
+
+// Display rankings
+function displayRankings(rankings, dateRange) {
+    const tbody = document.getElementById('rankingsTableBody');
+    const dateRangeDisplay = document.getElementById('dateRangeDisplay');
+    
+    // Display date range
+    if (dateRange && typeof dateRange === 'object') {
+        const startDate = formatDisplayDate(dateRange.start);
+        const endDate = formatDisplayDate(dateRange.end);
+        const gameText = dateRange.game;
+    } else {
+        dateRangeDisplay.innerHTML = dateRange || 'No date range specified';
+    }
+    
+    // Clear table
     tbody.innerHTML = '';
     
+    if (rankings.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align: center;">No data available for the selected filters</td></tr>';
+        return;
+    }
+    
+    // Populate table
     rankings.forEach((player, index) => {
         const row = tbody.insertRow();
         row.className = index < 3 ? 'highlight-row' : '';
@@ -118,118 +151,20 @@ function displayWeeklyRankings(rankings) {
             <td>${index + 1}</td>
             <td>${player.name}</td>
             <td>${player.totalScore}</td>
+            <td>${player.gamesPlayed}/${player.totalGames}</td>
         `;
     });
-    
-    if (rankings.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="3" style="text-align: center;">No data available</td></tr>';
-    }
 }
 
-// Load monthly rankings
-async function loadMonthlyRankings() {
-    try {
-        const monthData = JSON.parse(document.getElementById('monthSelect').value);
-        
-        const baseUrl = window.location.pathname.includes('/random') ? '/random' : '';
-        const params = new URLSearchParams({
-            year: monthData.year,
-            month: monthData.month
-        });
-        
-        const response = await fetch(`${baseUrl}/ranks/monthly?${params}`);
-        const data = await response.json();
-        
-        if (data.success) {
-            displayMonthlyRankings(data.data);
-        }
-    } catch (error) {
-        console.error('Error loading monthly rankings:', error);
-    }
+// Format date for display
+function formatDisplayDate(dateStr) {
+    const date = new Date(dateStr);
+    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    return date.toLocaleDateString('en-US', options);
 }
 
-// Display monthly rankings
-function displayMonthlyRankings(rankings) {
-    const tbody = document.getElementById('monthlyTableBody');
-    tbody.innerHTML = '';
-    
-    rankings.forEach((player, index) => {
-        const row = tbody.insertRow();
-        row.className = index < 3 ? 'highlight-row' : '';
-        
-        row.innerHTML = `
-            <td>${index + 1}</td>
-            <td>${player.name}</td>
-            <td>${player.totalScore}</td>
-        `;
-    });
-    
-    if (rankings.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="3" style="text-align: center;">No data available (min 5 games required)</td></tr>';
-    }
-}
-
-// Load game kings
-async function loadGameKings() {
-    try {
-        const game = document.getElementById('gameKingSelect').value;
-        
-        const baseUrl = window.location.pathname.includes('/random') ? '/random' : '';
-        const params = new URLSearchParams({ game });
-        
-        const response = await fetch(`${baseUrl}/ranks/game-kings?${params}`);
-        const data = await response.json();
-        
-        if (data.success) {
-            displayGameKings(data.data);
-        }
-    } catch (error) {
-        console.error('Error loading game kings:', error);
-    }
-}
-
-// Display game kings
-function displayGameKings(gameKings) {
-    const tbody = document.getElementById('gameKingsTableBody');
-    tbody.innerHTML = '';
-    
-    // Filter out weeks with no winners or null data
-    const validGameKings = gameKings.filter(week => 
-        week.winners && week.winners.length > 0 && week.bestRank !== null
-    );
-    
-    // Sort by week (most recent first)
-    validGameKings.sort((a, b) => {
-        // Extract dates from week display format
-        const getDateFromWeek = (week) => {
-            const match = week.match(/(\w+)\s+(\d+)\s+-\s+(\w+)\s+(\d+)/);
-            if (match) {
-                const endMonth = match[3];
-                const endDay = match[4];
-                const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-                const monthIndex = months.indexOf(endMonth);
-                return new Date(2025, monthIndex, parseInt(endDay));
-            }
-            return new Date();
-        };
-        
-        return getDateFromWeek(b.week) - getDateFromWeek(a.week);
-    });
-    
-    validGameKings.forEach((week) => {
-        const row = tbody.insertRow();
-        
-        // Only show the first (top) player, not all winners
-        const topPlayer = week.winners[0];
-        
-        row.innerHTML = `
-            <td>${week.week}</td>
-            <td>${topPlayer}</td>
-            <td>${week.bestRank}</td>
-        `;
-    });
-    
-    if (validGameKings.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="3" style="text-align: center;">No data available</td></tr>';
-    }
+// Display error message
+function displayError(message) {
+    const tbody = document.getElementById('rankingsTableBody');
+    tbody.innerHTML = `<tr><td colspan="4" style="text-align: center; color: #f44336;">${message}</td></tr>`;
 }
