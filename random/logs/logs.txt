@@ -4834,3 +4834,758 @@ Response summary: 1 days processed, 15 players ranked
   User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 [2025-06-28T12:53:13.992Z] Response: 200 - /ranks/game-kings?game=Word+Games (1ms)
 [2025-06-28T12:53:13.992Z] Response: 200 - /ranks/game-kings?game=Word+Games (1ms)
+[2025-06-28T12:59:07.945Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:07.945Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T12:59:07.945Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-06-28T12:59:07.995Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:07.996Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:07.997Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:07.995Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-06-28T12:59:07.995Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-06-28T12:59:07.996Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:59:07.996Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:59:07.997Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-28T12:59:07.997Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-28T12:59:10.929Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:10.929Z] Response: 200 - /ranks (2ms)
+[2025-06-28T12:59:10.988Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:10.989Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:10.990Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:11.043Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:11.043Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:11.044Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:11.043Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-06-28T12:59:11.043Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-06-28T12:59:11.043Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T12:59:11.043Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T12:59:11.044Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-28T12:59:11.044Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-28T12:59:20.941Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:20.941Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (5ms)
+[2025-06-28T12:59:20.941Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (5ms)
+[2025-06-28T12:59:57.984Z] GET /ranks/weekly?start=2025-06-12&end=2025-06-18 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T12:59:57.984Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (2ms)
+[2025-06-28T12:59:57.984Z] Response: 200 - /ranks/weekly?start=2025-06-12&end=2025-06-18 (3ms)
+[2025-06-28T13:00:11.330Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T13:00:11.330Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T13:00:11.330Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T13:00:14.812Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-28T13:00:14.812Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (11ms)
+[2025-06-28T13:00:14.812Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (11ms)
+[2025-06-28T13:14:21.482Z] GET /pdown - IP: ::ffff:34.75.74.174
+  User-Agent: Unknown
+[2025-06-28T14:52:48.733Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.733Z] Response: 200 - /ranks (2ms)
+[2025-06-28T14:52:48.821Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.822Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.823Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.889Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.889Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.889Z] Response: 200 - /ranks/date-ranges (5ms)
+[2025-06-28T14:52:48.889Z] Response: 200 - /ranks/date-ranges (5ms)
+[2025-06-28T14:52:48.973Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.974Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.974Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:52:48.973Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-28T14:52:48.973Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-28T14:52:48.974Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T14:52:48.974Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T14:52:48.974Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-06-28T14:52:48.974Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-06-28T14:53:18.379Z] GET /ranks/game-kings?game=Queens - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:53:18.379Z] Response: 200 - /ranks/game-kings?game=Queens (2ms)
+[2025-06-28T14:53:18.379Z] Response: 200 - /ranks/game-kings?game=Queens (3ms)
+[2025-06-28T14:53:24.418Z] GET /ranks/game-kings?game=Sunday+Marathon - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:53:24.418Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T14:53:24.418Z] Response: 200 - /ranks/game-kings?game=Sunday+Marathon (1ms)
+[2025-06-28T14:53:29.988Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-06-28T14:53:29.988Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T14:53:29.988Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-28T15:38:08.412Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.412Z] Response: 200 - /ranks (2ms)
+[2025-06-28T15:38:08.464Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.465Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.467Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.527Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.527Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T15:38:08.527Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-28T15:38:08.536Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.569Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.569Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T15:38:08.569Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-06-28T15:38:08.573Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.573Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:08.573Z] Response: 200 - /ranks/monthly?year=2025&month=5 (1ms)
+[2025-06-28T15:38:08.573Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T15:38:08.573Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-06-28T15:38:08.573Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-28T15:38:11.672Z] GET /ranks/weekly?start=2025-06-19&end=2025-06-25 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
+[2025-06-28T15:38:11.672Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (1ms)
+[2025-06-28T15:38:11.672Z] Response: 200 - /ranks/weekly?start=2025-06-19&end=2025-06-25 (2ms)
+[2025-06-28T16:26:29.345Z] GET / - IP: ::ffff:47.236.229.82
+  User-Agent: Unknown
+[2025-06-28T16:26:29.472Z] GET / - IP: ::ffff:47.236.229.82
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+[2025-06-28T16:26:29.599Z] GET /favicon.ico - IP: ::ffff:47.236.229.82
+  User-Agent: fasthttp
+[2025-06-28T16:26:29.724Z] GET /sumplete - IP: ::ffff:47.236.229.82
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+[2025-06-28T16:26:29.724Z] Response: 200 - /sumplete (3ms)
+[2025-06-28T16:26:29.853Z] GET /random/static/conondrum.png - IP: ::ffff:47.236.229.82
+  User-Agent: fasthttp
+[2025-06-28T16:27:15.625Z] GET / - IP: ::ffff:123.160.223.74
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+[2025-06-28T16:27:16.202Z] GET /sumplete - IP: ::ffff:123.160.223.75
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+[2025-06-28T16:27:16.202Z] Response: 200 - /sumplete (2ms)
+[2025-06-28T16:27:31.859Z] GET / - IP: ::ffff:123.160.223.74
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+[2025-06-28T16:27:33.555Z] GET /sumplete - IP: ::ffff:123.160.223.75
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+[2025-06-28T16:27:33.555Z] Response: 200 - /sumplete (2ms)
+[2025-06-28T16:27:35.298Z] GET /random/js/sumplete.js - IP: ::ffff:123.160.223.75
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+[2025-06-28T16:27:38.056Z] GET /random/static/conondrum.png - IP: ::ffff:123.160.223.74
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+[2025-06-28T16:27:48.047Z] GET /random/static/conondrum.png - IP: ::ffff:123.160.223.75
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+[2025-06-28T16:27:58.060Z] GET /random/static/conondrum.png - IP: ::ffff:123.160.223.73
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+[2025-06-28T18:10:02.154Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.154Z] Response: 200 - /ranks (2ms)
+[2025-06-28T18:10:02.339Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.340Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.341Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.392Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.392Z] Response: 200 - /ranks/date-ranges (4ms)
+[2025-06-28T18:10:02.392Z] Response: 200 - /ranks/date-ranges (4ms)
+[2025-06-28T18:10:02.490Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.490Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T18:10:02.490Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-06-28T18:10:02.497Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.497Z] Response: 200 - /ranks/monthly?year=2025&month=5 (1ms)
+[2025-06-28T18:10:02.497Z] Response: 200 - /ranks/monthly?year=2025&month=5 (2ms)
+[2025-06-28T18:10:02.502Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T18:10:02.502Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T18:10:02.502Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-06-28T18:10:02.623Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36
+[2025-06-28T20:09:09.198Z] GET / - IP: ::ffff:147.185.132.123
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-28T20:09:09.638Z] GET /sumplete - IP: ::ffff:147.185.132.123
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-28T20:09:09.638Z] Response: 200 - /sumplete (1ms)
+[2025-06-28T21:52:07.454Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-28T21:52:07.454Z] Response: 200 - /sumplete (1ms)
+[2025-06-28T21:52:07.890Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-28T21:52:37.290Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-28T21:52:37.290Z] Response: 200 - /sumplete (1ms)
+[2025-06-28T21:52:37.768Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-28T23:51:39.306Z] GET / - IP: ::ffff:206.168.34.81
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-28T23:52:06.077Z] GET /sumplete - IP: ::ffff:206.168.34.81
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-28T23:52:06.077Z] Response: 200 - /sumplete (1ms)
+[2025-06-28T23:52:08.608Z] GET /random/static/conondrum.png - IP: ::ffff:206.168.34.81
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-28T23:52:13.191Z] GET /favicon.ico - IP: ::ffff:206.168.34.81
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-28T23:52:43.172Z] GET /.well-known/security.txt - IP: ::ffff:206.168.34.81
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-29T03:36:24.710Z] GET / - IP: ::ffff:64.227.36.94
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-29T03:36:24.998Z] GET /sumplete - IP: ::ffff:64.227.36.94
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-29T03:36:24.998Z] Response: 200 - /sumplete (11ms)
+[2025-06-29T03:36:25.292Z] GET /random/static/conondrum.png - IP: ::ffff:64.227.36.94
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-29T05:05:44.752Z] GET / - IP: ::ffff:198.235.24.15
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-29T05:44:04.771Z] GET / - IP: ::ffff:65.49.1.142
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+[2025-06-29T05:44:13.882Z] GET / - IP: ::ffff:65.49.1.144
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+[2025-06-29T05:44:14.135Z] GET /sumplete - IP: ::ffff:65.49.1.144
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+[2025-06-29T05:44:14.135Z] Response: 200 - /sumplete (1ms)
+[2025-06-29T06:01:25.833Z] GET / - IP: ::ffff:198.235.24.31
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-29T06:01:26.118Z] GET /sumplete - IP: ::ffff:198.235.24.31
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-29T06:01:26.118Z] Response: 200 - /sumplete (1ms)
+[2025-06-29T06:29:09.582Z] GET / - IP: ::ffff:195.184.76.112
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+[2025-06-29T06:40:06.973Z] GET /favicon.ico - IP: ::ffff:195.184.76.8
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+[2025-06-29T06:40:08.792Z] GET /sumplete - IP: ::ffff:195.184.76.232
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+[2025-06-29T06:40:08.792Z] Response: 200 - /sumplete (1ms)
+[2025-06-29T06:54:08.405Z] GET /random/static/conondrum.png - IP: ::ffff:195.184.76.204
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+[2025-06-29T12:21:58.745Z] GET / - IP: ::ffff:20.65.195.63
+  User-Agent: Mozilla/5.0 zgrab/0.x
+[2025-06-29T13:14:23.845Z] GET /pdown - IP: ::ffff:34.40.168.160
+  User-Agent: Unknown
+[2025-06-29T17:38:26.541Z] GET / - IP: ::ffff:34.93.17.9
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Safari/605.1.15
+[2025-06-29T17:38:34.643Z] GET /sumplete - IP: ::ffff:34.93.17.9
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Safari/605.1.15
+[2025-06-29T17:38:34.643Z] Response: 200 - /sumplete (1ms)
+[2025-06-29T19:34:17.414Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-29T19:34:17.414Z] Response: 200 - /sumplete (1ms)
+[2025-06-29T19:34:17.809Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-29T20:01:25.601Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-29T20:01:25.601Z] Response: 200 - /sumplete (0ms)
+[2025-06-29T20:01:25.879Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-29T20:26:48.966Z] GET / - IP: ::ffff:147.185.132.84
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-29T20:26:49.407Z] GET /sumplete - IP: ::ffff:147.185.132.84
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-29T20:26:49.407Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T01:02:05.941Z] GET / - IP: ::ffff:167.94.138.61
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T01:02:20.722Z] GET /sumplete - IP: ::ffff:167.94.138.61
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T01:02:20.722Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T01:02:38.488Z] GET /random/static/conondrum.png - IP: ::ffff:167.94.138.61
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T01:02:49.586Z] GET /favicon.ico - IP: ::ffff:167.94.138.61
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T01:03:44.067Z] GET /security.txt - IP: ::ffff:167.94.138.61
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T05:38:19.812Z] GET / - IP: ::ffff:3.134.148.59
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-06-30T05:38:20.027Z] GET /sumplete - IP: ::ffff:3.134.148.59
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-06-30T05:38:20.027Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T05:56:02.332Z] GET / - IP: ::ffff:71.6.134.233
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+[2025-06-30T05:56:02.566Z] GET /sumplete - IP: ::ffff:71.6.134.233
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+[2025-06-30T05:56:02.566Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T05:56:25.322Z] GET /random/static/conondrum.png - IP: ::ffff:71.6.134.233
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.661Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.661Z] Response: 200 - /ranks (2ms)
+[2025-06-30T06:16:32.763Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.766Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.766Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.800Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.800Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T06:16:32.800Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T06:16:32.880Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.880Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.881Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T06:16:32.880Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-06-30T06:16:32.880Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-06-30T06:16:32.880Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-30T06:16:32.880Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-30T06:16:32.881Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-30T06:16:32.881Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-30T09:27:10.048Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+[2025-06-30T09:27:10.048Z] Response: 200 - /ranks (1ms)
+[2025-06-30T12:47:12.910Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:12.910Z] Response: 200 - /ranks (2ms)
+[2025-06-30T12:47:12.996Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.005Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.005Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.124Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.124Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T12:47:13.124Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T12:47:13.176Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.176Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.177Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:13.176Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-06-30T12:47:13.176Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-06-30T12:47:13.176Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-30T12:47:13.176Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-06-30T12:47:13.177Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-06-30T12:47:13.177Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-30T12:47:17.617Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-30T12:47:17.617Z] Response: 200 - /ranks (2ms)
+[2025-06-30T12:47:17.665Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-30T12:47:17.666Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: WhatsApp/2.23.20.0
+[2025-06-30T12:47:31.560Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.560Z] Response: 200 - /ranks (2ms)
+[2025-06-30T12:47:31.675Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.680Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.681Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.805Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.805Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T12:47:31.805Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-06-30T12:47:31.960Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.960Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.963Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:47:31.960Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-06-30T12:47:31.960Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (4ms)
+[2025-06-30T12:47:31.960Z] Response: 200 - /ranks/game-kings?game=Geo (4ms)
+[2025-06-30T12:47:31.960Z] Response: 200 - /ranks/game-kings?game=Geo (5ms)
+[2025-06-30T12:47:31.963Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-30T12:47:31.963Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-06-30T12:47:32.316Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:48:52.825Z] GET /ranks/game-kings?game=Geography - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:48:52.825Z] Response: 200 - /ranks/game-kings?game=Geography (1ms)
+[2025-06-30T12:48:52.825Z] Response: 200 - /ranks/game-kings?game=Geography (2ms)
+[2025-06-30T12:48:52.888Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-30T12:48:52.888Z] Response: 200 - /ranks (1ms)
+[2025-06-30T12:48:52.944Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+[2025-06-30T12:48:54.395Z] GET /ranks/game-kings?game=Logic+Games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:48:54.395Z] Response: 200 - /ranks/game-kings?game=Logic+Games (1ms)
+[2025-06-30T12:48:54.395Z] Response: 200 - /ranks/game-kings?game=Logic+Games (1ms)
+[2025-06-30T12:48:55.585Z] GET /ranks/game-kings?game=Logic+games - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+[2025-06-30T12:48:55.585Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-30T12:48:55.585Z] Response: 200 - /ranks/game-kings?game=Logic+games (1ms)
+[2025-06-30T12:58:17.216Z] GET / - IP: ::ffff:20.65.195.33
+  User-Agent: Mozilla/5.0 zgrab/0.x
+[2025-06-30T13:13:45.478Z] GET /pdown - IP: ::ffff:34.139.165.183
+  User-Agent: Unknown
+[2025-06-30T13:39:31.905Z] GET / - IP: ::ffff:167.94.138.160
+  User-Agent: Unknown
+[2025-06-30T13:39:49.471Z] GET / - IP: ::ffff:167.94.138.160
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T13:40:04.467Z] GET /sumplete - IP: ::ffff:167.94.138.160
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T13:40:04.467Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T13:40:10.683Z] GET /random/static/conondrum.png - IP: ::ffff:167.94.138.160
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T13:40:15.404Z] GET /favicon.ico - IP: ::ffff:167.94.138.160
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T13:40:42.193Z] GET /robots.txt - IP: ::ffff:167.94.138.160
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-06-30T14:38:26.048Z] GET / - IP: ::ffff:65.49.1.132
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:125.0) Gecko/20100101 Firefox/125.0
+[2025-06-30T14:38:46.643Z] GET /favicon.ico - IP: ::ffff:65.49.1.135
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+[2025-06-30T16:06:28.840Z] GET /sumplete - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T16:06:28.840Z] Response: 200 - /sumplete (1ms)
+[2025-06-30T16:06:29.102Z] GET /css/sumplete.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T16:06:29.108Z] GET /js/sumplete.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T16:06:29.379Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-06-30T20:23:42.627Z] GET / - IP: ::ffff:198.235.24.104
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-06-30T22:21:26.409Z] GET / - IP: ::ffff:71.6.232.24
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+[2025-07-01T02:59:39.820Z] GET / - IP: ::ffff:64.62.156.80
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+[2025-07-01T02:59:46.556Z] GET / - IP: ::ffff:64.62.156.85
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+[2025-07-01T02:59:46.820Z] GET /sumplete - IP: ::ffff:64.62.156.85
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+[2025-07-01T02:59:46.820Z] Response: 200 - /sumplete (1ms)
+[2025-07-01T05:48:48.495Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.495Z] Response: 200 - /ranks (4ms)
+[2025-07-01T05:48:48.557Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.558Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.560Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.605Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.605Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-07-01T05:48:48.605Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-07-01T05:48:48.675Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.676Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.677Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+[2025-07-01T05:48:48.675Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-07-01T05:48:48.675Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-07-01T05:48:48.676Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-07-01T05:48:48.676Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (3ms)
+[2025-07-01T05:48:48.677Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-07-01T05:48:48.677Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-07-01T07:03:50.474Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:50.474Z] Response: 200 - /ranks (1ms)
+[2025-07-01T07:03:51.450Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:51.470Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:51.474Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:51.762Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:51.762Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-07-01T07:03:51.762Z] Response: 200 - /ranks/date-ranges (2ms)
+[2025-07-01T07:03:52.274Z] GET /static/conondrum.png - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:52.419Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:52.420Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:52.421Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A032F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 SamsungBrowser/7.4 Chrome/137.0.7151.115 Mobile Safari/537.36
+[2025-07-01T07:03:52.419Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (10ms)
+[2025-07-01T07:03:52.419Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (10ms)
+[2025-07-01T07:03:52.420Z] Response: 200 - /ranks/game-kings?game=Geo (11ms)
+[2025-07-01T07:03:52.420Z] Response: 200 - /ranks/game-kings?game=Geo (11ms)
+[2025-07-01T07:03:52.421Z] Response: 200 - /ranks/monthly?year=2025&month=5 (12ms)
+[2025-07-01T07:03:52.421Z] Response: 200 - /ranks/monthly?year=2025&month=5 (12ms)
+[2025-07-01T07:16:35.068Z] GET / - IP: ::ffff:3.137.73.221
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T07:16:35.268Z] GET /sumplete - IP: ::ffff:3.137.73.221
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T07:16:35.268Z] Response: 200 - /sumplete (1ms)
+[2025-07-01T07:18:06.831Z] GET / - IP: ::ffff:3.137.73.221
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T08:25:02.648Z] GET / - IP: ::ffff:3.131.215.38
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T08:25:02.866Z] GET /sumplete - IP: ::ffff:3.131.215.38
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T08:25:02.866Z] Response: 200 - /sumplete (2ms)
+[2025-07-01T08:27:08.029Z] GET / - IP: ::ffff:3.131.215.38
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-01T13:15:25.474Z] GET /pdown - IP: ::ffff:34.65.24.4
+  User-Agent: Unknown
+[2025-07-01T14:34:12.767Z] GET / - IP: ::ffff:20.65.193.113
+  User-Agent: Mozilla/5.0 zgrab/0.x
+[2025-07-01T18:18:51.192Z] GET / - IP: ::ffff:206.168.34.59
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-01T18:19:15.557Z] GET /sumplete - IP: ::ffff:206.168.34.59
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-01T18:19:15.557Z] Response: 200 - /sumplete (0ms)
+[2025-07-01T18:19:20.869Z] GET /random/static/conondrum.png - IP: ::ffff:206.168.34.59
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-01T18:19:27.795Z] GET /favicon.ico - IP: ::ffff:206.168.34.59
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-01T18:19:56.956Z] GET /login - IP: ::ffff:206.168.34.59
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-01T18:33:03.385Z] GET / - IP: ::ffff:206.189.112.240
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-07-01T18:33:03.663Z] GET /sumplete - IP: ::ffff:206.189.112.240
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-07-01T18:33:03.663Z] Response: 200 - /sumplete (2ms)
+[2025-07-01T18:33:03.945Z] GET /random/static/conondrum.png - IP: ::ffff:206.189.112.240
+  User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+[2025-07-01T18:53:23.055Z] GET /robots.txt - IP: ::ffff:5.255.231.163
+  User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+[2025-07-01T18:53:23.892Z] GET / - IP: ::ffff:95.108.213.150
+  User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+[2025-07-01T18:53:25.338Z] GET /sumplete - IP: ::ffff:213.180.203.18
+  User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+[2025-07-01T18:53:25.338Z] Response: 200 - /sumplete (1ms)
+[2025-07-01T23:27:55.065Z] GET / - IP: ::ffff:198.235.24.174
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-07-01T23:27:55.319Z] GET /sumplete - IP: ::ffff:198.235.24.174
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-07-01T23:27:55.319Z] Response: 200 - /sumplete (0ms)
+[2025-07-02T01:14:33.920Z] GET / - IP: ::ffff:206.168.34.217
+  User-Agent: Unknown
+[2025-07-02T01:15:02.328Z] GET / - IP: ::ffff:206.168.34.217
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-02T01:15:30.404Z] GET /sumplete - IP: ::ffff:206.168.34.217
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-02T01:15:30.404Z] Response: 200 - /sumplete (1ms)
+[2025-07-02T01:15:36.444Z] GET /random/static/conondrum.png - IP: ::ffff:206.168.34.217
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-02T01:16:02.338Z] GET /favicon.ico - IP: ::ffff:206.168.34.217
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-02T01:16:47.914Z] GET /security.txt - IP: ::ffff:206.168.34.217
+  User-Agent: Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+[2025-07-02T01:50:57.635Z] GET / - IP: ::ffff:198.235.24.151
+  User-Agent: Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers&#39; presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com
+[2025-07-02T07:01:44.142Z] GET / - IP: ::ffff:3.134.148.59
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-02T07:01:44.355Z] GET /sumplete - IP: ::ffff:3.134.148.59
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-02T07:01:44.355Z] Response: 200 - /sumplete (2ms)
+[2025-07-02T07:04:02.146Z] GET / - IP: ::ffff:3.134.148.59
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+[2025-07-02T07:33:10.054Z] GET / - IP: ::ffff:45.156.130.43
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+[2025-07-02T07:33:10.315Z] GET /sumplete - IP: ::ffff:45.156.130.43
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+[2025-07-02T07:33:10.315Z] Response: 200 - /sumplete (1ms)
+[2025-07-02T07:33:55.591Z] GET /favicon.ico - IP: ::ffff:45.156.130.41
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+[2025-07-02T07:34:02.332Z] GET /cgi-bin/main.pl - IP: ::ffff:45.156.130.41
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+[2025-07-02T11:21:22.599Z] GET / - IP: ::ffff:44.220.188.192
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+[2025-07-02T11:21:22.997Z] GET / - IP: ::ffff:44.220.188.192
+  User-Agent: Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/57.0.3045.110 Safari/537.32
+[2025-07-02T11:21:23.203Z] GET /sumplete - IP: ::ffff:44.220.188.192
+  User-Agent: Mozilla/5.0 (Windows NT 6.2;en-US) AppleWebKit/537.32.36 (KHTML, live Gecko) Chrome/57.0.3045.110 Safari/537.32
+[2025-07-02T11:21:23.203Z] Response: 200 - /sumplete (0ms)
+[2025-07-02T11:21:23.689Z] GET /random/static/conondrum.png - IP: ::ffff:44.220.188.192
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+[2025-07-02T13:13:55.028Z] GET /pdown - IP: ::ffff:35.236.53.83
+  User-Agent: Unknown
+[2025-07-02T17:33:20.023Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.023Z] Response: 200 - /ranks (1ms)
+[2025-07-02T17:33:20.086Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.102Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.102Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.188Z] GET /ranks/date-ranges - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.188Z] Response: 200 - /ranks/date-ranges (3ms)
+[2025-07-02T17:33:20.188Z] Response: 200 - /ranks/date-ranges (4ms)
+[2025-07-02T17:33:20.229Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.229Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-07-02T17:33:20.229Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (1ms)
+[2025-07-02T17:33:20.232Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.232Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:33:20.232Z] Response: 200 - /ranks/game-kings?game=Geo (1ms)
+[2025-07-02T17:33:20.232Z] Response: 200 - /ranks/game-kings?game=Geo (2ms)
+[2025-07-02T17:33:20.232Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-07-02T17:33:20.232Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-07-02T17:35:12.228Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-07-02T17:35:12.228Z] POST /ranks/calculate - REQUEST
+Text length: 1732 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 02/07/2025* 🏆
+
+1. Shivangi 1.55
+2. ⁠Mayank 2.23
+3. ⁠Sage and Prakriti (copycat) 2.73
+4. ⁠Megha 4.22
+5. ⁠Aastha 4.55
+6. ⁠Saras 4.68
+7. ⁠Srishti 5.09
+8. ⁠Shruthi 5.48
+9. ⁠AkD 6.13
+10. ⁠Anushka 7.55
+11. ⁠Sankar 7.83
+12. ⁠Shubham 9.37
+13. ⁠Shauryaa 9.41
+14. ⁠Sanchit 9.49
+15. ⁠Pruthvi 10.30
+16. ⁠Sonakshi 11.38
+
+*Logic Games Leaderboard 01/07/25* 🏆
+
+1. Prakriti 6 
+2. Mayank 7 
+3. Sage and Arnab 8
+4. Anushka 9
+5. Shauryaa 11
+6. ⁠Megha and Srishti 13
+7. ⁠Sankar and Sanchit 15
+8...
+---END OF INPUT---
+Parsed 6 days of data
+  Day 1: Word Games (02/07/20) - 17 players
+  Day 2: Logic Games (01/07/25) - 18 players
+  Day 3: Wordle (30/06/25) - 15 players
+  Day 4: Geo (28/06/25) - 10 players
+  Day 5: Queens (27/06/25) - 14 players
+  Day 6: Trivia (26/06/25) - 15 players
+Rankings stored successfully
+Calculated weekly ranks for 23 players
+Players:
+  1. Mayank: 12 points
+  2. Arnab: 30 points
+  3. Sankar: 37 points
+  4. Sage: 38 points
+  5. Megha: 39 points
+  6. Shivangi: 41 points
+  7. Srishti: 45 points
+  8. Aastha: 47 points
+  9. Prakriti: 48 points
+  10. Shauryaa: 55 points
+  11. Anushka: 59 points
+  12. Sonakshi: 66 points
+  13. Saras: 68 points
+  14. Shubham: 70 points
+  15. Sanchit: 71 points
+  16. Prayansh: 74 points
+  17. AkD: 75 points
+  18. Shruthi: 78 points
+  19. Pruthvi: 78 points
+  20. Prakriti copycat: 80 points
+  21. Karthik: 81 points
+  22. Keshav: 84 points
+  23. Rishika: 89 points
+[2025-07-02T17:35:12.228Z] RESPONSE: 200 OK
+Response summary: 6 days processed, 23 players ranked
+[2025-07-02T17:35:12.228Z] Response: 200 - /ranks/calculate (4ms)
+[2025-07-02T17:35:12.228Z] Response: 200 - /ranks/calculate (4ms)
+[2025-07-02T17:35:37.243Z] GET /ranks/weekly?start=2025-06-26&end=2025-07-02 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:35:37.243Z] GET /ranks/monthly?year=2025&month=5 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:35:37.244Z] GET /ranks/game-kings?game=Geo - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+[2025-07-02T17:35:37.243Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-07-02T17:35:37.243Z] Response: 200 - /ranks/weekly?start=2025-06-26&end=2025-07-02 (2ms)
+[2025-07-02T17:35:37.243Z] Response: 200 - /ranks/monthly?year=2025&month=5 (3ms)
+[2025-07-02T17:35:37.243Z] Response: 200 - /ranks/monthly?year=2025&month=5 (4ms)
+[2025-07-02T17:35:37.244Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-07-02T17:35:37.244Z] Response: 200 - /ranks/game-kings?game=Geo (3ms)
+[2025-07-02T17:37:11.880Z] POST /ranks/calculate - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+
+[2025-07-02T17:37:11.881Z] POST /ranks/calculate - REQUEST
+Text length: 1721 chars
+Input preview:
+---START OF INPUT---
+*Word Games Leaderboard 02/07/2025* 🏆
+
+1. Shivangi 1.55
+2. ⁠Mayank 2.23
+3. ⁠Sage and Prakriti 2.73
+4. ⁠Megha 4.22
+5. ⁠Aastha 4.55
+6. ⁠Saras 4.68
+7. ⁠Srishti 5.09
+8. ⁠Shruthi 5.48
+9. ⁠AkD 6.13
+10. ⁠Anushka 7.55
+11. ⁠Sankar 7.83
+12. ⁠Shubham 9.37
+13. ⁠Shauryaa 9.41
+14. ⁠Sanchit 9.49
+15. ⁠Pruthvi 10.30
+16. ⁠Sonakshi 11.38
+
+*Logic Games Leaderboard 01/07/25* 🏆
+
+1. Prakriti 6 
+2. Mayank 7 
+3. Sage and Arnab 8
+4. Anushka 9
+5. Shauryaa 11
+6. ⁠Megha and Srishti 13
+7. ⁠Sankar and Sanchit 15
+8. ⁠Aastha,...
+---END OF INPUT---
+Parsed 6 days of data
+  Day 1: Word Games (02/07/20) - 17 players
+  Day 2: Logic Games (01/07/25) - 18 players
+  Day 3: Wordle (30/06/25) - 15 players
+  Day 4: Geo (28/06/25) - 10 players
+  Day 5: Queens (27/06/25) - 14 players
+  Day 6: Trivia (26/06/25) - 15 players
+Rankings stored successfully
+Calculated weekly ranks for 22 players
+Players:
+  1. Mayank: 12 points
+  2. Arnab: 30 points
+  3. Prakriti: 33 points
+  4. Sankar: 37 points
+  5. Sage: 38 points
+  6. Megha: 39 points
+  7. Shivangi: 41 points
+  8. Srishti: 45 points
+  9. Aastha: 47 points
+  10. Shauryaa: 55 points
+  11. Anushka: 59 points
+  12. Sonakshi: 66 points
+  13. Saras: 68 points
+  14. Shubham: 70 points
+  15. Sanchit: 71 points
+  16. Prayansh: 74 points
+  17. AkD: 75 points
+  18. Shruthi: 78 points
+  19. Pruthvi: 78 points
+  20. Karthik: 81 points
+  21. Keshav: 84 points
+  22. Rishika: 89 points
+[2025-07-02T17:37:11.881Z] RESPONSE: 200 OK
+Response summary: 6 days processed, 22 players ranked
+[2025-07-02T17:37:11.880Z] Response: 200 - /ranks/calculate (3ms)
+[2025-07-02T17:37:11.880Z] Response: 200 - /ranks/calculate (3ms)
