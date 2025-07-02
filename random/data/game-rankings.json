@@ -21,55 +21,7 @@
         },
         {
           "rank": 5,
-          "name": "Sonakshi"
-        },
-        {
-          "rank": 6,
-          "name": "Monika"
-        },
-        {
-          "rank": 7,
-          "name": "Aastha"
-        },
-        {
-          "rank": 8,
           "name": "Mayank"
-        },
-        {
-          "rank": 9,
-          "name": "Shubham"
-        },
-        {
-          "rank": 10,
-          "name": "Prakriti"
-        },
-        {
-          "rank": 11,
-          "name": "AkD"
-        },
-        {
-          "rank": 12,
-          "name": "Pruthvi"
-        },
-        {
-          "rank": 13,
-          "name": "Sage"
-        },
-        {
-          "rank": 14,
-          "name": "Shivangi"
-        },
-        {
-          "rank": 15,
-          "name": "Shruthi"
-        },
-        {
-          "rank": 16,
-          "name": "Prayansh"
-        },
-        {
-          "rank": 17,
-          "name": "Srishti"
         }
       ]
     },
@@ -94,58 +46,6 @@
         },
         {
           "rank": 5,
-          "name": "Keshav"
-        },
-        {
-          "rank": 6,
-          "name": "Srishti"
-        },
-        {
-          "rank": 7,
-          "name": "Aastha"
-        },
-        {
-          "rank": 8,
-          "name": "Prayansh"
-        },
-        {
-          "rank": 9,
-          "name": "Akd"
-        },
-        {
-          "rank": 9,
-          "name": "Monika"
-        },
-        {
-          "rank": 9,
-          "name": "Prakriti"
-        },
-        {
-          "rank": 9,
-          "name": "Megha"
-        },
-        {
-          "rank": 10,
-          "name": "Sankar"
-        },
-        {
-          "rank": 11,
-          "name": "Saras"
-        },
-        {
-          "rank": 12,
-          "name": "Manav"
-        },
-        {
-          "rank": 12,
-          "name": "Paarth"
-        },
-        {
-          "rank": 13,
-          "name": "Pruthvi"
-        },
-        {
-          "rank": 14,
           "name": "Anushka"
         }
       ]
@@ -159,7 +59,7 @@
         },
         {
           "rank": 2,
-          "name": "Prakriti"
+          "name": "Mayank"
         },
         {
           "rank": 3,
@@ -167,59 +67,7 @@
         },
         {
           "rank": 4,
-          "name": "Aastha"
-        },
-        {
-          "rank": 5,
           "name": "Anushka"
-        },
-        {
-          "rank": 6,
-          "name": "Shauryaa"
-        },
-        {
-          "rank": 7,
-          "name": "Megha"
-        },
-        {
-          "rank": 8,
-          "name": "Mayank"
-        },
-        {
-          "rank": 9,
-          "name": "Keshav"
-        },
-        {
-          "rank": 10,
-          "name": "Srishti"
-        },
-        {
-          "rank": 11,
-          "name": "Shivangi"
-        },
-        {
-          "rank": 12,
-          "name": "Manav"
-        },
-        {
-          "rank": 13,
-          "name": "Shruthi"
-        },
-        {
-          "rank": 14,
-          "name": "Shubham"
-        },
-        {
-          "rank": 15,
-          "name": "Sanchit"
-        },
-        {
-          "rank": 15,
-          "name": "Pruthvi"
-        },
-        {
-          "rank": 16,
-          "name": "Prayansh"
         }
       ]
     },

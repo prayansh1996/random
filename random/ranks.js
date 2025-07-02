@@ -4,9 +4,7 @@ const { parseLeaderboardData, calculateWeeklyRanks } = require('./leaderboard-pa
 const { 
     storeRankings, 
     getAllRankings, 
-    calculateWeeklyRankingsForRange,
-    calculateMonthlyRankings,
-    getGameKings
+    calculateRankingsByDateRange
 } = require('./rankings-storage');
 const { getRecentWeeks, getRecentMonths } = require('./date-utils');
 
@@ -118,7 +116,7 @@ router.get('/weekly', async (req, res) => {
             });
         }
         
-        const weeklyRanks = await calculateWeeklyRankingsForRange(start, end, game || null);
+        const weeklyRanks = await calculateRankingsByDateRange(start, end, game || null);
         
         res.json({
             success: true,
@@ -129,64 +127,6 @@ router.get('/weekly', async (req, res) => {
         res.status(500).json({
             success: false,
             error: 'Failed to fetch weekly rankings: ' + error.message
-        });
-    }
-});
-
-// Get monthly rankings
-router.get('/monthly', async (req, res) => {
-    try {
-        const { year, month, game } = req.query;
-        
-        if (!year || month === undefined) {
-            return res.status(400).json({
-                success: false,
-                error: 'Year and month are required'
-            });
-        }
-        
-        const monthlyRanks = await calculateMonthlyRankings(
-            parseInt(year), 
-            parseInt(month), 
-            game || null
-        );
-        
-        res.json({
-            success: true,
-            data: monthlyRanks
-        });
-    } catch (error) {
-        console.error('Error fetching monthly rankings:', error);
-        res.status(500).json({
-            success: false,
-            error: 'Failed to fetch monthly rankings: ' + error.message
-        });
-    }
-});
-
-// Get game kings (top players per week for a specific game)
-router.get('/game-kings', async (req, res) => {
-    try {
-        const { game } = req.query;
-        
-        if (!game) {
-            return res.status(400).json({
-                success: false,
-                error: 'Game name is required'
-            });
-        }
-        
-        const gameKings = await getGameKings(game);
-        
-        res.json({
-            success: true,
-            data: gameKings
-        });
-    } catch (error) {
-        console.error('Error fetching game kings:', error);
-        res.status(500).json({
-            success: false,
-            error: 'Failed to fetch game kings: ' + error.message
         });
     }
 });
@@ -216,7 +156,7 @@ router.get('/custom-range', async (req, res) => {
             endDate = endDate || dates[dates.length - 1];
         }
         
-        const customRanks = await calculateWeeklyRankingsForRange(startDate, endDate, game || null);
+        const customRanks = await calculateRankingsByDateRange(startDate, endDate, game || null);
         
         res.json({
             success: true,

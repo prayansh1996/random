@@ -92,9 +92,8 @@ async function getAllPlayers() {
     return Array.from(players).sort();
 }
 
-// Calculate weekly rankings for a date range (points-based system)
-async function calculateWeeklyRankingsForRange(startDate, endDate, gameFilter = null) {
-    const rankings = await readRankings();
+// Calculate rankings from provided data (points-based system) - pure function for testing
+function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = null) {
     const playerPoints = {};
     const playerGameCounts = {};
     const allPlayers = new Set();
@@ -155,79 +154,12 @@ async function calculateWeeklyRankingsForRange(startDate, endDate, gameFilter = 
     return weeklyRanks;
 }
 
-// Calculate monthly rankings with points-based system
-async function calculateMonthlyRankings(year, month, gameFilter = null) {
-    const startDate = `${year}-${String(month + 1).padStart(2, '0')}-01`;
-    const endDate = `${year}-${String(month + 1).padStart(2, '0')}-${new Date(year, month + 1, 0).getDate()}`;
-    
-    // Just reuse the weekly calculation function with monthly date range
-    return await calculateWeeklyRankingsForRange(startDate, endDate, gameFilter);
-}
-
-// Get top player for each week for a specific game
-async function getGameKings(gameName) {
+// Calculate rankings for a date range (points-based system) - wrapper that reads from file
+async function calculateRankingsByDateRange(startDate, endDate, gameFilter = null) {
     const rankings = await readRankings();
-    const weeklyWinners = {};
-    
-    Object.entries(rankings.games).forEach(([date, data]) => {
-        if (data.game === gameName) {
-            const weekInfo = getWeekRangeForDate(date);
-            const weekKey = weekInfo.display;
-            
-            if (!weeklyWinners[weekKey]) {
-                weeklyWinners[weekKey] = {
-                    week: weekKey,
-                    winners: [],
-                    bestRank: Infinity
-                };
-            }
-            
-            // Find the best rank for this week
-            if (data.ranks.length > 0) {
-                const topRank = data.ranks[0].rank;
-                if (topRank < weeklyWinners[weekKey].bestRank) {
-                    weeklyWinners[weekKey].bestRank = topRank;
-                    weeklyWinners[weekKey].winners = [data.ranks[0].name];
-                } else if (topRank === weeklyWinners[weekKey].bestRank) {
-                    weeklyWinners[weekKey].winners.push(data.ranks[0].name);
-                }
-            }
-        }
-    });
-    
-    return Object.values(weeklyWinners);
+    return calculateRankingsFromData(rankings, startDate, endDate, gameFilter);
 }
 
-// Helper function to get week range for a date (Thursday to Wednesday)
-function getWeekRangeForDate(dateStr) {
-    const date = new Date(dateStr);
-    const day = date.getDay(); // 0 = Sunday, 1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, etc.
-    
-    // Calculate days to subtract to get to Thursday
-    let daysToThursday;
-    if (day >= 4) {
-        // Thursday to Saturday: subtract (day - 4) days
-        daysToThursday = day - 4;
-    } else {
-        // Sunday to Wednesday: subtract (day + 3) days to get to previous Thursday
-        daysToThursday = day + 3;
-    }
-    
-    const thursday = new Date(date);
-    thursday.setDate(date.getDate() - daysToThursday);
-    
-    const wednesday = new Date(thursday);
-    wednesday.setDate(thursday.getDate() + 6);
-    
-    const formatDate = (d) => {
-        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-        return `${months[d.getMonth()]} ${d.getDate()}`;
-    };
-    
-    return {
-        display: `${formatDate(thursday)} - ${formatDate(wednesday)}`
-    };
-}
 
 module.exports = {
     storeRankings,
@@ -235,7 +167,6 @@ module.exports = {
     getRankingsByDateRange,
     getAllPlayers,
     readRankings,
-    calculateWeeklyRankingsForRange,
-    calculateMonthlyRankings,
-    getGameKings
+    calculateRankingsByDateRange,
+    calculateRankingsFromData
 };

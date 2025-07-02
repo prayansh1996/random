@@ -123,15 +123,12 @@ async function loadRankings() {
 // Display rankings
 function displayRankings(rankings, dateRange) {
     const tbody = document.getElementById('rankingsTableBody');
-    const dateRangeDisplay = document.getElementById('dateRangeDisplay');
     
     // Display date range
     if (dateRange && typeof dateRange === 'object') {
         const startDate = formatDisplayDate(dateRange.start);
         const endDate = formatDisplayDate(dateRange.end);
         const gameText = dateRange.game;
-    } else {
-        dateRangeDisplay.innerHTML = dateRange || 'No date range specified';
     }
     
     // Clear table
