@@ -233,4 +233,52 @@ router.get('/date-ranges', async (req, res) => {
     }
 });
 
+// Get raw rankings in readable format
+router.get('/raw', async (req, res) => {
+    try {
+        const rankings = await getAllRankings();
+        
+        // Create a readable text format
+        let output = 'CONUNDRUM CLUB GAME RANKINGS\n';
+        output += '============================\n\n';
+        
+        // Sort dates in reverse chronological order
+        const sortedDates = Object.keys(rankings.games).sort((a, b) => b.localeCompare(a));
+        
+        sortedDates.forEach(date => {
+            const gameData = rankings.games[date];
+            const dateObj = new Date(date);
+            const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            });
+            
+            output += `${formattedDate}\n`;
+            output += `Game: ${gameData.game}\n`;
+            
+            if (gameData.ranks && gameData.ranks.length > 0) {
+                output += `Players: ${gameData.ranks.length}\n`;
+                output += '\nRankings:\n';
+                
+                gameData.ranks.forEach(player => {
+                    output += `  ${player.rank}. ${player.name}\n`;
+                });
+            } else {
+                output += 'No players recorded\n';
+            }
+            
+            output += '\n' + '-'.repeat(40) + '\n\n';
+        });
+        
+        // Send as plain text
+        res.type('text/plain');
+        res.send(output);
+    } catch (error) {
+        console.error('Error fetching raw rankings:', error);
+        res.status(500).send('Failed to fetch rankings: ' + error.message);
+    }
+});
+
 module.exports = router;
