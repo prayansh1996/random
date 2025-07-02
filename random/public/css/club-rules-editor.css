@@ -1,0 +1,267 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #2c3e50;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #3f51b5;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Success and Error Messages */
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+    font-weight: 500;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    font-weight: 500;
+}
+
+/* Editor Section */
+.editor-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    border-top: 4px solid #4a90e2;
+    width: 100%;
+}
+
+.editor-section form {
+    width: 100%;
+}
+
+.editor-header {
+    margin-bottom: 20px;
+}
+
+.editor-header h2 {
+    color: #4a90e2;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.info {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #1976d2;
+    font-size: 0.95em;
+}
+
+/* Editor Textarea */
+.editor-container {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.editor-textarea {
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background-color: #fafafa;
+}
+
+.editor-textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+}
+
+/* Editor Actions */
+.editor-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.save-button {
+    padding: 12px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.save-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cancel-button {
+    padding: 12px 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.cancel-button:hover {
+    background-color: #da190b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Preview Section */
+.preview-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    border-top: 4px solid #9c27b0;
+}
+
+.preview-section h2 {
+    color: #9c27b0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.preview-container {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    min-height: 200px;
+    background-color: #fafafa;
+    overflow-x: auto;
+}
+
+/* Preview content styles (matching the actual club rules styles) */
+#preview .club-rules {
+    font-family: inherit;
+}
+
+#preview .section-title {
+    color: #3f51b5;
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+
+#preview .intro {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #546e7a;
+}
+
+#preview .rule-section {
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #4a90e2;
+}
+
+#preview .rule-section h3 {
+    color: #ff5722;
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+#preview .formula {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    background-color: #e3f2fd;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+/* Back Link */
+.back-link {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-link a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.back-link a:hover {
+    color: #357abd;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    .editor-section,
+    .preview-section {
+        padding: 20px;
+    }
+    
+    .editor-textarea {
+        font-size: 12px;
+        min-height: 300px;
+    }
+    
+    .editor-actions {
+        flex-direction: column;
+    }
+    
+    .save-button,
+    .cancel-button {
+        width: 100%;
+    }
+}

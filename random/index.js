@@ -12,6 +12,7 @@ app.set('views', path.join(__dirname, 'views'));
 // Import route handlers
 const sumpleteRouter = require('./sumplete');
 const ranksRouter = require('./ranks');
+const clubRulesRouter = require('./club-rules');
 
 // Middleware to parse JSON bodies
 app.use(express.json());
@@ -69,6 +70,12 @@ app.use('/random', express.static(path.join(__dirname, 'public')));
 // Route handlers for both direct access and through reverse proxy
 app.use('/sumplete', sumpleteRouter);
 app.use('/ranks', ranksRouter);
+app.use('/club-rules', clubRulesRouter);
+
+// Also handle reverse proxy routes
+app.use('/random/sumplete', sumpleteRouter);
+app.use('/random/ranks', ranksRouter);
+app.use('/random/club-rules', clubRulesRouter);
 
 // Root routes
 app.get('/', (req, res) => {
