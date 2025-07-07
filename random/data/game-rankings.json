@@ -1122,6 +1122,71 @@
           "name": "Sonakshi"
         }
       ]
+    },
+    "2012-07-07": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Saras"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 3,
+          "name": "Mayank"
+        },
+        {
+          "rank": 4,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 5,
+          "name": "Megha"
+        },
+        {
+          "rank": 5,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 5,
+          "name": "Divesh"
+        },
+        {
+          "rank": 5,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 6,
+          "name": "Sage"
+        },
+        {
+          "rank": 6,
+          "name": "Keshav"
+        },
+        {
+          "rank": 7,
+          "name": "Shubham"
+        },
+        {
+          "rank": 7,
+          "name": "Sankar"
+        },
+        {
+          "rank": 8,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 9,
+          "name": "Aastha"
+        }
+      ]
     }
   }
 }
