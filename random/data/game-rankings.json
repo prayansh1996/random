@@ -1164,26 +1164,246 @@
         },
         {
           "rank": 6,
-          "name": "Sage"
-        },
-        {
-          "rank": 6,
-          "name": "Keshav"
-        },
-        {
-          "rank": 7,
-          "name": "Shubham"
-        },
-        {
-          "rank": 7,
           "name": "Sankar"
         },
         {
+          "rank": 7,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Keshav"
+        },
+        {
           "rank": 8,
-          "name": "Shruthi"
+          "name": "Shubham"
         },
         {
           "rank": 9,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 10,
+          "name": "Aastha"
+        }
+      ]
+    },
+    "2025-07-03": {
+      "game": "Sumplete",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "AkD"
+        },
+        {
+          "rank": 4,
+          "name": "Aastha"
+        },
+        {
+          "rank": 5,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Arnab"
+        },
+        {
+          "rank": 7,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 8,
+          "name": "Srishti"
+        }
+      ]
+    },
+    "2025-07-04": {
+      "game": "Queens",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 2,
+          "name": "Rishika"
+        },
+        {
+          "rank": 3,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 4,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 5,
+          "name": "Mayank"
+        },
+        {
+          "rank": 6,
+          "name": "Shubham"
+        },
+        {
+          "rank": 6,
+          "name": "Sanchit"
+        },
+        {
+          "rank": 7,
+          "name": "Srishti"
+        },
+        {
+          "rank": 8,
+          "name": "Megha"
+        },
+        {
+          "rank": 9,
+          "name": "Aastha"
+        },
+        {
+          "rank": 10,
+          "name": "Sage"
+        }
+      ]
+    },
+    "2025-07-05": {
+      "game": "Geography",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "AkD"
+        },
+        {
+          "rank": 3,
+          "name": "Aastha"
+        },
+        {
+          "rank": 4,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 5,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 7,
+          "name": "Sage"
+        },
+        {
+          "rank": 8,
+          "name": "Megha"
+        },
+        {
+          "rank": 9,
+          "name": "Sanchit"
+        },
+        {
+          "rank": 10,
+          "name": "Shubham"
+        },
+        {
+          "rank": 11,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 12,
+          "name": "Anushka"
+        },
+        {
+          "rank": 13,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 14,
+          "name": "Srishti"
+        },
+        {
+          "rank": 15,
+          "name": "Rishika"
+        },
+        {
+          "rank": 16,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-07-07": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Saras"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 3,
+          "name": "Mayank"
+        },
+        {
+          "rank": 4,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 5,
+          "name": "Megha"
+        },
+        {
+          "rank": 5,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 5,
+          "name": "Divesh"
+        },
+        {
+          "rank": 5,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 6,
+          "name": "Sankar"
+        },
+        {
+          "rank": 7,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Keshav"
+        },
+        {
+          "rank": 8,
+          "name": "Shubham"
+        },
+        {
+          "rank": 9,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 10,
           "name": "Aastha"
         }
       ]
