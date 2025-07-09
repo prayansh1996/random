@@ -1407,6 +1407,116 @@
           "name": "Aastha"
         }
       ]
+    },
+    "2025-07-08": {
+      "game": "CluesbySam",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 4,
+          "name": "Aastha"
+        },
+        {
+          "rank": 5,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 5,
+          "name": "Divesh"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 6,
+          "name": "Keshav"
+        },
+        {
+          "rank": 7,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 8,
+          "name": "Srishti"
+        },
+        {
+          "rank": 8,
+          "name": "Megha"
+        },
+        {
+          "rank": 9,
+          "name": "Shubham"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 11,
+          "name": "Sankar"
+        }
+      ]
+    },
+    "2025-07-09": {
+      "game": "Crossclimb",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Mayank"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 6,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 7,
+          "name": "Megha"
+        },
+        {
+          "rank": 8,
+          "name": "Srishti"
+        },
+        {
+          "rank": 9,
+          "name": "Aastha"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        }
+      ]
     }
   }
 }
