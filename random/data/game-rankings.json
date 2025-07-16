@@ -1717,6 +1717,145 @@
           "name": "Sonakshi"
         }
       ]
+    },
+    "2025-07-14": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Sage"
+        },
+        {
+          "rank": 3,
+          "name": "AkD"
+        },
+        {
+          "rank": 4,
+          "name": "Mayank"
+        },
+        {
+          "rank": 5,
+          "name": "Divesh"
+        },
+        {
+          "rank": 6,
+          "name": "Megha"
+        },
+        {
+          "rank": 7,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 8,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 9,
+          "name": "Shubham"
+        },
+        {
+          "rank": 10,
+          "name": "Aastha"
+        },
+        {
+          "rank": 11,
+          "name": "Saras"
+        },
+        {
+          "rank": 12,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 13,
+          "name": "Srishti"
+        }
+      ]
+    },
+    "2025-07-15": {
+      "game": "Murdle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 4,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 5,
+          "name": "Sage"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        }
+      ]
+    },
+    "2025-07-16": {
+      "game": "Bracket City",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Aastha"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 3,
+          "name": "Megha"
+        },
+        {
+          "rank": 4,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 5,
+          "name": "AkD"
+        },
+        {
+          "rank": 6,
+          "name": "Sage"
+        },
+        {
+          "rank": 7,
+          "name": "Malvz"
+        },
+        {
+          "rank": 8,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 9,
+          "name": "Shauryaa"
+        }
+      ]
     }
   }
 }
