@@ -2072,6 +2072,177 @@
           "name": "Mounika"
         }
       ]
+    },
+    "2025-07-21": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Mayank"
+        },
+        {
+          "rank": 3,
+          "name": "Aastha"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Saras"
+        },
+        {
+          "rank": 6,
+          "name": "Megha"
+        },
+        {
+          "rank": 7,
+          "name": "Shivangi"
+        },
+        {
+          "rank": 7,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 8,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 8,
+          "name": "Shubham"
+        },
+        {
+          "rank": 9,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 10,
+          "name": "Srishti"
+        },
+        {
+          "rank": 11,
+          "name": "Malvz"
+        },
+        {
+          "rank": 12,
+          "name": "Paarth"
+        }
+      ]
+    },
+    "2025-07-22": {
+      "game": "Zip",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Ashwini"
+        },
+        {
+          "rank": 2,
+          "name": "Mayank"
+        },
+        {
+          "rank": 3,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 4,
+          "name": "AkD"
+        },
+        {
+          "rank": 5,
+          "name": "Megha"
+        },
+        {
+          "rank": 6,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 6,
+          "name": "Aastha"
+        },
+        {
+          "rank": 7,
+          "name": "Malvz"
+        },
+        {
+          "rank": 8,
+          "name": "Sage"
+        },
+        {
+          "rank": 9,
+          "name": "Sankar"
+        },
+        {
+          "rank": 10,
+          "name": "Srishti"
+        },
+        {
+          "rank": 11,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 12,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 13,
+          "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-07-23": {
+      "game": "WordGrid Wednesday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Malvz"
+        },
+        {
+          "rank": 4,
+          "name": "Sankar"
+        },
+        {
+          "rank": 5,
+          "name": "Ashwini"
+        },
+        {
+          "rank": 6,
+          "name": "Mayank"
+        },
+        {
+          "rank": 7,
+          "name": "Megha"
+        },
+        {
+          "rank": 8,
+          "name": "Srishti"
+        },
+        {
+          "rank": 9,
+          "name": "Aastha"
+        },
+        {
+          "rank": 10,
+          "name": "Sage"
+        },
+        {
+          "rank": 11,
+          "name": "Sonakshi"
+        }
+      ]
     }
   }
 }
