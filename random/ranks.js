@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const fs = require('fs').promises;
+const path = require('path');
 const { parseLeaderboardData, calculateWeeklyRanks } = require('./leaderboard-parser');
 const { 
     storeRankings, 
@@ -84,6 +86,103 @@ router.post('/calculate', express.text(), async (req, res) => {
         console.log('Response:', JSON.stringify(errorResponse));
         
         res.status(500).json(errorResponse);
+    }
+});
+
+// Handle immunity pass submissions
+router.post('/immunity-pass', express.json(), async (req, res) => {
+    try {
+        const { data } = req.body;
+        const timestamp = new Date().toISOString();
+        
+        console.log(`\n[${timestamp}] POST /ranks/immunity-pass - REQUEST`);
+        
+        if (!data || data.trim() === '') {
+            return res.status(400).json({ 
+                success: false, 
+                error: 'No immunity pass data provided' 
+            });
+        }
+        
+        // Parse the input data
+        const lines = data.trim().split('\n');
+        const entries = [];
+        
+        for (const line of lines) {
+            const trimmedLine = line.trim();
+            if (!trimmedLine) continue;
+            
+            // Parse each line: "2025-07-06 Mayank 9"
+            const parts = trimmedLine.split(/\s+/);
+            if (parts.length !== 3) {
+                console.error(`Invalid line format: ${trimmedLine}`);
+                continue;
+            }
+            
+            const [date, name, pointsStr] = parts;
+            const points = parseInt(pointsStr, 10);
+            
+            if (isNaN(points)) {
+                console.error(`Invalid points value: ${pointsStr} in line: ${trimmedLine}`);
+                continue;
+            }
+            
+            entries.push({ date, name, points });
+        }
+        
+        if (entries.length === 0) {
+            return res.status(400).json({ 
+                success: false, 
+                error: 'No valid entries found in the input data' 
+            });
+        }
+        
+        // Read existing adhoc_points.json
+        const adhocPointsPath = path.join(__dirname, 'data', 'adhoc_points.json');
+        let adhocData = { points: [] };
+        
+        try {
+            const existingData = await fs.readFile(adhocPointsPath, 'utf8');
+            adhocData = JSON.parse(existingData);
+        } catch (error) {
+            console.log('Creating new adhoc_points.json file');
+        }
+        
+        // Process entries and update the data structure
+        for (const entry of entries) {
+            // Find or create date entry
+            let dateEntry = adhocData.points.find(p => p.date === entry.date);
+            if (!dateEntry) {
+                dateEntry = { date: entry.date, players: {} };
+                adhocData.points.push(dateEntry);
+            }
+            
+            // Update or add player points
+            dateEntry.players[entry.name] = entry.points;
+        }
+        
+        // Sort points by date
+        adhocData.points.sort((a, b) => a.date.localeCompare(b.date));
+        
+        // Write updated data back to file
+        await fs.writeFile(adhocPointsPath, JSON.stringify(adhocData, null, 2));
+        
+        console.log(`Processed ${entries.length} immunity pass entries`);
+        console.log('Updated adhoc_points.json successfully');
+        
+        res.json({
+            success: true,
+            entriesProcessed: entries.length
+        });
+        
+    } catch (error) {
+        const timestamp = new Date().toISOString();
+        console.error(`[${timestamp}] ERROR in /ranks/immunity-pass:`, error);
+        
+        res.status(500).json({
+            success: false,
+            error: 'Failed to process immunity pass data: ' + error.message
+        });
     }
 });
 

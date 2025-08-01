@@ -58,13 +58,31 @@
         
         <%- include('partials/club_rules') %>
         
+        <!-- Immunity Pass Section -->
+        <div class="immunity-section">
+            <h2 class="section-title">🛡️ Immunity Pass</h2>
+            <p class="description">Award immunity pass points to players</p>
+            <div class="input-section">
+                <textarea id="immunityInput" class="input-text-area" placeholder="Enter immunity pass data (one per line)...
+
+Example:
+2025-07-06 Mayank 9
+2025-07-15 Anushka 5
+2025-07-20 Sage 7"></textarea>
+                <button id="submitImmunityBtn" class="submit-button" onclick="submitImmunityPass()">Submit Immunity Pass Points</button>
+            </div>
+            <div id="immunityResults" class="results-section" style="display: none;">
+                <div id="immunityMessage" class="summary"></div>
+            </div>
+        </div>
+        
         <div class="calculator-section">
             <h2 class="section-title">📈 Calculate Rankings</h2>
             <p class="description">Paste your daily leaderboard data below to calculate and store rankings</p>
         </div>
         
         <div class="input-section">
-            <textarea id="leaderboardInput" placeholder="Paste your leaderboard data here...
+            <textarea id="leaderboardInput" class="input-text-area" placeholder="Paste your leaderboard data here...
 
 Example:
 Word Games Leaderboard 18/06/25 🏆
@@ -73,7 +91,7 @@ Word Games Leaderboard 18/06/25 🏆
  2.⁠ ⁠⁠Megha 0:52
  3.⁠ ⁠⁠Shauryaa 1:08
 ..."></textarea>
-            <button id="calculateBtn" onclick="calculateRanks()">Calculate & Store Rankings</button>
+            <button id="calculateBtn" class="submit-button" onclick="calculateRanks()">Calculate & Store Rankings</button>
         </div>
         
         <div id="results" class="results-section" style="display: none;">
