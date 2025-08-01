@@ -10875,3 +10875,10 @@ Processed 2 immunity pass entries
 Updated adhoc_points.json successfully
 [2025-08-01T17:43:30.963Z] Response: 200 - /ranks/immunity-pass (1ms)
 [2025-08-01T17:43:30.963Z] Response: 200 - /ranks/immunity-pass (1ms)
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000

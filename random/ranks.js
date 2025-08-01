@@ -9,6 +9,7 @@ const {
     calculateRankingsByDateRange
 } = require('./rankings-storage');
 const { getRecentWeeks, getRecentMonths, formatDate } = require('./date-utils');
+const { name } = require('ejs');
 
 router.get('/', (req, res) => {
     // Determine the base URL based on the request path
@@ -106,20 +107,42 @@ router.post('/immunity-pass', express.json(), async (req, res) => {
         
         // Parse the input data
         const lines = data.trim().split('\n');
-        const entries = [];
         
-        for (const line of lines) {
-            const trimmedLine = line.trim();
+        // First line should be the date in DD/MM/YYYY format
+        if (lines.length < 2) {
+            return res.status(400).json({ 
+                success: false, 
+                error: 'Invalid input format. Expected date on first line followed by player entries.' 
+            });
+        }
+        
+        const dateStr = lines[0].trim();
+        if (!dateStr.match(/^\d{2}\/\d{2}\/\d{4}$/)) {
+            return res.status(400).json({ 
+                success: false, 
+                error: 'Invalid date format. Expected DD/MM/YYYY' 
+            });
+        }
+        
+        // Convert date from DD/MM/YYYY to YYYY-MM-DD format
+        const [day, month, year] = dateStr.split('/');
+        const dateObj = new Date(year, month - 1, day);
+        const formattedDate = formatDate(dateObj);
+        
+        // Parse player entries
+        const players = [];
+        for (let i = 1; i < lines.length; i++) {
+            const trimmedLine = lines[i].trim();
             if (!trimmedLine) continue;
             
-            // Parse each line: "06/07/2025 Mayank 9" or "2025-07-06 Mayank 9"
+            // Parse each line: "Mayank 2"
             const parts = trimmedLine.split(/\s+/);
-            if (parts.length !== 3) {
+            if (parts.length !== 2) {
                 console.error(`Invalid line format: ${trimmedLine}`);
                 continue;
             }
             
-            const [dateStr, name, pointsStr] = parts;
+            const [name, pointsStr] = parts;
             const points = parseInt(pointsStr, 10);
             
             if (isNaN(points)) {
@@ -127,50 +150,44 @@ router.post('/immunity-pass', express.json(), async (req, res) => {
                 continue;
             }
             
-            // Convert date from DD/MM/YYYY to YYYY-MM-DD format
-            let formattedDate;
-            if (dateStr.includes('/')) {
-                // DD/MM/YYYY format
-                const [day, month, year] = dateStr.split('/');
-                const dateObj = new Date(year, month - 1, day);
-                formattedDate = formatDate(dateObj);
-            } else {
-                // Already in YYYY-MM-DD format
-                formattedDate = dateStr;
-            }
-            
-            entries.push({ date: formattedDate, name, points });
+            players.push({ name, points });
         }
         
-        if (entries.length === 0) {
+        if (players.length === 0) {
             return res.status(400).json({ 
                 success: false, 
-                error: 'No valid entries found in the input data' 
+                error: 'No valid player entries found in the input data' 
             });
         }
         
-        // Read existing adhoc_points.json
-        const adhocPointsPath = path.join(__dirname, 'data', 'adhoc_points.json');
+        // Read existing adhoc-points.json
+        const adhocPointsPath = path.join(__dirname, 'data', 'adhoc-points.json');
         let adhocData = { points: [] };
         
         try {
             const existingData = await fs.readFile(adhocPointsPath, 'utf8');
             adhocData = JSON.parse(existingData);
         } catch (error) {
-            console.log('Creating new adhoc_points.json file');
+            console.log('Creating new adhoc-points.json file');
         }
         
-        // Process entries and update the data structure
-        for (const entry of entries) {
-            // Find or create date entry
-            let dateEntry = adhocData.points.find(p => p.date === entry.date);
-            if (!dateEntry) {
-                dateEntry = { date: entry.date, players: {} };
-                adhocData.points.push(dateEntry);
-            }
-            
-            // Update or add player points
-            dateEntry.players[entry.name] = entry.points;
+        // Find existing entry for this date or create new one
+        const existingIndex = adhocData.points.findIndex(entry => entry.date === formattedDate);
+        
+        if (existingIndex !== -1) {
+            // Overwrite existing data for this date
+            adhocData.points[existingIndex] = {
+                date: formattedDate,
+                players: players
+            };
+            console.log(`Overwriting existing data for date: ${formattedDate}`);
+        } else {
+            // Add new entry for this date
+            adhocData.points.push({
+                date: formattedDate,
+                players: players
+            });
+            console.log(`Adding new data for date: ${formattedDate}`);
         }
         
         // Sort points by date
@@ -179,12 +196,13 @@ router.post('/immunity-pass', express.json(), async (req, res) => {
         // Write updated data back to file
         await fs.writeFile(adhocPointsPath, JSON.stringify(adhocData, null, 2));
         
-        console.log(`Processed ${entries.length} immunity pass entries`);
-        console.log('Updated adhoc_points.json successfully');
+        console.log(`Processed ${players.length} player entries for date ${formattedDate}`);
+        console.log('Updated adhoc-points.json successfully');
         
         res.json({
             success: true,
-            entriesProcessed: entries.length
+            date: formattedDate,
+            playersProcessed: players.length
         });
         
     } catch (error) {
