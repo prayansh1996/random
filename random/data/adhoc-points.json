@@ -5,38 +5,7 @@
       "players": [
         {
           "name": "Prayansh",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "date": "2025-04-03",
-      "players": [
-        {
-          "name": "Prayansh",
-          "points": 1000
-        }
-      ]
-    },
-    {
-      "date": "2025-06-02",
-      "players": [
-        {
-          "name": "Mayank",
-          "points": 3
-        },
-        {
-          "name": "Sejal",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "date": "2025-07-18",
-      "players": [
-        {
-          "name": "Prayansh",
-          "points": 2
+          "points": 0
         }
       ]
     }

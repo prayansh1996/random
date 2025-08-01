@@ -10882,3 +10882,27 @@ nohup: ignoring input
 
 Starting server...
 Server is running on http://localhost:3000
+nohup: ignoring input
+
+> random@1.0.0 start
+> node index.js
+
+Starting server...
+Server is running on http://localhost:3000
+[2025-08-01T19:09:50.598Z] GET /ranks - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:50.598Z] Response: 200 - /ranks (7ms)
+[2025-08-01T19:09:50.848Z] GET /css/ranks.css - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:50.852Z] GET /js/dashboard.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:50.853Z] GET /js/ranks.js - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:51.025Z] GET /ranks/data - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:51.025Z] Response: 200 - /ranks/data (12ms)
+[2025-08-01T19:09:51.025Z] Response: 200 - /ranks/data (12ms)
+[2025-08-01T19:09:51.100Z] GET /ranks/custom-range?start=2012-07-07&end=2025-08-01 - IP: ::ffff:127.0.0.1
+  User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+[2025-08-01T19:09:51.100Z] Response: 200 - /ranks/custom-range?start=2012-07-07&end=2025-08-01 (17ms)
+[2025-08-01T19:09:51.100Z] Response: 200 - /ranks/custom-range?start=2012-07-07&end=2025-08-01 (18ms)
