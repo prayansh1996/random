@@ -351,6 +351,8 @@ a:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     border-top: 4px solid #4a90e2;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .dashboard-title {
@@ -372,6 +374,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    flex: 1 1 200px;
+    min-width: 0;
 }
 
 .controls label {
@@ -388,6 +392,9 @@ a:hover {
     color: #333;
     cursor: pointer;
     transition: border-color 0.3s;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .select-input:hover {
@@ -408,6 +415,9 @@ a:hover {
     color: #333;
     cursor: pointer;
     transition: border-color 0.3s;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .date-input:hover {
@@ -430,6 +440,8 @@ a:hover {
     cursor: pointer;
     transition: all 0.3s;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 0 0 auto;
+    align-self: flex-end;
 }
 
 .apply-button:hover {
@@ -510,6 +522,22 @@ a:hover {
 }
 
 /* Responsive Design */
+@media (max-width: 768px) {
+    .controls {
+        gap: 10px;
+    }
+    
+    .control-group {
+        flex: 1 1 100%;
+    }
+    
+    .apply-button {
+        flex: 1 1 100%;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 10px;
@@ -523,7 +551,7 @@ a:hover {
     .input-section,
     .results-section,
     .dashboard-section {
-        padding: 20px;
+        padding: 15px;
     }
     
     .summary {
@@ -546,16 +574,29 @@ a:hover {
     .controls {
         flex-direction: column;
         align-items: stretch;
+        gap: 15px;
     }
     
     .control-group {
         width: 100%;
+        flex: 1 1 100%;
+    }
+    
+    .controls label {
+        font-size: 0.95em;
     }
     
     .select-input,
-    .date-input,
+    .date-input {
+        width: 100%;
+        font-size: 16px;
+        -webkit-appearance: none;
+    }
+    
     .apply-button {
         width: 100%;
+        flex: 1 1 100%;
+        margin-top: 5px;
     }
     
     .date-range-display {
