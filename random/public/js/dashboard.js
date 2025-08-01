@@ -149,6 +149,7 @@ function displayRankings(rankings, dateRange) {
             <td>${player.name}</td>
             <td>${player.totalScore}</td>
             <td>${player.gamesPlayed}/${player.totalGames}</td>
+            <td>${player.immunityPoints}</td>
         `;
     });
 }
