@@ -401,6 +401,42 @@ router.get('/raw', async (req, res) => {
             output += '\n' + '-'.repeat(40) + '\n\n';
         });
         
+        // Load and display adhoc points
+        try {
+            const adhocPointsPath = path.join(__dirname, 'data', 'adhoc-points.json');
+            const adhocData = await fs.readFile(adhocPointsPath, 'utf8');
+            const adhocPoints = JSON.parse(adhocData);
+            
+            if (adhocPoints.points && adhocPoints.points.length > 0) {
+                output += '\n\nADHOC IMMUNITY PASS POINTS\n';
+                output += '==========================\n\n';
+                
+                // Sort adhoc points by date in reverse chronological order
+                const sortedAdhocDates = adhocPoints.points.sort((a, b) => b.date.localeCompare(a.date));
+                
+                sortedAdhocDates.forEach(entry => {
+                    const dateObj = new Date(entry.date);
+                    const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                        weekday: 'long', 
+                        year: 'numeric', 
+                        month: 'long', 
+                        day: 'numeric' 
+                    });
+                    
+                    output += `${formattedDate}\n`;
+                    output += `Players: ${entry.players.length}\n\n`;
+                    
+                    entry.players.forEach(player => {
+                        output += `  ${player.name}: ${player.points} points\n`;
+                    });
+                    
+                    output += '\n' + '-'.repeat(40) + '\n\n';
+                });
+            }
+        } catch (error) {
+            console.log('No adhoc points data found');
+        }
+        
         // Send as plain text
         res.type('text/plain');
         res.send(output);
