@@ -100,14 +100,28 @@ async function runTests() {
             }
         }
     };
+
+    // Create mock data for adhoc points
+    const mockAdhocPoints = {
+        points: [
+            {
+                date: '2025-06-18',
+                players: [
+                    { name: 'Mayank', points: 5 },
+                    { name: 'Prayansh', points: 2 }
+                ]
+            }
+        ]
+    };
     
-    const weeklyRanks = calculateRankingsFromData(mockRankings, '2025-06-15', '2025-06-18');
+    const weeklyRanks = calculateRankingsFromData(mockRankings, mockAdhocPoints, '2025-06-15', '2025-06-18');
     
     // Find specific players
     const mayankRank = weeklyRanks.find(p => p.name === 'Mayank');
     const anushkaRank = weeklyRanks.find(p => p.name === 'Anushka');
     const sankarRank = weeklyRanks.find(p => p.name === 'Sankar');
     const vangiRank = weeklyRanks.find(p => p.name === 'Vangi');
+    const prayanshRank = weeklyRanks.find(p => p.name === 'Prayansh');
     
     console.log('Player rankings:');
     weeklyRanks.forEach((player, index) => {
@@ -117,9 +131,9 @@ async function runTests() {
     // Test points calculations
     console.log('\nDetailed points verification:');
     
-    // Mayank: Word Games (5th, 5 players) + Wordle (1st, 5 players) + Sunday (2nd, 4 players)
+    // Mayank: Word Games (5th, 5 players) + Wordle (1st, 5 players) + Sunday (2nd, 4 players) + 5 (Immunity Pass)
     // Points: (5-5+1) + (5-1+1) + (4-2+1) = 1 + 5 + 3 = 9 points
-    const expectedMayankPoints = 1 + 5 + 3;
+    const expectedMayankPoints = 1 + 5 + 3 + 5;
     console.log(`Mayank expected: ${expectedMayankPoints} points, actual: ${mayankRank.totalScore}`);
     assert(mayankRank.totalScore === expectedMayankPoints, `Mayank should have ${expectedMayankPoints} points`);
     assert(mayankRank.gamesPlayed === 3, 'Mayank should have played 3 games');
@@ -144,6 +158,13 @@ async function runTests() {
     assert(vangiRank.totalScore === expectedVangiPoints, `Vangi should have ${expectedVangiPoints} points`);
     assert(vangiRank.gamesPlayed === 1, 'Vangi should have played 1 game');
 
+    // Prayansh: Only has immunity pass.
+    // Points: 2 points
+    const expectedPrayanshPoints = 2;
+    console.log(`Prayansh expected: ${expectedPrayanshPoints} points, actual: ${prayanshRank.totalScore}`);
+    assert(prayanshRank.totalScore === expectedPrayanshPoints, `Prayansh should have ${expectedPrayanshPoints} points`);
+    assert(prayanshRank.gamesPlayed === 0, 'Prayansh should have played 0 game'); 
+
     // Test 4: Verify sorting is descending (highest points first)
     console.log('\nTest 4: Verify descending sort order');
     for (let i = 0; i < weeklyRanks.length - 1; i++) {
@@ -156,7 +177,7 @@ async function runTests() {
 
     // Test 5: Game filter
     console.log('\nTest 5: Game filter functionality');
-    const wordGamesOnly = calculateRankingsFromData(mockRankings, '2025-06-15', '2025-06-18', 'Word Games');
+    const wordGamesOnly = calculateRankingsFromData(mockRankings, mockAdhocPoints, '2025-06-15', '2025-06-18', 'Word Games');
     
     // In Word Games only filter, everyone should have at most 1 game played
     const maxGamesPlayed = Math.max(...wordGamesOnly.map(p => p.gamesPlayed));

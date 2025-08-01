@@ -8,7 +8,7 @@ const {
     getAllRankings, 
     calculateRankingsByDateRange
 } = require('./rankings-storage');
-const { getRecentWeeks, getRecentMonths } = require('./date-utils');
+const { getRecentWeeks, getRecentMonths, formatDate } = require('./date-utils');
 
 router.get('/', (req, res) => {
     // Determine the base URL based on the request path
@@ -112,14 +112,14 @@ router.post('/immunity-pass', express.json(), async (req, res) => {
             const trimmedLine = line.trim();
             if (!trimmedLine) continue;
             
-            // Parse each line: "2025-07-06 Mayank 9"
+            // Parse each line: "06/07/2025 Mayank 9" or "2025-07-06 Mayank 9"
             const parts = trimmedLine.split(/\s+/);
             if (parts.length !== 3) {
                 console.error(`Invalid line format: ${trimmedLine}`);
                 continue;
             }
             
-            const [date, name, pointsStr] = parts;
+            const [dateStr, name, pointsStr] = parts;
             const points = parseInt(pointsStr, 10);
             
             if (isNaN(points)) {
@@ -127,7 +127,19 @@ router.post('/immunity-pass', express.json(), async (req, res) => {
                 continue;
             }
             
-            entries.push({ date, name, points });
+            // Convert date from DD/MM/YYYY to YYYY-MM-DD format
+            let formattedDate;
+            if (dateStr.includes('/')) {
+                // DD/MM/YYYY format
+                const [day, month, year] = dateStr.split('/');
+                const dateObj = new Date(year, month - 1, day);
+                formattedDate = formatDate(dateObj);
+            } else {
+                // Already in YYYY-MM-DD format
+                formattedDate = dateStr;
+            }
+            
+            entries.push({ date: formattedDate, name, points });
         }
         
         if (entries.length === 0) {

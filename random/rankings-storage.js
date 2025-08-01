@@ -2,34 +2,29 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const RANKINGS_FILE = path.join(__dirname, 'data', 'game-rankings.json');
+const ADHOC_POINTS_FILE = path.join(__dirname, 'data', 'adhoc-points.json');
 
 // Ensure the data directory and file exist
-async function ensureDataFile() {
-    try {
-        await fs.access(RANKINGS_FILE);
-    } catch (error) {
-        // File doesn't exist, create it with initial structure
-        const initialData = { games: {} };
-        await fs.writeFile(RANKINGS_FILE, JSON.stringify(initialData, null, 2));
-    }
+async function ensureDataFile(filename) {
+    await fs.access(filename);
 }
 
 // Read rankings from file
-async function readRankings() {
-    await ensureDataFile();
-    const data = await fs.readFile(RANKINGS_FILE, 'utf8');
+async function readFile(filename) {
+    await ensureDataFile(filename);
+    const data = await fs.readFile(filename, 'utf8');
     return JSON.parse(data);
 }
 
 // Write rankings to file
 async function writeRankings(data) {
-    await ensureDataFile();
+    await ensureDataFile(RANKINGS_FILE);
     await fs.writeFile(RANKINGS_FILE, JSON.stringify(data, null, 2));
 }
 
 // Store or update rankings for given dates
 async function storeRankings(parsedDays) {
-    const rankings = await readRankings();
+    const rankings = await readFile(RANKINGS_FILE);
     
     // Process each day's data
     parsedDays.forEach(day => {
@@ -61,12 +56,12 @@ async function storeRankings(parsedDays) {
 
 // Get all stored rankings
 async function getAllRankings() {
-    return await readRankings();
+    return await readFile(RANKINGS_FILE);
 }
 
 // Get rankings for a specific date range
 async function getRankingsByDateRange(startDate, endDate) {
-    const rankings = await readRankings();
+    const rankings = await readFile();
     const result = {};
     
     Object.keys(rankings.games).forEach(date => {
@@ -80,7 +75,7 @@ async function getRankingsByDateRange(startDate, endDate) {
 
 // Get all unique players across all games
 async function getAllPlayers() {
-    const rankings = await readRankings();
+    const rankings = await readFile();
     const players = new Set();
     
     Object.values(rankings.games).forEach(dateData => {
@@ -92,8 +87,29 @@ async function getAllPlayers() {
     return Array.from(players).sort();
 }
 
+function getAdhocPointsWihtinDateRange(adhocPoints, startDate, endDate, gameFilter = null) {
+    // Don't return adhoc points if gameFilter is specified
+    if (gameFilter !== null) {
+        return {};
+    }
+    
+    adhocPointsWithinRange = {};
+    adhocPoints.points.forEach(entry => {
+        const entryDate = entry.date;
+        if (entryDate >= startDate && entryDate <= endDate) {
+            entry.players.forEach(player => {
+                if (!(player.name in adhocPointsWithinRange)) {
+                    adhocPointsWithinRange[player.name] = 0;
+                }
+                adhocPointsWithinRange[player.name] += player.points;
+            });
+        }
+    });
+    return adhocPointsWithinRange;
+}
+
 // Calculate rankings from provided data (points-based system) - pure function for testing
-function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = null) {
+function calculateRankingsFromData(rankings, adhocPoints, startDate, endDate, gameFilter = null) {
     const playerPoints = {};
     const playerGameCounts = {};
     const allPlayers = new Set();
@@ -116,7 +132,11 @@ function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = nu
             });
         }
     });
-    
+
+    // Sum of adhoc points for each player within the date range
+    const adhocPointsWithinRange = 
+        getAdhocPointsWihtinDateRange(adhocPoints, startDate, endDate, gameFilter);
+
     // Initialize all players with zero points
     allPlayers.forEach(playerName => {
         playerPoints[playerName] = 0;
@@ -140,6 +160,17 @@ function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = nu
         // Players who didn't participate get 0 points (no penalty needed)
         // This is already handled by initialization
     });
+
+    // Add adhoc points to each player's total
+    Object.entries(adhocPointsWithinRange).forEach(([playerName, points]) => {
+        if (playerPoints[playerName] !== undefined) {
+            playerPoints[playerName] += points;
+        } else {
+            // If player not in rankings, initialize them
+            playerPoints[playerName] = points;
+            playerGameCounts[playerName] = 0; // No games played
+        }
+    });
     
     // Convert to sorted array (higher points = better)
     const weeklyRanks = Object.entries(playerPoints)
@@ -147,7 +178,8 @@ function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = nu
             name,
             totalScore: totalPoints,
             gamesPlayed: playerGameCounts[name] || 0,
-            totalGames: gameDays.length
+            totalGames: gameDays.length,
+            immunityPoints: adhocPointsWithinRange[name] || 0
         }))
         .sort((a, b) => b.totalScore - a.totalScore); // Sort descending (higher points first)
     
@@ -156,8 +188,9 @@ function calculateRankingsFromData(rankings, startDate, endDate, gameFilter = nu
 
 // Calculate rankings for a date range (points-based system) - wrapper that reads from file
 async function calculateRankingsByDateRange(startDate, endDate, gameFilter = null) {
-    const rankings = await readRankings();
-    return calculateRankingsFromData(rankings, startDate, endDate, gameFilter);
+    const rankings = await readFile(RANKINGS_FILE);
+    const adhocPoints = await readFile(ADHOC_POINTS_FILE);
+    return calculateRankingsFromData(rankings, adhocPoints, startDate, endDate, gameFilter);
 }
 
 
@@ -166,7 +199,7 @@ module.exports = {
     getAllRankings,
     getRankingsByDateRange,
     getAllPlayers,
-    readRankings,
+    readRankings: readFile,
     calculateRankingsByDateRange,
     calculateRankingsFromData
 };
