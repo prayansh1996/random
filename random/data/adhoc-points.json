@@ -8,6 +8,19 @@
           "points": 0
         }
       ]
+    },
+    {
+      "date": "2025-07-30",
+      "players": [
+        {
+          "name": "Sankar",
+          "points": 7
+        },
+        {
+          "name": "Megha",
+          "points": 7
+        }
+      ]
     }
   ]
 }
