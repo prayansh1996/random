@@ -3525,6 +3525,120 @@
           "name": "Srishti"
         }
       ]
+    },
+    "2025-08-11": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Mayank"
+        },
+        {
+          "rank": 3,
+          "name": "Divesh"
+        },
+        {
+          "rank": 4,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 5,
+          "name": "Aastha"
+        },
+        {
+          "rank": 6,
+          "name": "Chinmay"
+        },
+        {
+          "rank": 7,
+          "name": "Srishti"
+        },
+        {
+          "rank": 8,
+          "name": "Saras"
+        },
+        {
+          "rank": 9,
+          "name": "Sage"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 11,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 11,
+          "name": "AkD"
+        }
+      ]
+    },
+    "2025-08-04": {
+      "game": "Wordle",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Sage"
+        },
+        {
+          "rank": 3,
+          "name": "Divesh"
+        },
+        {
+          "rank": 4,
+          "name": "Chinmay"
+        },
+        {
+          "rank": 4,
+          "name": "Saras"
+        },
+        {
+          "rank": 5,
+          "name": "Shauryaa"
+        },
+        {
+          "rank": 6,
+          "name": "Sankar"
+        },
+        {
+          "rank": 7,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 7,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 8,
+          "name": "Srishti"
+        },
+        {
+          "rank": 9,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 10,
+          "name": "Aastha"
+        },
+        {
+          "rank": 11,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 12,
+          "name": "Megha"
+        }
+      ]
     }
   }
 }
