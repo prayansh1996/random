@@ -3709,6 +3709,10 @@
           "name": "AkD"
         },
         {
+          "rank": 5,
+          "name": "Aastha"
+        },
+        {
           "rank": 6,
           "name": "Sankar"
         },
@@ -3943,6 +3947,51 @@
         {
           "rank": 13,
           "name": "Sonakshi"
+        }
+      ]
+    },
+    "2025-08-24": {
+      "game": "Sunday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Mayank"
+        },
+        {
+          "rank": 2,
+          "name": "Divesh"
+        },
+        {
+          "rank": 3,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Aastha"
+        },
+        {
+          "rank": 6,
+          "name": "Megha"
+        },
+        {
+          "rank": 7,
+          "name": "Pruthvi"
+        },
+        {
+          "rank": 8,
+          "name": "Sankar"
+        },
+        {
+          "rank": 9,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 10,
+          "name": "Srishti"
         }
       ]
     }
