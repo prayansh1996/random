@@ -32,11 +32,29 @@
       ]
     },
     {
-      "date": "2025-09-04",
+      "date": "2025-09-03",
       "players": [
         {
           "name": "Srishti",
           "points": 56
+        }
+      ]
+    },
+    {
+      "date": "2025-09-04",
+      "players": [
+        {
+          "name": "Srishti",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "players": [
+        {
+          "name": "Sankar",
+          "points": 28
         }
       ]
     }
