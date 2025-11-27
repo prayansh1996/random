@@ -84,6 +84,19 @@
           "points": 0
         }
       ]
+    },
+    {
+      "date": "2025-11-26",
+      "players": [
+        {
+          "name": "Prakriti",
+          "points": 35
+        },
+        {
+          "name": "Srishti",
+          "points": 42
+        }
+      ]
     }
   ]
 }
