@@ -12049,6 +12049,465 @@
           "name": "Yashna"
         }
       ]
+    },
+    "2026-01-29": {
+      "game": "Thursday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Aditya"
+        },
+        {
+          "rank": 4,
+          "name": "Rebecca"
+        },
+        {
+          "rank": 5,
+          "name": "Srishti"
+        },
+        {
+          "rank": 6,
+          "name": "Myron"
+        },
+        {
+          "rank": 7,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 7,
+          "name": "Arnab"
+        },
+        {
+          "rank": 8,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 8,
+          "name": "Pragya"
+        },
+        {
+          "rank": 9,
+          "name": "Neha"
+        },
+        {
+          "rank": 10,
+          "name": "Anshu"
+        },
+        {
+          "rank": 10,
+          "name": "Sage"
+        },
+        {
+          "rank": 11,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 12,
+          "name": "Aastha"
+        }
+      ]
+    },
+    "2026-01-30": {
+      "game": "Friday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Aditya"
+        },
+        {
+          "rank": 3,
+          "name": "Arnab"
+        },
+        {
+          "rank": 3,
+          "name": "Yashna"
+        },
+        {
+          "rank": 3,
+          "name": "Neha"
+        },
+        {
+          "rank": 4,
+          "name": "Myron"
+        },
+        {
+          "rank": 5,
+          "name": "Srishti"
+        },
+        {
+          "rank": 5,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 6,
+          "name": "Megha"
+        },
+        {
+          "rank": 7,
+          "name": "Aastha"
+        },
+        {
+          "rank": 7,
+          "name": "Pragya"
+        },
+        {
+          "rank": 8,
+          "name": "Anshu"
+        },
+        {
+          "rank": 9,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 10,
+          "name": "Kumar"
+        },
+        {
+          "rank": 11,
+          "name": "Sage"
+        },
+        {
+          "rank": 12,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 13,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 14,
+          "name": "Sankar"
+        },
+        {
+          "rank": 15,
+          "name": "Rebecca"
+        }
+      ]
+    },
+    "2026-01-31": {
+      "game": "Saturday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Arnab"
+        },
+        {
+          "rank": 2,
+          "name": "Rebecca"
+        },
+        {
+          "rank": 3,
+          "name": "Divesh"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 7,
+          "name": "Aastha"
+        },
+        {
+          "rank": 8,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 9,
+          "name": "Aditya"
+        },
+        {
+          "rank": 10,
+          "name": "Srishti"
+        },
+        {
+          "rank": 11,
+          "name": "Anshu"
+        },
+        {
+          "rank": 12,
+          "name": "Pragya"
+        },
+        {
+          "rank": 13,
+          "name": "Myron"
+        },
+        {
+          "rank": 14,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 15,
+          "name": "Shruthi"
+        }
+      ]
+    },
+    "2026-02-01": {
+      "game": "Sunday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Pragya"
+        },
+        {
+          "rank": 2,
+          "name": "Aastha"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 5,
+          "name": "Sage"
+        },
+        {
+          "rank": 6,
+          "name": "Anshu"
+        },
+        {
+          "rank": 7,
+          "name": "Rebecca"
+        },
+        {
+          "rank": 7,
+          "name": "Srishti"
+        },
+        {
+          "rank": 7,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 8,
+          "name": "Aditya"
+        },
+        {
+          "rank": 9,
+          "name": "Shubham"
+        },
+        {
+          "rank": 9,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 10,
+          "name": "Neha"
+        },
+        {
+          "rank": 11,
+          "name": "Myron"
+        }
+      ]
+    },
+    "2026-02-02": {
+      "game": "Monday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Kumar"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Pragya"
+        },
+        {
+          "rank": 4,
+          "name": "Anshu"
+        },
+        {
+          "rank": 5,
+          "name": "Aditya"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        },
+        {
+          "rank": 6,
+          "name": "Saras"
+        },
+        {
+          "rank": 7,
+          "name": "Sage"
+        },
+        {
+          "rank": 8,
+          "name": "Divesh"
+        },
+        {
+          "rank": 9,
+          "name": "Lisa"
+        },
+        {
+          "rank": 10,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 11,
+          "name": "Rebecca"
+        },
+        {
+          "rank": 11,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 12,
+          "name": "Shubham"
+        },
+        {
+          "rank": 13,
+          "name": "Aastha"
+        },
+        {
+          "rank": 14,
+          "name": "Neha"
+        },
+        {
+          "rank": 14,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 15,
+          "name": "Yashna"
+        },
+        {
+          "rank": 16,
+          "name": "Myron"
+        }
+      ]
+    },
+    "2026-02-03": {
+      "game": "Tuesday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 3,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 4,
+          "name": "Anshu"
+        },
+        {
+          "rank": 5,
+          "name": "Aastha"
+        },
+        {
+          "rank": 6,
+          "name": "Sankar"
+        },
+        {
+          "rank": 7,
+          "name": "Neha"
+        },
+        {
+          "rank": 8,
+          "name": "Sage"
+        },
+        {
+          "rank": 9,
+          "name": "Aditya"
+        },
+        {
+          "rank": 10,
+          "name": "Pragya"
+        },
+        {
+          "rank": 11,
+          "name": "Srishti"
+        }
+      ]
+    },
+    "2026-02-04": {
+      "game": "Wednesday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Divesh"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 3,
+          "name": "Prakriti"
+        },
+        {
+          "rank": 4,
+          "name": "Pragya"
+        },
+        {
+          "rank": 5,
+          "name": "Lisa"
+        },
+        {
+          "rank": 6,
+          "name": "Rebecca"
+        },
+        {
+          "rank": 7,
+          "name": "Anshu"
+        },
+        {
+          "rank": 8,
+          "name": "Sage"
+        },
+        {
+          "rank": 9,
+          "name": "Srishti"
+        },
+        {
+          "rank": 10,
+          "name": "Aastha"
+        },
+        {
+          "rank": 11,
+          "name": "Aditya"
+        },
+        {
+          "rank": 12,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 13,
+          "name": "Shubham"
+        }
+      ]
     }
   }
 }
