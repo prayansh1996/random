@@ -133,6 +133,95 @@
           "points": 7
         }
       ]
+    },
+    {
+      "date": "2026-03-18",
+      "players": [
+        {
+          "name": "Sage",
+          "points": 168
+        },
+        {
+          "name": "Pragya",
+          "points": 133
+        },
+        {
+          "name": "Prakriti",
+          "points": 91
+        },
+        {
+          "name": "Aastha",
+          "points": 63
+        },
+        {
+          "name": "Divesh",
+          "points": 56
+        },
+        {
+          "name": "Srishti",
+          "points": 49
+        },
+        {
+          "name": "Mayank",
+          "points": 42
+        },
+        {
+          "name": "Sonakshi",
+          "points": 42
+        },
+        {
+          "name": "Amogh",
+          "points": 42
+        },
+        {
+          "name": "Aditya",
+          "points": 42
+        },
+        {
+          "name": "Anshu",
+          "points": 35
+        },
+        {
+          "name": "Lisa",
+          "points": 21
+        },
+        {
+          "name": "Sankar",
+          "points": 21
+        },
+        {
+          "name": "Rebecca",
+          "points": 21
+        },
+        {
+          "name": "Myron",
+          "points": 21
+        },
+        {
+          "name": "Shauryaa",
+          "points": 14
+        },
+        {
+          "name": "Neha",
+          "points": 14
+        },
+        {
+          "name": "Kumar",
+          "points": 7
+        },
+        {
+          "name": "Ashwini",
+          "points": 7
+        },
+        {
+          "name": "Megha",
+          "points": 7
+        },
+        {
+          "name": "Shruthi",
+          "points": 7
+        }
+      ]
     }
   ]
 }
