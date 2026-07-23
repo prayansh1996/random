@@ -21713,6 +21713,293 @@
           "name": "Shruthi"
         }
       ]
+    },
+    "2026-07-16": {
+      "game": "Thursday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Aditya"
+        },
+        {
+          "rank": 2,
+          "name": "Pragati"
+        },
+        {
+          "rank": 2,
+          "name": "Lisa"
+        },
+        {
+          "rank": 3,
+          "name": "Pragya"
+        },
+        {
+          "rank": 3,
+          "name": "Matthew"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 4,
+          "name": "Neha"
+        }
+      ]
+    },
+    "2026-07-17": {
+      "game": "Friday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Srishti"
+        },
+        {
+          "rank": 2,
+          "name": "Pragya"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Sage"
+        },
+        {
+          "rank": 5,
+          "name": "Aditya"
+        },
+        {
+          "rank": 6,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 7,
+          "name": "Matthew"
+        },
+        {
+          "rank": 8,
+          "name": "Lisa"
+        }
+      ]
+    },
+    "2026-07-18": {
+      "game": "Saturday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Matthew"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 2,
+          "name": "Pragya"
+        },
+        {
+          "rank": 2,
+          "name": "Aditya"
+        },
+        {
+          "rank": 2,
+          "name": "Sage"
+        },
+        {
+          "rank": 3,
+          "name": "Prayansh"
+        },
+        {
+          "rank": 3,
+          "name": "Lisa"
+        }
+      ]
+    },
+    "2026-07-19": {
+      "game": "Sunday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Neha"
+        },
+        {
+          "rank": 2,
+          "name": "Sankar"
+        },
+        {
+          "rank": 2,
+          "name": "Aditya"
+        },
+        {
+          "rank": 2,
+          "name": "Sage"
+        },
+        {
+          "rank": 3,
+          "name": "Pragya"
+        },
+        {
+          "rank": 3,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 4,
+          "name": "Lisa"
+        },
+        {
+          "rank": 5,
+          "name": "Matthew"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        },
+        {
+          "rank": 6,
+          "name": "Aastha"
+        }
+      ]
+    },
+    "2026-07-20": {
+      "game": "Monday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Aditya"
+        },
+        {
+          "rank": 2,
+          "name": "Neha"
+        },
+        {
+          "rank": 3,
+          "name": "Matthew"
+        },
+        {
+          "rank": 3,
+          "name": "Shubham"
+        },
+        {
+          "rank": 4,
+          "name": "Lisa"
+        },
+        {
+          "rank": 5,
+          "name": "Sankar"
+        },
+        {
+          "rank": 6,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 7,
+          "name": "Pragya"
+        },
+        {
+          "rank": 8,
+          "name": "Sonakshi"
+        },
+        {
+          "rank": 9,
+          "name": "Sage"
+        },
+        {
+          "rank": 10,
+          "name": "Anshu"
+        }
+      ]
+    },
+    "2026-07-21": {
+      "game": "Tuesday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sage"
+        },
+        {
+          "rank": 2,
+          "name": "Pragya"
+        },
+        {
+          "rank": 2,
+          "name": "Aditya"
+        },
+        {
+          "rank": 3,
+          "name": "Sankar"
+        },
+        {
+          "rank": 4,
+          "name": "Matthew"
+        },
+        {
+          "rank": 5,
+          "name": "Chhavi"
+        },
+        {
+          "rank": 6,
+          "name": "Srishti"
+        },
+        {
+          "rank": 7,
+          "name": "Neha"
+        },
+        {
+          "rank": 8,
+          "name": "Aastha"
+        },
+        {
+          "rank": 9,
+          "name": "Lisa"
+        }
+      ]
+    },
+    "2026-07-22": {
+      "game": "Wednesday",
+      "ranks": [
+        {
+          "rank": 1,
+          "name": "Sankar"
+        },
+        {
+          "rank": 1,
+          "name": "Neha"
+        },
+        {
+          "rank": 2,
+          "name": "Srishti"
+        },
+        {
+          "rank": 3,
+          "name": "Lisa"
+        },
+        {
+          "rank": 4,
+          "name": "Anshu"
+        },
+        {
+          "rank": 5,
+          "name": "Matthew"
+        },
+        {
+          "rank": 6,
+          "name": "Aditya"
+        },
+        {
+          "rank": 7,
+          "name": "Shruthi"
+        },
+        {
+          "rank": 8,
+          "name": "Pragya"
+        },
+        {
+          "rank": 9,
+          "name": "Sage"
+        }
+      ]
     }
   }
 }
