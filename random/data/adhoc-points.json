@@ -231,6 +231,28 @@
           "points": 21
         }
       ]
+    },
+    {
+      "date": "2026-07-22",
+      "players": [
+        {
+          "name": "Pragya",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "players": [
+        {
+          "name": "Lisa",
+          "points": 21
+        },
+        {
+          "name": "Pragya",
+          "points": 14
+        }
+      ]
     }
   ]
 }
